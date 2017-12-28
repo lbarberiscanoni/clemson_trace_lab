@@ -23,36 +23,48 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Title = function (_React$Component) {
-    _inherits(Title, _React$Component);
+var NavBar = function (_React$Component) {
+    _inherits(NavBar, _React$Component);
 
-    function Title(props) {
-        _classCallCheck(this, Title);
+    function NavBar(props) {
+        _classCallCheck(this, NavBar);
 
-        return _possibleConstructorReturn(this, (Title.__proto__ || Object.getPrototypeOf(Title)).call(this, props));
+        return _possibleConstructorReturn(this, (NavBar.__proto__ || Object.getPrototypeOf(NavBar)).call(this, props));
     }
 
-    _createClass(Title, [{
+    _createClass(NavBar, [{
+        key: "navigate",
+        value: function navigate(x) {
+            alert(x);
+        }
+    }, {
         key: "render",
         value: function render() {
-            return _react2.default.createElement(
-                "div",
-                null,
-                _react2.default.createElement(
-                    "h1",
-                    null,
-                    " Welcome to ",
-                    this.props.message,
+            var _this2 = this;
+
+            var sections = ["Research", "Publications", "Students", "d"];
+            var nav_components = [];
+            sections.map(function (x) {
+                nav_components.push(_react2.default.createElement(
+                    "li",
+                    { className: "btn btn-default", onClick: _this2.navigate.bind(_this2, x) },
+                    " ",
+                    x,
                     " "
-                )
+                ));
+            });
+            return _react2.default.createElement(
+                "nav",
+                { className: "nav nav-tabs nav-justified" },
+                nav_components
             );
         }
     }]);
 
-    return Title;
+    return NavBar;
 }(_react2.default.Component);
 
-exports.default = Title;
+exports.default = NavBar;
 },{"react":27,"react-dom":24}],2:[function(require,module,exports){
 "use strict";
 
@@ -66,9 +78,9 @@ var _reactDom = require("react-dom");
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _Title = require("./Title");
+var _NavBar = require("./NavBar");
 
-var _Title2 = _interopRequireDefault(_Title);
+var _NavBar2 = _interopRequireDefault(_NavBar);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -93,27 +105,17 @@ var Main = function (_React$Component) {
     }
 
     _createClass(Main, [{
-        key: "navigate",
-        value: function navigate() {
-            if (this.state.location == "bro") {
-                this.setState({ "location": "home" });
-            } else {
-                this.setState({ "location": "bro" });
-            }
-        }
-    }, {
         key: "render",
         value: function render() {
-            return _react2.default.createElement(
-                "div",
-                null,
-                _react2.default.createElement(_Title2.default, { message: this.state.location }),
-                _react2.default.createElement(
-                    "button",
-                    { onClick: this.navigate.bind(this) },
-                    "Go to Bro "
-                )
-            );
+            switch (this.state.location) {
+                case "home":
+                    return _react2.default.createElement(
+                        "div",
+                        null,
+                        _react2.default.createElement(_NavBar2.default, null),
+                        _react2.default.createElement("div", { className: "container" })
+                    );
+            }
         }
     }]);
 
@@ -121,7 +123,7 @@ var Main = function (_React$Component) {
 }(_react2.default.Component);
 
 _reactDom2.default.render(_react2.default.createElement(Main, null), document.getElementById("main"));
-},{"./Title":1,"react":27,"react-dom":24}],3:[function(require,module,exports){
+},{"./NavBar":1,"react":27,"react-dom":24}],3:[function(require,module,exports){
 (function (process){
 'use strict';
 

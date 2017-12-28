@@ -39,10 +39,8 @@ var Title = function (_React$Component) {
                 null,
                 _react2.default.createElement(
                     "h1",
-                    null,
-                    " Welcome to ",
-                    this.props.message,
-                    " "
+                    { className: "text-center" },
+                    " Welcome to TRACE Lab"
                 )
             );
         }

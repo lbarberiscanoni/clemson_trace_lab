@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Title from "./Title";
+import NavBar from "./NavBar";
 
 class Main extends React.Component {
     constructor(props) {
@@ -10,21 +10,17 @@ class Main extends React.Component {
         }
     } 
 
-    navigate() {
-        if (this.state.location == "bro") {
-            this.setState({"location": "home"})
-        } else {
-            this.setState({"location": "bro"})
-        }
-    }
-
     render() {
-        return(
-                <div>
-                    <Title message={ this.state.location } />
-                    <button onClick={ this.navigate.bind(this) }>Go to Bro </button>
-                </div>
-        )
+        switch(this.state.location) {
+            case "home":
+                return(
+                    <div>
+                        <NavBar />
+                        <div className="container">
+                        </div>
+                    </div>
+                )
+        }
     }
 }
 
