@@ -7,11 +7,11 @@ class NavBar extends React.Component {
     } 
 
     navigate(x) {
-        alert(x)
+        this.props.changeLocation(x)
     }
 
     render() {
-        let sections = ["Research", "Publications", "Students", "d"]
+        let sections = ["Home", "Research", "Publications", "Students"]
         let nav_components = []
         sections.map((x) => { nav_components.push(<li className="btn btn-default" onClick={ this.navigate.bind(this, x) }> { x } </li>) })
         return(

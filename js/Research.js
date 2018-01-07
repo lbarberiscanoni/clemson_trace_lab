@@ -22,45 +22,54 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var NavBar = function (_React$Component) {
-    _inherits(NavBar, _React$Component);
+var Research = function (_React$Component) {
+    _inherits(Research, _React$Component);
 
-    function NavBar(props) {
-        _classCallCheck(this, NavBar);
+    function Research(props) {
+        _classCallCheck(this, Research);
 
-        return _possibleConstructorReturn(this, (NavBar.__proto__ || Object.getPrototypeOf(NavBar)).call(this, props));
+        return _possibleConstructorReturn(this, (Research.__proto__ || Object.getPrototypeOf(Research)).call(this, props));
     }
 
-    _createClass(NavBar, [{
-        key: "navigate",
-        value: function navigate(x) {
-            this.props.changeLocation(x);
-        }
-    }, {
+    _createClass(Research, [{
         key: "render",
         value: function render() {
-            var _this2 = this;
-
-            var sections = ["Home", "Research", "Publications", "Students"];
-            var nav_components = [];
-            sections.map(function (x) {
-                nav_components.push(_react2.default.createElement(
-                    "li",
-                    { className: "btn btn-default", onClick: _this2.navigate.bind(_this2, x) },
-                    " ",
-                    x,
-                    " "
-                ));
-            });
             return _react2.default.createElement(
-                "nav",
-                { className: "nav nav-tabs nav-justified" },
-                nav_components
+                "div",
+                null,
+                _react2.default.createElement(
+                    "h3",
+                    null,
+                    " ",
+                    this.props.title,
+                    " "
+                ),
+                _react2.default.createElement(
+                    "p",
+                    null,
+                    " ",
+                    this.props.desc,
+                    " "
+                ),
+                _react2.default.createElement(
+                    "p",
+                    null,
+                    " ",
+                    this.props.date,
+                    " "
+                ),
+                _react2.default.createElement(
+                    "h5",
+                    null,
+                    " ",
+                    this.props.contributors,
+                    " "
+                )
             );
         }
     }]);
 
-    return NavBar;
+    return Research;
 }(_react2.default.Component);
 
-exports.default = NavBar;
+exports.default = Research;

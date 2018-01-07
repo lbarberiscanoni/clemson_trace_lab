@@ -34,7 +34,7 @@ var NavBar = function (_React$Component) {
     _createClass(NavBar, [{
         key: "navigate",
         value: function navigate(x) {
-            this.props.changeLocation(x);
+            alert(x);
         }
     }, {
         key: "render",
