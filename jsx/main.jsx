@@ -4,27 +4,19 @@ import NavBar from "./NavBar";
 import Student from "./Student";
 import Publication from "./Publication";
 import Research from "./Research";
+import data from "../data/mcneeseData.json";
 
 class Main extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {
-            location: "home",
-            students: [
-                {"name": "Lorenzo","pic": "http://cdn.cnn.com/cnnnext/dam/assets/161201115958-68-year-in-pictures-2016-restricted-super-169.jpg", "description": "Lorenzo is a nice guy"}
-            ],
-            publications: [
-                {"title": "pub 1", "desc": "a desc", "link": "google homepage", "url": "www.google.com"}
-            ],
-            research: [
-                {"title": "res 1", "desc": "a desc for res 1", "date": "soon", "contributors": "your name here"}
-            ]
-        }
+        this.state = data;
+        this.state.location = "home";
+        console.log(this.state);
+
     } 
 
     navigate(newLocation) {
         let a = newLocation.toLowerCase();
-        
         this.setState({"location": a})
     }
 
@@ -42,7 +34,6 @@ class Main extends React.Component {
                                 <img src="https://nathanmcneese.weebly.com/uploads/1/2/6/1/12617833/published/_7200551.jpg" />
                             </center>
                             <p></p>
-                            
                             <p>Greetings! I am an Assistant Professor and Director of the Team Research Analytics in Computational Environments (TRACE) Research Group within the division of Human-Centered Computing in the School of Computing at Clemson University. I received my PhD in Information Sciences & Technology with a focus on Team Decision Making, Cognition, and Computer Supported Collaborative Work from The Pennsylvania State University in the fall of 2014.</p>
                             <p>After graduation, I accepted a position to be a Postdoctoral Scholar and Research Associate in Human Systems Engineering at Arizona State University working directly with Dr. Nancy Cooke.</p>
                             <p>My research interests are wide ranging and interdisciplinary, but can be generally linked to the integration of</p>
@@ -65,7 +56,6 @@ class Main extends React.Component {
                     let profile = <Student profilePic = {x.pic} studentName = {x.name} studentDesc = {x.description} />
                     studentList.push(profile)
                 })
-
                 return(
                     <div>
                         <NavBar changeLocation = { this.navigate.bind(this) } />
@@ -76,31 +66,50 @@ class Main extends React.Component {
                 )
                 break;
             case "publications":
-                let publicationsList = []
-                this.state.publications.map((x) => { 
-                    let publication = <Publication title = {x.title} desc = {x.desc} link = {x.link} url = {x.url} />
-                    publicationsList.push(publication)
+                let articlesAndChaptersList = []
+                this.state.articlesAndChapters.map((x) => { 
+                    let publication = <Publication title = {x.title} desc = {x.desc} />
+                    articlesAndChaptersList.push(publication)
                 })
                 return(
                     <div>
                         <NavBar changeLocation = { this.navigate.bind(this) } />
                         <div className="container">
-                            {publicationsList}
+                            <h2>Selected Publications (most up to date list is in CV)</h2>
+                            <h3><em>Find pdfs of select papers on my <a href="https://www.researchgate.net/profile/Nathan_Mcneese">ResearchGate Profile</a></em></h3>
+                            <p>* Denotes a student advisee</p>
+                            <h1>Dissertation (Approved by Committee)</h1>
+                            {
+                                <Publication title = "The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making" 
+                                desc = "McNeese, N. (2014) The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making. The Pennsylvania State University. Doctoral Dissertation." />
+                            }
+                            <h1>Journal Articles & Book Chapters:​</h1>
+                            {articlesAndChaptersList}
+                            
                         </div>
                     </div>
                 )
                 break;
             case "research":
-                let researchList = []
-                this.state.research.map((x) => {
-                    let researchItem = <Research title = {x.title} desc = {x.desc} date = {x.date} contributors = {x.contributors}/>
-                    researchList.push(researchItem)
+                let currentResearchList = []
+                this.state.currentResearch.map((x) => {
+                    let researchItem = <Research title = {x.title} desc = {x.desc} collaborators = {x.collaborators}/>
+                    currentResearchList.push(researchItem)
                 })
+                let pastResearchList = []
+                this.state.pastResearch.map((x) => {
+                    let researchItem = <Research title = {x.title} desc = {x.desc} collaborators = {x.collaborators}/>
+                    pastResearchList.push(researchItem)
+                })
+
                 return(
                     <div>
                         <NavBar changeLocation = { this.navigate.bind(this) } />
                         <div className="container">
-                            {researchList}
+                            <h2>Current Projects</h2>
+                            {currentResearchList}
+                            <h2>Previous Projects</h2>
+                            {pastResearchList}
                         </div>
                     </div>
                 )

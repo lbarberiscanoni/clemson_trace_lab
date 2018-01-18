@@ -1,0 +1,236 @@
+{
+    "students": [
+        {
+            "name": "Lorenzo",
+            "pic": "https://my.clemson.edu/app/resources/img/paw.png", 
+            "description": "Lorenzo is a nice guy"
+        }
+    ],
+    "articlesAndChapters":[
+        {
+            "title": "Teaming with a Synthetic Teammate: Insights into Human Autonomy Teaming", 
+            "desc": "McNeese, N., *Demir, M., Cooke, N., & Myers, C. (Accepted). Teaming with a Synthetic Teammate: Insights into Human Autonomy Teaming. Human Factors." 
+        },
+        {
+            "title": "", 
+            "desc": "*Buchanan, V., Lu, Y., McNeese, N., Steptoe, M., Maciejewski, R., & Cooke, N. The Role of Teamwork in the Analysis of Big Data- A Study of Visual Analytics and Box Office Prediction. (2017). Big Data. 5 (1), 53-66." 
+        },
+        {
+            "title": "", 
+            "desc": "*Demir, M., McNeese, N., & Cooke, N. (2017). Team Situational Awareness within the Context of Human-Autonomy Teaming. Cognitive Systems Research. Cognitive Systems Research. 46, 3-12." 
+        },
+        {
+            "title": "", 
+            "desc": "McNeese, N., Cooke, N., Branaghan, R., Knobloch, A., & Taylor, A. (2016). Leveraging Expertise in Identification of the Emplacement of Improvised Explosive Devices for Mission Payload Operator Training. Applied Ergonomics. 60, 43-51." 
+        },
+        {
+            "title": "", 
+            "desc": "McNeese, N., Khera, N., Wordingham, S., Arring, N., Nyquist, S., Gentry, A., Tomlinson, B., Cooke, N., & Sen, A. (2016). Applying the Science of Teams to Improve Critically Ill Cancer Care Delivery in Hematopoietic Stem Cell Transplant Patients. Journal of Oncology Practice. JOPR013672." 
+        },
+        {
+            "title": "", 
+            "desc": "McNeese, N. & Reddy, M. (2015) The Role of Team Cognition in Collaborative Information Seeking. Journal of the Association for Information Science and Technology. doi: 10.1002/asi.23614" 
+        },
+        {
+            "title": "", 
+            "desc": "McNeese. N., *Demir, M., & Reddy, M. (Forthcoming) “Methodological Techniques and Approaches to Developing Empirical Insights of Cognition During Collaborative Information Seeking”, Chapter in Cognitive Systems Engineering: An Integrative Living Lab Framework. CRC Taylor & Francis." 
+        },
+        {
+            "title": "", 
+            "desc": "McNeese. N., Cooke, N., *Fedele, M., & Gray, R. (2016) “Perspectives on Team Cognition and Team Sports”, Chapter in Sport and Exercise Psychology Research. European Federation of Sport Psychology." 
+        },
+        {
+            "title": "", 
+            "desc": "Hall, D., McNeese, N., & Llinas J. (2010) \"H-Space: Humans as Observers\", Chapter 3 in Human-Centered Fusion, D. Hall and J. Jordan. pg. 59-84. Artech House." 
+        }
+        /*                
+        {
+            "title": "", 
+            "desc": "" 
+        },*/
+    ],
+    "refereedConferencePapers": [
+        {
+            "title": "", 
+            "desc": "*Demir, M. Amazeen, N., McNeese, N., Cooke, N. Likens, A. (2017). Team Coordination Dynamics in Human-Autonomy Teaming. 2017 Annual Meeting of Human Factors and Ergonomic Society. Austin, TX." 
+        },
+        {
+            "title": "", 
+            "desc": "Demir, M., McNeese, N., & Cooke, N. (2017). Team Synchrony in Human-Autonomy Teaming. 8th International Conference on Applied Human Factors and Ergonomics (AHFE 2017) and the Affiliated Conferences. Los Angeles, CA." 
+        },
+        {
+            "title": "", 
+            "desc": "Myers, C., Ball, J., Cooke, N., *Demir, M., McNeese, N., Caisse, M., Freiman, M., Halverson, T. (2016). Maintaining Team Training Efficacy with Autonomous Synthetic Teammates. 2016 Interservice/Industry Training, Simulation, and Education Conference. Orlando, FL." 
+        },
+        {
+            "title": "", 
+            "desc": "McNeese, N., Cooke, N., Shope, S., & *Knobloch, A. (2016). The Extreme Environment of High Altitude Gas Ballooning: Lessons Learned in Assessing Cognition. 2016 Annual Meeting of Human Factors and Ergonomic Society. Washington D.C. Human Factors and Ergonomics Society." 
+        },
+        {
+            "title": "", 
+            "desc": "Cooke, N., Shope, S., & McNeese, N. (2016). Human Systems Integration: A 28,000 Foot View. 2016 Annual Meeting of Human Factors and Ergonomic Society. Washington D.C. Human Factors and Ergonomics Society." 
+        },
+        {
+            "title": "", 
+            "desc": "*Demir, M., McNeese, N., Cooke, N., & Myers, C. (2016). The Synthetic Teammate as a Team Player in Command-and-Control Teams. 2016 Annual Meeting of Human Factors and Ergonomic Society. Washington D.C. Human Factors and Ergonomics Society." 
+        },
+        {
+            "title": "", 
+            "desc": "McNeese, M., & McNeese, N. (2016). Intelligent Teamwork: A History, Framework, and Lessons Learned. 2016 Annual Meeting of Human Factors and Ergonomic Society. Washington D.C. Human Factors and Ergonomics Society." 
+        },
+        {
+            "title": "", 
+            "desc": "McNeese, N., Cooke, N., Gray, R., & *Fedele, M. (2016). Knowledge Elicitation Methods for Developing Insights into Team Cognition During Team Sports. 7th International Conference on Applied Human Factors and Ergonomics (AHFE 2016) and the Affiliated Conferences. Orlando, FL." 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+        {
+            "title": "", 
+            "desc": "" 
+        },
+    ],
+    "currentResearch": [
+        {
+            "title": "Designing for Team Cognition", 
+            "desc": "There is little known about how to actually apply human computer interaction principles to adequately help in the development of team cognition. While much is known about HCI and team cognition separately, there is a knowledge gap in understanding their shared relationship. This study includes multiple investigations into better understanding what HCI design principles are imperative to team cognition. Through these investigations, we are starting to understand how to design interfaces and systems to best allow for team cognition.", 
+            "collaborators": "Nancy Cooke"
+        },
+        {
+            "title": "The Cognitive Science & Human Factors of Intelligence Analysis", 
+            "desc": "Multiple investigations into better understanding how intelligence analysts conduct their work. Currently, little is actually known from a Human Factors or Cognitive Science perspective about how intelligence analysts complete individual and team based work. Moving forward, it is necessary to learn more about what the analysts’ work is like in order to better design user centered technologies to aid in their analysis. Literature reviews, surveys, and experiments are currently taking place to better understand intelligence analysts’ work. This work is part of a $20M funding agreement with the National Geospatial Agency.", 
+            "collaborators": "Nancy Cooke, Ross Maciejewski, Nadya Bliss, Dave White"
+        },  
+        {
+            "title": "Information Visualization of Big Data for Team Based Cognition", 
+            "desc": "Investigations into the impact of different information visualization techniques and how they subsequently impact the development of team cognition. An empirical testbed was created that allows individuals, groups, and teams to make movie box office predications using multiple information visualizations directly linked to big data. Qualitative and quantitative measurements are currently being recorded to better understand the relationship of information visualization and team cognition, in addition to information visualizations impact on performance in the individual, group, and team condition.",
+            "collaborators": "Nancy Cooke, Ross Maciejewski" },
+        {
+            "title": "Human Automation Teaming & the Development of a Synthetic Teammate", 
+            "collaborators": "Nancy Cooke",
+            "desc": "Work focused on better understanding the the relationship between humans who team with automated systems. More specifically, experiments are being conducted that further explore the interactions between a synthetic teammate and human teammates in the context of an unmanned air vehicle synthetic task environments. In this environment there are 3 roles within the team: Air Vehicle Operator, Mission Planner, and Payload Operator. Teamwork must occur between and among all three roles for a successful mission to be accomplished. In experiments focused on the synthetic teammate interaction, the Air Vehicle Operator is a cognitively plausible ACT-R based computational model serving as a full fledged teammate." 
+        },
+        {
+            "title": "Code Blue Resuscitations & Teamwork", 
+            "collaborators": "Nancy Cooke, Ayan Sen",
+            "desc": "Investigations into better understanding the teamwork that occurs during code blue resuscitations. More specifically, this work has focused on the impact that multiple variables of team cognition have on teamwork within this context." 
+        },
+        {
+            "title": "The Role of Team Cognition During Stem Cell Therapy and Palliative Care", 
+            "collaborators": "Nancy Cooke, Ayan Sen",
+            "desc": "Palliative care is an extremely complicated process involving multiple medical practitioners and family members having to make critical decisions about end of life care. Unfortunately, far too often these decisions are disjointed and lead to lack of shared understanding among the providers and the family. This research seeks to better understand how joint cognition can be utilized to make more effective shared decisions." 
+        },
+        {
+            "title": "Theoretical & Methodological Methods to Studying Team Cognition During Sports", 
+            "collaborators": "Nancy Cooke, Rob Gray",
+            "desc": "Work focused on advancing the conceptual understanding and application of team cognition during team sports. Up to this point, team cognition has rarely been studied within the context of team sports, resulting in a lack of theoretical and methodological methods to accurately study the relationship of team cognition and sports. Within this overarching project, multiple studies have and are being conducted to identify the impact that team cognition has on team sports. More specifically, studies in collaboration with university level varsity teams are resulting in a better understanding of how team cognition develops and occurs during team sports. In addition, conceptual pieces and methods for studying team cognition within this context have been published and identified within this overall project." 
+        },
+        {
+            "title": "Human Systems Engineering of Gas Ballooning", 
+            "collaborators": "Nancy Cooke, Steven Shope",
+            "desc": "A study focused on understanding the real time cognition of two gas balloonists while they set a world record for duration and distance of a gas balloon. Multiple cognitively oriented measurements were taken, resulting in real time data from the pilots while they were flying. This data was then analyzed on the fly and recommendations were made to mission control." 
+        }
+    ],
+    "pastResearch": [
+        {
+            "title": "The Role of Team Cognition During Collaborative Information Seeking *Dissertation*", 
+            "collaborators": "Madhu Reddy, Susan Mohammed, Jim Jansen, Shawn Clark",
+            "desc": "Investigation on the role of team cognition during collaborative information seeking (CIS). The success of a team is dependent on the activity of CIS, as the team must find relevant information to accurately and successfully solve a problem. To this point, CIS has mainly been studied from an interactional perspective, with very little focus on team cognition. This work focuses on understanding the development of cognitive processes during CIS. More specifically, the cognitive construct, the team mental model, was examined. Teams conducted a CIS task and then cognitive interviews and individual/team concept maps were collected in both face-to-face and distributed conditions. In addition, evaluations of CIS tools were conducted with specific inquiry into understanding what features have the ability to help/hurt team cognition during CIS. Analysis indicated that the development of team cognition is readily apparent during CIS, and that it significantly impacts a teams’ CIS work in many ways." 
+        },
+        {
+            "title": "Non-Traditional Clinical Users of the Electronic Medical Record (EMR)", 
+            "collaborators": "Madhu Reddy, Chris DeFlitch",
+            "desc": "Work focused on how non-traditional clinical users (social workers, medical secretaries, physical therapists) interact with and use the EMR. Qualitative work was utilized to understand how these users collaborate via the EMR. In addition, potential design implications were developed to better equip the EMR to support these users."
+        },
+        {
+            "title": "Team Performance in Real & Virtual Worlds", 
+            "collaborators": "Mark Pfaff, Gerry Santoro, Michael McNeese",
+            "desc": "Experimental investigation on the effectiveness of distributed cognition in face-to-face, teleconferencing, and virtual communication mediums. Team performance was captured and analyzed. Results showed that team members perceived the face-to-face modality to better aid the team than the virtual world or the auditory teleconferencing mode, yet the data also showed an experience-based bias toward face-to-face interaction." 
+        },
+        {
+            "title": "Enhanced Messaging for Emergency Response (EMERSE)", 
+            "collaborators": "John Yen, Lee Giles, Jim Jansen, Andrea Tapia, Prasenjit Mitra",
+            "desc": "Investigation on how text messaging can be better utilized within third world countries during emergencies. The specific emergency that this project focused on was the Haiti earthquake, in which we had access to real world text message through the Ushahidi platform." 
+        },
+        {
+            "title": "Human Centered Fusion: The Characterization of Soft Sensors", 
+            "collaborators": "David Hall, James Llinas", 
+            "desc": "Work focused on the collaboration and synthesis of hard and soft data. Specifically, in this study humans were characterized as soft sensors that have the ability to observe data and be active sensors. This study successfully developed specific characterizations of soft sensors, a framework for modeling performance, and a literature review on human observational performance." 
+        },
+        {
+            "title": "Hospital-to-Hospital Health Information Technology Partnerships: A New Model for IT Diffusion in Rural Hospitals", 
+            "collaborators": "Madhu Reddy, Sandeep Purao",
+            "desc": "Study of the benefits, critical success factors, and challenges related to the hospital-to-hospital partnership (HHP). In-depth qualitative work and a broad survey were both utilized to further understand and gauge hospitals interest in such a partnership." 
+        },
+        {
+            "title": "Collaborative Information Behavior (CIB)", 
+            "collaborators": "Madhu Reddy",
+            "desc": "Investigation into what collaborative information behavior is. Specifically, how does CIB differ from individual information behavior, what role do current information retrieval tools play, what are the design requirements for collaborative information retrieval (CIR). Work was done within the healthcare domain, which focused on patient care teams and IT teams." 
+        }
+    ]
+}

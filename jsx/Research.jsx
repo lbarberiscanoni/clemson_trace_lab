@@ -10,10 +10,8 @@ class Research extends React.Component {
         return(
             <div>
             	<h3> {this.props.title} </h3>
+                <h5> {this.props.collaborators} </h5>
                 <p> {this.props.desc} </p>
-            	<p> {this.props.date} </p>
-                <h5> {this.props.contributors} </h5>
-
             </div>
         )
     }

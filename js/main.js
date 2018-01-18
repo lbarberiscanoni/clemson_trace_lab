@@ -26,6 +26,10 @@ var _Research = require("./Research");
 
 var _Research2 = _interopRequireDefault(_Research);
 
+var _mcneeseData = require("../data/mcneeseData.json");
+
+var _mcneeseData2 = _interopRequireDefault(_mcneeseData);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -42,12 +46,10 @@ var Main = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).call(this, props));
 
-        _this.state = {
-            location: "home",
-            students: [{ "name": "Lorenzo", "pic": "http://cdn.cnn.com/cnnnext/dam/assets/161201115958-68-year-in-pictures-2016-restricted-super-169.jpg", "description": "Lorenzo is a nice guy" }],
-            publications: [{ "title": "pub 1", "desc": "a desc", "link": "google homepage", "url": "www.google.com" }],
-            research: [{ "title": "res 1", "desc": "a desc for res 1", "date": "soon", "contributors": "your name here" }]
-        };
+        _this.state = _mcneeseData2.default;
+        _this.state.location = "home";
+        console.log(_this.state);
+
         return _this;
     }
 
@@ -55,7 +57,6 @@ var Main = function (_React$Component) {
         key: "navigate",
         value: function navigate(newLocation) {
             var a = newLocation.toLowerCase();
-
             this.setState({ "location": a });
         }
     }, {
@@ -180,7 +181,6 @@ var Main = function (_React$Component) {
                         var profile = _react2.default.createElement(_Student2.default, { profilePic: x.pic, studentName: x.name, studentDesc: x.description });
                         studentList.push(profile);
                     });
-
                     return _react2.default.createElement(
                         "div",
                         null,
@@ -193,10 +193,10 @@ var Main = function (_React$Component) {
                     );
                     break;
                 case "publications":
-                    var publicationsList = [];
-                    this.state.publications.map(function (x) {
-                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, link: x.link, url: x.url });
-                        publicationsList.push(publication);
+                    var articlesAndChaptersList = [];
+                    this.state.articlesAndChapters.map(function (x) {
+                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc });
+                        articlesAndChaptersList.push(publication);
                     });
                     return _react2.default.createElement(
                         "div",
@@ -205,16 +205,58 @@ var Main = function (_React$Component) {
                         _react2.default.createElement(
                             "div",
                             { className: "container" },
-                            publicationsList
+                            _react2.default.createElement(
+                                "h2",
+                                null,
+                                "Selected Publications (most up to date list is in CV)"
+                            ),
+                            _react2.default.createElement(
+                                "h3",
+                                null,
+                                _react2.default.createElement(
+                                    "em",
+                                    null,
+                                    "Find pdfs of select papers on my ",
+                                    _react2.default.createElement(
+                                        "a",
+                                        { href: "https://www.researchgate.net/profile/Nathan_Mcneese" },
+                                        "ResearchGate Profile"
+                                    )
+                                )
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                "* Denotes a student advisee"
+                            ),
+                            _react2.default.createElement(
+                                "h1",
+                                null,
+                                "Dissertation (Approved by Committee)"
+                            ),
+                            _react2.default.createElement(_Publication2.default, { title: "The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making",
+                                desc: "McNeese, N. (2014) The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making. The Pennsylvania State University. Doctoral Dissertation." }),
+                            _react2.default.createElement(
+                                "h1",
+                                null,
+                                "Journal Articles & Book Chapters:\u200B"
+                            ),
+                            articlesAndChaptersList
                         )
                     );
                     break;
                 case "research":
-                    var researchList = [];
-                    this.state.research.map(function (x) {
-                        var researchItem = _react2.default.createElement(_Research2.default, { title: x.title, desc: x.desc, date: x.date, contributors: x.contributors });
-                        researchList.push(researchItem);
+                    var currentResearchList = [];
+                    this.state.currentResearch.map(function (x) {
+                        var researchItem = _react2.default.createElement(_Research2.default, { title: x.title, desc: x.desc, collaborators: x.collaborators });
+                        currentResearchList.push(researchItem);
                     });
+                    var pastResearchList = [];
+                    this.state.pastResearch.map(function (x) {
+                        var researchItem = _react2.default.createElement(_Research2.default, { title: x.title, desc: x.desc, collaborators: x.collaborators });
+                        pastResearchList.push(researchItem);
+                    });
+
                     return _react2.default.createElement(
                         "div",
                         null,
@@ -222,7 +264,18 @@ var Main = function (_React$Component) {
                         _react2.default.createElement(
                             "div",
                             { className: "container" },
-                            researchList
+                            _react2.default.createElement(
+                                "h2",
+                                null,
+                                "Current Projects"
+                            ),
+                            currentResearchList,
+                            _react2.default.createElement(
+                                "h2",
+                                null,
+                                "Previous Projects"
+                            ),
+                            pastResearchList
                         )
                     );
                     break;

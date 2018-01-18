@@ -45,24 +45,17 @@ var Research = function (_React$Component) {
                     " "
                 ),
                 _react2.default.createElement(
+                    "h5",
+                    null,
+                    " ",
+                    this.props.collaborators,
+                    " "
+                ),
+                _react2.default.createElement(
                     "p",
                     null,
                     " ",
                     this.props.desc,
-                    " "
-                ),
-                _react2.default.createElement(
-                    "p",
-                    null,
-                    " ",
-                    this.props.date,
-                    " "
-                ),
-                _react2.default.createElement(
-                    "h5",
-                    null,
-                    " ",
-                    this.props.contributors,
                     " "
                 )
             );

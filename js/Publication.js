@@ -50,17 +50,6 @@ var Publication = function (_React$Component) {
                     " ",
                     this.props.desc,
                     " "
-                ),
-                _react2.default.createElement(
-                    "a",
-                    { href: this.props.url },
-                    _react2.default.createElement(
-                        "p",
-                        null,
-                        " ",
-                        this.props.link,
-                        " "
-                    )
                 )
             );
         }

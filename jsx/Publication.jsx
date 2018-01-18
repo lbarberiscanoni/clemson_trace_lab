@@ -11,9 +11,6 @@ class Publication extends React.Component {
             <div>
             	<h3> {this.props.title} </h3>
             	<p> {this.props.desc} </p>
-            	<a href={this.props.url}>
-                    <p> {this.props.link} </p>
-                </a>
             </div>
         )
     }
