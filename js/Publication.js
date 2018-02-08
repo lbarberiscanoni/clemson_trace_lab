@@ -37,7 +37,7 @@ var Publication = function (_React$Component) {
             return _react2.default.createElement(
                 "div",
                 null,
-                _react2.default.createElement(
+                this.props.title && _react2.default.createElement(
                     "h3",
                     null,
                     " ",
@@ -50,7 +50,15 @@ var Publication = function (_React$Component) {
                     " ",
                     this.props.desc,
                     " "
-                )
+                ),
+                this.props.comment && _react2.default.createElement(
+                    "p",
+                    null,
+                    " ",
+                    this.props.comment,
+                    " "
+                ),
+                _react2.default.createElement("p", null)
             );
         }
     }]);

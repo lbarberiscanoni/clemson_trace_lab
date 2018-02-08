@@ -193,10 +193,40 @@ var Main = function (_React$Component) {
                     );
                     break;
                 case "publications":
+
                     var articlesAndChaptersList = [];
                     this.state.articlesAndChapters.map(function (x) {
-                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc });
+                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
                         articlesAndChaptersList.push(publication);
+                    });
+                    var dissertationList = [];
+                    this.state.dissertation.map(function (x) {
+                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                        dissertationList.push(publication);
+                    });
+
+                    var refereedConferencePapersList = [];
+                    this.state.refereedConferencePapers.map(function (x) {
+                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                        refereedConferencePapersList.push(publication);
+                    });
+
+                    var workshopPapersList = [];
+                    this.state.workshopPapers.map(function (x) {
+                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                        workshopPapersList.push(publication);
+                    });
+
+                    var postersAndTechnicalReportsList = [];
+                    this.state.postersAndTechnicalReports.map(function (x) {
+                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                        postersAndTechnicalReportsList.push(publication);
+                    });
+
+                    var panelsList = [];
+                    this.state.panels.map(function (x) {
+                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                        panelsList.push(publication);
                     });
                     return _react2.default.createElement(
                         "div",
@@ -234,14 +264,37 @@ var Main = function (_React$Component) {
                                 null,
                                 "Dissertation (Approved by Committee)"
                             ),
-                            _react2.default.createElement(_Publication2.default, { title: "The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making",
-                                desc: "McNeese, N. (2014) The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making. The Pennsylvania State University. Doctoral Dissertation." }),
+                            dissertationList,
                             _react2.default.createElement(
                                 "h1",
                                 null,
                                 "Journal Articles & Book Chapters:\u200B"
                             ),
-                            articlesAndChaptersList
+                            articlesAndChaptersList,
+                            _react2.default.createElement(
+                                "h1",
+                                null,
+                                "Refereed Conference Papers"
+                            ),
+                            refereedConferencePapersList,
+                            _react2.default.createElement(
+                                "h1",
+                                null,
+                                "Workshop Papers (Peer Reviewed)"
+                            ),
+                            workshopPapersList,
+                            _react2.default.createElement(
+                                "h1",
+                                null,
+                                "Posters & Technical Reports"
+                            ),
+                            postersAndTechnicalReportsList,
+                            _react2.default.createElement(
+                                "h1",
+                                null,
+                                "Panels"
+                            ),
+                            panelsList
                         )
                     );
                     break;
@@ -256,7 +309,6 @@ var Main = function (_React$Component) {
                         var researchItem = _react2.default.createElement(_Research2.default, { title: x.title, desc: x.desc, collaborators: x.collaborators });
                         pastResearchList.push(researchItem);
                     });
-
                     return _react2.default.createElement(
                         "div",
                         null,

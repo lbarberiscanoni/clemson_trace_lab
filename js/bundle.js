@@ -7,9 +7,15 @@ module.exports={
             "description": "Lorenzo is a nice guy"
         }
     ],
+    "dissertation":[
+        {
+            "title": "The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making", 
+            "desc":"McNeese, N. (2014) The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making. The Pennsylvania State University. Doctoral Dissertation."
+        }
+    ],
     "articlesAndChapters":[
         {
-            "title": "Teaming with a Synthetic Teammate: Insights into Human Autonomy Teaming", 
+            //"title": "Teaming with a Synthetic Teammate: Insights into Human Autonomy Teaming", 
             "desc": "McNeese, N., *Demir, M., Cooke, N., & Myers, C. (Accepted). Teaming with a Synthetic Teammate: Insights into Human Autonomy Teaming. Human Factors." 
         },
         {
@@ -34,11 +40,11 @@ module.exports={
         },
         {
             "title": "", 
-            "desc": "McNeese. N., *Demir, M., & Reddy, M. (Forthcoming) “Methodological Techniques and Approaches to Developing Empirical Insights of Cognition During Collaborative Information Seeking”, Chapter in Cognitive Systems Engineering: An Integrative Living Lab Framework. CRC Taylor & Francis." 
+            "desc": "McNeese. N., *Demir, M., & Reddy, M. (Forthcoming) \"Methodological Techniques and Approaches to Developing Empirical Insights of Cognition During Collaborative Information Seeking\", Chapter in Cognitive Systems Engineering: An Integrative Living Lab Framework. CRC Taylor & Francis." 
         },
         {
             "title": "", 
-            "desc": "McNeese. N., Cooke, N., *Fedele, M., & Gray, R. (2016) “Perspectives on Team Cognition and Team Sports”, Chapter in Sport and Exercise Psychology Research. European Federation of Sport Psychology." 
+            "desc": "McNeese. N., Cooke, N., *Fedele, M., & Gray, R. (2016) \"Perspectives on Team Cognition and Team Sports\", Chapter in Sport and Exercise Psychology Research. European Federation of Sport Psychology." 
         },
         {
             "title": "", 
@@ -52,109 +58,120 @@ module.exports={
     ],
     "refereedConferencePapers": [
         {
-            "title": "", 
-            "desc": "*Demir, M. Amazeen, N., McNeese, N., Cooke, N. Likens, A. (2017). Team Coordination Dynamics in Human-Autonomy Teaming. 2017 Annual Meeting of Human Factors and Ergonomic Society. Austin, TX." 
+            "desc": "*Demir, M. Amazeen, N., McNeese, N., Cooke, N. Likens, A. (2017). Team Coordination Dynamics in Human-Autonomy Teaming.  2017 Annual Meeting of Human Factors and Ergonomic Society. Austin, TX."
         },
         {
-            "title": "", 
-            "desc": "Demir, M., McNeese, N., & Cooke, N. (2017). Team Synchrony in Human-Autonomy Teaming. 8th International Conference on Applied Human Factors and Ergonomics (AHFE 2017) and the Affiliated Conferences. Los Angeles, CA." 
+            "desc": "Demir, M., McNeese, N., & Cooke, N. (2017). Team Synchrony in Human-Autonomy Teaming. 8th International Conference on Applied Human Factors and Ergonomics (AHFE 2017) and the Affiliated Conferences. Los Angeles, CA."
         },
         {
-            "title": "", 
-            "desc": "Myers, C., Ball, J., Cooke, N., *Demir, M., McNeese, N., Caisse, M., Freiman, M., Halverson, T. (2016). Maintaining Team Training Efficacy with Autonomous Synthetic Teammates. 2016 Interservice/Industry Training, Simulation, and Education Conference. Orlando, FL." 
+            "desc": "Myers, C., Ball, J., Cooke, N., *Demir, M., McNeese, N., Caisse, M., Freiman, M., Halverson, T. (2016). Maintaining Team Training Efficacy with Autonomous Synthetic Teammates. 2016 Interservice/Industry Training, Simulation, and Education Conference. Orlando, FL."
         },
         {
-            "title": "", 
-            "desc": "McNeese, N., Cooke, N., Shope, S., & *Knobloch, A. (2016). The Extreme Environment of High Altitude Gas Ballooning: Lessons Learned in Assessing Cognition. 2016 Annual Meeting of Human Factors and Ergonomic Society. Washington D.C. Human Factors and Ergonomics Society." 
+            "desc": "McNeese, N., Cooke, N., Shope, S., & *Knobloch, A. (2016). The Extreme Environment of High Altitude Gas Ballooning: Lessons Learned in Assessing Cognition. 2016 Annual Meeting of Human Factors and Ergonomic Society. Washington D.C. Human Factors and Ergonomics Society."
         },
         {
-            "title": "", 
-            "desc": "Cooke, N., Shope, S., & McNeese, N. (2016). Human Systems Integration: A 28,000 Foot View. 2016 Annual Meeting of Human Factors and Ergonomic Society. Washington D.C. Human Factors and Ergonomics Society." 
+            "desc": "Cooke, N., Shope, S., & McNeese, N. (2016). Human Systems Integration: A 28,000 Foot View. 2016 Annual Meeting of Human Factors and Ergonomic Society. Washington D.C. Human Factors and Ergonomics Society."
         },
         {
-            "title": "", 
-            "desc": "*Demir, M., McNeese, N., Cooke, N., & Myers, C. (2016). The Synthetic Teammate as a Team Player in Command-and-Control Teams. 2016 Annual Meeting of Human Factors and Ergonomic Society. Washington D.C. Human Factors and Ergonomics Society." 
+            "desc": "*Demir, M., McNeese, N., Cooke, N., & Myers, C. (2016). The Synthetic Teammate as a Team Player in Command-and-Control Teams. 2016 Annual Meeting of Human Factors and Ergonomic Society. Washington D.C. Human Factors and Ergonomics Society."
         },
         {
-            "title": "", 
-            "desc": "McNeese, M., & McNeese, N. (2016). Intelligent Teamwork: A History, Framework, and Lessons Learned. 2016 Annual Meeting of Human Factors and Ergonomic Society. Washington D.C. Human Factors and Ergonomics Society." 
+            "desc": "McNeese, M., & McNeese, N. (2016). Intelligent Teamwork: A History, Framework, and Lessons Learned. 2016 Annual Meeting of Human Factors and Ergonomic Society. Washington D.C. Human Factors and Ergonomics Society."
         },
         {
-            "title": "", 
-            "desc": "McNeese, N., Cooke, N., Gray, R., & *Fedele, M. (2016). Knowledge Elicitation Methods for Developing Insights into Team Cognition During Team Sports. 7th International Conference on Applied Human Factors and Ergonomics (AHFE 2016) and the Affiliated Conferences. Orlando, FL." 
+            "desc": "McNeese, N., Cooke, N., Gray, R., & *Fedele, M. (2016). Knowledge Elicitation Methods for Developing Insights into Team Cognition During Team Sports. 7th International Conference on Applied Human Factors and Ergonomics (AHFE 2016) and the Affiliated Conferences. Orlando, FL."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "McNeese, M., McNeese, N., Endsley, T., Reep, J., & Forster, P. (2016). Simulating Team Cognition: Practical Considerations for Researchers. 7th International Conference on Applied Human Factors and Ergonomics (AHFE 2016) and the Affiliated Conferences. Orlando, FL."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "McNeese, N. & Cooke, N. (2016). Team Cognition As A Mechanism For Developing Collaborative and Proactive Decision Support in Unmanned Aerial Systems. 18th International Conference on Human- Computer Interaction. Toronto, CA."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "*Demir, M., McNeese, N., & Cooke, N. (2016). Team Communication Behaviors of The Human-Automation Teaming. 2016 IEEE International Multi-Disciplinary Conference on Cognitive Methods in Situation Awareness and Decision Support (COGSIMA). San Diego, CA.",
+            "comment": "*Best Paper of 2016 Cogsima Conference"
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "McNeese, N., Cooke, N., & *Buchanan, V. (2015). Human Factors Guidelines for Developing Collaborative Intelligence Analysis Technologies. 2015 Annual Meeting of Human Factors and Ergonomic Society. Los Angeles, CA. Human Factors and Ergonomics Society. October 26-30, 2015. pp. 821-825"
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "McNeese, N., *Buchanan, V., & Cooke, N. (2015). The Cognitive Science of Intelligence Analysis. 2015 Annual Meeting of Human Factors and Ergonomic Society. Los Angeles, CA. Human Factors and Ergonomics Society. October 26-30, 2015. pp. 826-830."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "McNeese, N., & Reddy, M. (2015). Concept Mapping as a Methodology to Develop Insights on Cognition During Collaborative Information Seeking. 2015 Annual Meeting of Human Factors and Ergonomic Society. Los Angeles, CA. Human Factors and Ergonomics Society. October 26-30, 2015. pp. 245-249."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "McNeese, N., & Reddy, M. (2015). Articulating and Understanding the Development of a Team Mental Model in a Distributed Medium. 2015 Annual Meeting of Human Factors and Ergonomic Society. Los Angeles, CA. Human Factors and Ergonomics Society. October 26-30, 2015. pp. 240-44."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "*Demir, M., McNeese, N., Cooke, N., Ball, J, Myers, C. (2015). Synthetic Teammate Communication and Coordination with Humans. 2015 Annual Meeting of Human Factors and Ergonomic Society. Los Angeles, CA. Human Factors and Ergonomics Society. October 26-30, 2015. pp. 951-955."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "*Demir, M., & McNeese, N. (2015). The Role of Recognition Primed Decision Making in Human Automation Teaming. International Conference on Naturalistic Decision Making 2015. McLean, VA."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "McNeese, N., Cooke, N., *Fedele, M., & Gray, R. (2015). Theoretical and Methodical Approaches to Studying Team Cognition in Sports. 6th International Conference on Applied Human Factors and Ergonomics (AHFE 2015) and the Affiliated Conferences. Las Vegas, NV. Applied Human Factors & Ergonomics. July 26-30, 2015.  pp 1211-1218."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "McNeese, M., Mancuso, V., McNeese, N., & Glantz, E. (2015). What Went Wrong, What Can Go Right: A Prospectus on Human Factors Practice.  6th International Conference on Applied Human Factors and Ergonomics (AHFE 2015) and the Affiliated Conferences. Las Vegas, NV. Applied Human Factors & Ergonomics. July 26-30, 2015. pp. 5222-5229."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "McNeese, N., Reddy, M., & *Friedenberg, E. (2014). Team Mental Models within Collaborative Information Seeking. 2014 Annual Meeting of the Human Factors and Ergonomic Society. Chicago, IL. Human Factors and Ergonomics Society. October 27-31, 2014, pp. 335-339."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "McNeese, M., Mancuso, V., McNeese, N., Endsley, T. & Forster, P. (2014) An Integrative Simulation to Study Team Cognition in Emergency Crisis Management. 2014 Annual Meeting of the Human Factors and Ergonomic Society. Chicago, IL. Human Factors and Ergonomics Society. October 27-31, 2014, pp. 285-289."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "Murphy, A., Reddy, M., & McNeese, N. (2014) Exploring the Perceptions and Use of Electronic Medical Record Systems by Non-Clinicians. Proc. of ACM Conf. on Designing Interactive System 2014 (DIS 2014). Vancouver, Canada. June 21-25, 2014. pp. 429-432."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "Johnson, N., Murphy, A., McNeese, N., Reddy, M., & Purao, S. (2013) A Survey on Rural Hospitals’ Perspectives on Health Information Technology Outsourcing.  2013 American Medical Informatics Association (AMIA’13). Washington, DC. Nov. 16-20, 2013. pp. 732-741."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "McNeese, M., Mancuso, V., McNeese, N., Endsley, T., & Forster, P. (2013) Using the Living Laboratory Framework as a Basis for Understanding Next Generation Analyst Work. 2013 SPIE Defense, Security, and Sensing. Baltimore, MD. pp. 87580F-87580F-12."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "Caragea, C., McNeese, N., Jaiswal, A., Traylor, G., Kim, W., Mitra, P., Wu, D., Tapia, A., Giles, L., Jansen, B. J., & Yen, J. (2011). Classifying Text Messages for the Haiti Earthquake. Proceedings of the 8th international ISCRAM conference. Lisbon, Portugal."
         },
         {
-            "title": "", 
-            "desc": "" 
+            "desc": "McNeese, N., Pfaff, M., Santoro, G., & McNeese, M. (2008).  Team Performance in Real and Virtual Worlds: The Perceived Value of Second Life. Proceedings of the 52nd Annual Meeting of the Human Factors and Ergonomic Society. New York City, NY: Human Factors and Ergonomics Society. pp. 1435-1439."
+        }
+    ],
+    "workshopPapers":[
+        {
+            "desc": "McNeese, N. & Reddy, M. (2013) Studying Team Cognition during Collaborative Information Seeking: A Position Paper. Workshop on Collaborative Information Seeking: Consolidating the Past, Creating the Future. 2013 ACM Conference on Computer Supported Cooperative Work (CSCW’13). San Antonio, Tex. Feb. 24, 2013."
+        }
+    ],
+    "postersAndTechnicalReports":[
+        {
+            "desc": "*Hinski, S., Cooke, N., McNeese, N., Sen, A., Patel, B. (2016). A Human Factors Approach to Building High-Performance Multi-Professional Cardiac Arrest Teams: Developing a Code Blue Team Performance Metric. HFES 2016 International Symposium on Human Factors and Ergonomics in Health Care. San Diego, CA. April 15, 2016."
         },
+        {
+            "desc": "*Buchanan, V., McNeese, N., Lu, Y., Wang, F., Cooke, N., & Maciejewski, R. (2015) An Empirical Testbed for Human-in-the-Loop Studies of Collaboration with Visualization. Foresight Partner Meeting, Arizona State University, Tempe, AZ. February 19, 2015."
+        },
+        {
+            "desc": "McNeese, N., *Fedele, M., *Buchanan, V., & Cooke, N. (2015) Human Factors Guidance for Collaborative Intelligence Analysis. Foresight Partner Meeting, Arizona State University, Tempe, AZ. February 19, 2015."
+        },
+        {
+            "desc": "McNeese, N., *Buchanan, V., & Cooke, N. (2015) The Cognitive Science of Intelligence Analysis. Foresight Partner Meeting, Arizona State University, Tempe, AZ. February 19, 2015."
+        },
+        {
+            "desc": "McNeese, N. (2014) Studying Team Cognition During Collaborative Information Seeking. The 2014 Pennsylvania State University Graduate Exhibition, The Pennsylvania State University, University Park, PA. April 6, 2014."
+        },
+        {
+            "desc": "Murphy, A., McNeese, N., & Reddy, M. (2012) \"Supporting Multi-Disciplinary Team (MDT) Collaboration through the EMR.\" Poster Presentation. NSF CHOT Industry Advisory Board Meeting. Hershey, PA. September 6-7, 2012."
+        },
+        {
+            "desc": "Murphy, A., McNeese, N., Reddy, M., & DeFlitch, C. (2012). Exploring How Electronic Medical Record (EMR) Systems Support Non-Clinical Users. The 2012 Center for Health Organization Transformation (CHOT) Advisory Board Meeting, Hershey, PA, Sep 6, 2012. "
+        }
+    ],
+    "panels":[
+        {
+            "desc": "Vorm, E., McNeese, N. (2016). Proactive Decision Support: Applications and Implications in Military Unmanned Aerial Systems. 18th International Conference on Human- Computer Interaction. Toronto, CA."
+        },
+        {
+            "desc": "McNeese, N. (chair), Cooke, N., Hoffman, R., Klein, G., McNeese, M., Patterson, E. (2015) The Human Factors of Intelligence Analysis. 2015 Annual Meeting of Human Factors and Ergonomic Society. Los Angeles, CA. Human Factors and Ergonomics Society. October 26-30, 2015. pp. 130-134."
+        }
     ],
     "currentResearch": [
         {
@@ -342,7 +359,7 @@ var Publication = function (_React$Component) {
             return _react2.default.createElement(
                 "div",
                 null,
-                _react2.default.createElement(
+                this.props.title && _react2.default.createElement(
                     "h3",
                     null,
                     " ",
@@ -355,7 +372,15 @@ var Publication = function (_React$Component) {
                     " ",
                     this.props.desc,
                     " "
-                )
+                ),
+                this.props.comment && _react2.default.createElement(
+                    "p",
+                    null,
+                    " ",
+                    this.props.comment,
+                    " "
+                ),
+                _react2.default.createElement("p", null)
             );
         }
     }]);
@@ -692,10 +717,40 @@ var Main = function (_React$Component) {
                     );
                     break;
                 case "publications":
+
                     var articlesAndChaptersList = [];
                     this.state.articlesAndChapters.map(function (x) {
-                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc });
+                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
                         articlesAndChaptersList.push(publication);
+                    });
+                    var dissertationList = [];
+                    this.state.dissertation.map(function (x) {
+                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                        dissertationList.push(publication);
+                    });
+
+                    var refereedConferencePapersList = [];
+                    this.state.refereedConferencePapers.map(function (x) {
+                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                        refereedConferencePapersList.push(publication);
+                    });
+
+                    var workshopPapersList = [];
+                    this.state.workshopPapers.map(function (x) {
+                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                        workshopPapersList.push(publication);
+                    });
+
+                    var postersAndTechnicalReportsList = [];
+                    this.state.postersAndTechnicalReports.map(function (x) {
+                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                        postersAndTechnicalReportsList.push(publication);
+                    });
+
+                    var panelsList = [];
+                    this.state.panels.map(function (x) {
+                        var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                        panelsList.push(publication);
                     });
                     return _react2.default.createElement(
                         "div",
@@ -733,14 +788,37 @@ var Main = function (_React$Component) {
                                 null,
                                 "Dissertation (Approved by Committee)"
                             ),
-                            _react2.default.createElement(_Publication2.default, { title: "The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making",
-                                desc: "McNeese, N. (2014) The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making. The Pennsylvania State University. Doctoral Dissertation." }),
+                            dissertationList,
                             _react2.default.createElement(
                                 "h1",
                                 null,
                                 "Journal Articles & Book Chapters:\u200B"
                             ),
-                            articlesAndChaptersList
+                            articlesAndChaptersList,
+                            _react2.default.createElement(
+                                "h1",
+                                null,
+                                "Refereed Conference Papers"
+                            ),
+                            refereedConferencePapersList,
+                            _react2.default.createElement(
+                                "h1",
+                                null,
+                                "Workshop Papers (Peer Reviewed)"
+                            ),
+                            workshopPapersList,
+                            _react2.default.createElement(
+                                "h1",
+                                null,
+                                "Posters & Technical Reports"
+                            ),
+                            postersAndTechnicalReportsList,
+                            _react2.default.createElement(
+                                "h1",
+                                null,
+                                "Panels"
+                            ),
+                            panelsList
                         )
                     );
                     break;
@@ -755,7 +833,6 @@ var Main = function (_React$Component) {
                         var researchItem = _react2.default.createElement(_Research2.default, { title: x.title, desc: x.desc, collaborators: x.collaborators });
                         pastResearchList.push(researchItem);
                     });
-
                     return _react2.default.createElement(
                         "div",
                         null,
