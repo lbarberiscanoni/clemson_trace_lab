@@ -3,7 +3,17 @@
         {
             "name": "Lorenzo",
             "pic": "https://my.clemson.edu/app/resources/img/paw.png", 
-            "description": "Lorenzo is a nice guy"
+            "description": ""
+        },
+		{
+            "name": "Bekk",
+            "pic": "https://my.clemson.edu/app/resources/img/paw.png", 
+            "description": ""
+        },
+		{
+            "name": "Rafael",
+            "pic": "https://my.clemson.edu/app/resources/img/paw.png", 
+            "description": ""
         }
     ],
     "dissertation":[
