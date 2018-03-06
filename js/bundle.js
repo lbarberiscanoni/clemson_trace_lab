@@ -3,7 +3,7 @@ module.exports={
     "students": [
         {
             "name": "Lorenzo",
-            "pic": "https://my.clemson.edu/app/resources/img/paw.png", 
+            "pic": "https://my.clemson.edu/app/resources/img/paw.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.x"
         },
 		{
@@ -341,7 +341,7 @@ var Events = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Events;
-},{"react":32,"react-dom":29}],3:[function(require,module,exports){
+},{"react":33,"react-dom":30}],3:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -408,7 +408,7 @@ var NavBar = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = NavBar;
-},{"react":32,"react-dom":29}],4:[function(require,module,exports){
+},{"react":33,"react-dom":30}],4:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -478,7 +478,159 @@ var Publication = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Publication;
-},{"react":32,"react-dom":29}],5:[function(require,module,exports){
+},{"react":33,"react-dom":30}],5:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require("react");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require("react-dom");
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _Publication = require("./Publication");
+
+var _Publication2 = _interopRequireDefault(_Publication);
+
+var _mcneeseData = require("../data/mcneeseData.json");
+
+var _mcneeseData2 = _interopRequireDefault(_mcneeseData);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Publications = function (_React$Component) {
+    _inherits(Publications, _React$Component);
+
+    function Publications(props) {
+        _classCallCheck(this, Publications);
+
+        var _this = _possibleConstructorReturn(this, (Publications.__proto__ || Object.getPrototypeOf(Publications)).call(this, props));
+
+        _this.state = _mcneeseData2.default;
+        return _this;
+    }
+
+    _createClass(Publications, [{
+        key: "render",
+        value: function render() {
+            var articlesAndChaptersList = [];
+            this.state.articlesAndChapters.map(function (x) {
+                var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                articlesAndChaptersList.push(publication);
+            });
+            var dissertationList = [];
+            this.state.dissertation.map(function (x) {
+                var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                dissertationList.push(publication);
+            });
+
+            var refereedConferencePapersList = [];
+            this.state.refereedConferencePapers.map(function (x) {
+                var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                refereedConferencePapersList.push(publication);
+            });
+
+            var workshopPapersList = [];
+            this.state.workshopPapers.map(function (x) {
+                var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                workshopPapersList.push(publication);
+            });
+
+            var postersAndTechnicalReportsList = [];
+            this.state.postersAndTechnicalReports.map(function (x) {
+                var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                postersAndTechnicalReportsList.push(publication);
+            });
+            var panelsList = [];
+            this.state.panels.map(function (x) {
+                var publication = _react2.default.createElement(_Publication2.default, { title: x.title, desc: x.desc, comment: x.comment });
+                panelsList.push(publication);
+            });
+            return _react2.default.createElement(
+                "div",
+                null,
+                _react2.default.createElement(
+                    "h2",
+                    null,
+                    "Selected Publications (most up to date list is in CV)"
+                ),
+                _react2.default.createElement(
+                    "h3",
+                    null,
+                    _react2.default.createElement(
+                        "em",
+                        null,
+                        "Find pdfs of select papers on my ",
+                        _react2.default.createElement(
+                            "a",
+                            { href: "https://www.researchgate.net/profile/Nathan_Mcneese" },
+                            "ResearchGate Profile"
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    "p",
+                    null,
+                    "* Denotes a student advisee"
+                ),
+                _react2.default.createElement(
+                    "h1",
+                    null,
+                    "Dissertation (Approved by Committee)"
+                ),
+                dissertationList,
+                _react2.default.createElement(
+                    "h1",
+                    null,
+                    "Journal Articles & Book Chapters:\u200B"
+                ),
+                articlesAndChaptersList,
+                _react2.default.createElement(
+                    "h1",
+                    null,
+                    "Refereed Conference Papers"
+                ),
+                refereedConferencePapersList,
+                _react2.default.createElement(
+                    "h1",
+                    null,
+                    "Workshop Papers (Peer Reviewed)"
+                ),
+                workshopPapersList,
+                _react2.default.createElement(
+                    "h1",
+                    null,
+                    "Posters & Technical Reports"
+                ),
+                postersAndTechnicalReportsList,
+                _react2.default.createElement(
+                    "h1",
+                    null,
+                    "Panels"
+                ),
+                panelsList
+            );
+        }
+    }]);
+
+    return Publications;
+}(_react2.default.Component);
+
+exports.default = Publications;
+},{"../data/mcneeseData.json":1,"./Publication":4,"react":33,"react-dom":30}],6:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -547,7 +699,7 @@ var Research = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Research;
-},{"react":32,"react-dom":29}],6:[function(require,module,exports){
+},{"react":33,"react-dom":30}],7:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -618,7 +770,7 @@ var Student = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Student;
-},{"react":32,"react-dom":29}],7:[function(require,module,exports){
+},{"react":33,"react-dom":30}],8:[function(require,module,exports){
 "use strict";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -639,9 +791,9 @@ var _Student = require("./Student");
 
 var _Student2 = _interopRequireDefault(_Student);
 
-var _Publication = require("./Publication");
+var _Publications = require("./Publications");
 
-var _Publication2 = _interopRequireDefault(_Publication);
+var _Publications2 = _interopRequireDefault(_Publications);
 
 var _Research = require("./Research");
 
@@ -662,8 +814,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-/*import Publications from "./Publications";*/
-
 
 var Main = function (_React$Component) {
     _inherits(Main, _React$Component);
@@ -751,7 +901,12 @@ var Main = function (_React$Component) {
                     return _react2.default.createElement(
                         "div",
                         null,
-                        _react2.default.createElement(Publications, null)
+                        _react2.default.createElement(_NavBar2.default, { changeLocation: this.navigate.bind(this) }),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "container" },
+                            _react2.default.createElement(_Publications2.default, null)
+                        )
                     );
                     break;
                 case "research":
@@ -795,7 +950,7 @@ var Main = function (_React$Component) {
 }(_react2.default.Component);
 
 _reactDom2.default.render(_react2.default.createElement(Main, null), document.getElementById("main"));
-},{"../data/mcneeseData.json":1,"./Events":2,"./NavBar":3,"./Publication":4,"./Research":5,"./Student":6,"react":32,"react-dom":29}],8:[function(require,module,exports){
+},{"../data/mcneeseData.json":1,"./Events":2,"./NavBar":3,"./Publications":5,"./Research":6,"./Student":7,"react":33,"react-dom":30}],9:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -872,7 +1027,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":13,"_process":33}],9:[function(require,module,exports){
+},{"./emptyFunction":14,"_process":34}],10:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -906,7 +1061,7 @@ var ExecutionEnvironment = {
 };
 
 module.exports = ExecutionEnvironment;
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 "use strict";
 
 /**
@@ -936,7 +1091,7 @@ function camelize(string) {
 }
 
 module.exports = camelize;
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -974,7 +1129,7 @@ function camelizeStyleName(string) {
 }
 
 module.exports = camelizeStyleName;
-},{"./camelize":10}],12:[function(require,module,exports){
+},{"./camelize":11}],13:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1012,7 +1167,7 @@ function containsNode(outerNode, innerNode) {
 }
 
 module.exports = containsNode;
-},{"./isTextNode":21}],13:[function(require,module,exports){
+},{"./isTextNode":22}],14:[function(require,module,exports){
 "use strict";
 
 /**
@@ -1049,7 +1204,7 @@ emptyFunction.thatReturnsArgument = function (arg) {
 };
 
 module.exports = emptyFunction;
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1069,7 +1224,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":33}],15:[function(require,module,exports){
+},{"_process":34}],16:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1094,7 +1249,7 @@ function focusNode(node) {
 }
 
 module.exports = focusNode;
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1131,7 +1286,7 @@ function getActiveElement(doc) /*?DOMElement*/{
 }
 
 module.exports = getActiveElement;
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1162,7 +1317,7 @@ function hyphenate(string) {
 }
 
 module.exports = hyphenate;
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1199,7 +1354,7 @@ function hyphenateStyleName(string) {
 }
 
 module.exports = hyphenateStyleName;
-},{"./hyphenate":17}],19:[function(require,module,exports){
+},{"./hyphenate":18}],20:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1255,7 +1410,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":33}],20:[function(require,module,exports){
+},{"_process":34}],21:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1278,7 +1433,7 @@ function isNode(object) {
 }
 
 module.exports = isNode;
-},{}],21:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1301,7 +1456,7 @@ function isTextNode(object) {
 }
 
 module.exports = isTextNode;
-},{"./isNode":20}],22:[function(require,module,exports){
+},{"./isNode":21}],23:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1367,7 +1522,7 @@ function shallowEqual(objA, objB) {
 }
 
 module.exports = shallowEqual;
-},{}],23:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
@@ -1432,7 +1587,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":13,"_process":33}],24:[function(require,module,exports){
+},{"./emptyFunction":14,"_process":34}],25:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -1524,7 +1679,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],25:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1587,7 +1742,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 module.exports = checkPropTypes;
 
 }).call(this,require('_process'))
-},{"./lib/ReactPropTypesSecret":26,"_process":33,"fbjs/lib/invariant":19,"fbjs/lib/warning":23}],26:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":27,"_process":34,"fbjs/lib/invariant":20,"fbjs/lib/warning":24}],27:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1601,7 +1756,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
 
-},{}],27:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 (function (process){
 /** @license React v16.1.1
  * react-dom.development.js
@@ -17005,7 +17160,7 @@ module.exports = reactDom;
 }
 
 }).call(this,require('_process'))
-},{"_process":33,"fbjs/lib/EventListener":8,"fbjs/lib/ExecutionEnvironment":9,"fbjs/lib/camelizeStyleName":11,"fbjs/lib/containsNode":12,"fbjs/lib/emptyFunction":13,"fbjs/lib/emptyObject":14,"fbjs/lib/focusNode":15,"fbjs/lib/getActiveElement":16,"fbjs/lib/hyphenateStyleName":18,"fbjs/lib/invariant":19,"fbjs/lib/shallowEqual":22,"fbjs/lib/warning":23,"object-assign":24,"prop-types/checkPropTypes":25,"react":32}],28:[function(require,module,exports){
+},{"_process":34,"fbjs/lib/EventListener":9,"fbjs/lib/ExecutionEnvironment":10,"fbjs/lib/camelizeStyleName":12,"fbjs/lib/containsNode":13,"fbjs/lib/emptyFunction":14,"fbjs/lib/emptyObject":15,"fbjs/lib/focusNode":16,"fbjs/lib/getActiveElement":17,"fbjs/lib/hyphenateStyleName":19,"fbjs/lib/invariant":20,"fbjs/lib/shallowEqual":23,"fbjs/lib/warning":24,"object-assign":25,"prop-types/checkPropTypes":26,"react":33}],29:[function(require,module,exports){
 /** @license React v16.1.1
  * react-dom.production.min.js
  *
@@ -17234,7 +17389,7 @@ var Og={createPortal:Mg,findDOMNode:function(a){if(null==a)return null;if(1===a.
 D("40");return a._reactRootContainer?(Z.unbatchedUpdates(function(){Lg(null,null,a,!1,function(){a._reactRootContainer=null})}),!0):!1},unstable_createPortal:Mg,unstable_batchedUpdates:tc,unstable_deferredUpdates:Z.deferredUpdates,flushSync:Z.flushSync,__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{EventPluginHub:nb,EventPluginRegistry:Ua,EventPropagators:Cb,ReactControlledComponent:qc,ReactDOMComponentTree:tb,ReactDOMEventListener:td}};
 Z.injectIntoDevTools({findFiberByHostInstance:qb,bundleType:0,version:"16.1.1",rendererPackageName:"react-dom"});var Pg=Object.freeze({default:Og}),Qg=Pg&&Og||Pg;module.exports=Qg["default"]?Qg["default"]:Qg;
 
-},{"fbjs/lib/EventListener":8,"fbjs/lib/ExecutionEnvironment":9,"fbjs/lib/containsNode":12,"fbjs/lib/emptyFunction":13,"fbjs/lib/emptyObject":14,"fbjs/lib/focusNode":15,"fbjs/lib/getActiveElement":16,"fbjs/lib/shallowEqual":22,"object-assign":24,"react":32}],29:[function(require,module,exports){
+},{"fbjs/lib/EventListener":9,"fbjs/lib/ExecutionEnvironment":10,"fbjs/lib/containsNode":13,"fbjs/lib/emptyFunction":14,"fbjs/lib/emptyObject":15,"fbjs/lib/focusNode":16,"fbjs/lib/getActiveElement":17,"fbjs/lib/shallowEqual":23,"object-assign":25,"react":33}],30:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -17276,7 +17431,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react-dom.development.js":27,"./cjs/react-dom.production.min.js":28,"_process":33}],30:[function(require,module,exports){
+},{"./cjs/react-dom.development.js":28,"./cjs/react-dom.production.min.js":29,"_process":34}],31:[function(require,module,exports){
 (function (process){
 /** @license React v16.1.1
  * react.development.js
@@ -18623,7 +18778,7 @@ module.exports = react;
 }
 
 }).call(this,require('_process'))
-},{"_process":33,"fbjs/lib/emptyFunction":13,"fbjs/lib/emptyObject":14,"fbjs/lib/invariant":19,"fbjs/lib/warning":23,"object-assign":24,"prop-types/checkPropTypes":25}],31:[function(require,module,exports){
+},{"_process":34,"fbjs/lib/emptyFunction":14,"fbjs/lib/emptyObject":15,"fbjs/lib/invariant":20,"fbjs/lib/warning":24,"object-assign":25,"prop-types/checkPropTypes":26}],32:[function(require,module,exports){
 /** @license React v16.1.1
  * react.production.min.js
  *
@@ -18647,7 +18802,7 @@ var R={Children:{map:function(a,b,e){if(null==a)return a;var d=[];Q(a,d,null,b,e
 k=a._owner;if(null!=b){void 0!==b.ref&&(h=b.ref,k=z.current);void 0!==b.key&&(c=""+b.key);if(a.type&&a.type.defaultProps)var f=a.type.defaultProps;for(g in b)A.call(b,g)&&!C.hasOwnProperty(g)&&(d[g]=void 0===b[g]&&void 0!==f?f[g]:b[g])}var g=arguments.length-2;if(1===g)d.children=e;else if(1<g){f=Array(g);for(var l=0;l<g;l++)f[l]=arguments[l+2];d.children=f}return{$$typeof:B,type:a.type,key:c,ref:h,props:d,_owner:k}},createFactory:function(a){var b=D.bind(null,a);b.type=a;return b},isValidElement:E,
 version:"16.1.1",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:z,assign:m}},S=Object.freeze({default:R}),T=S&&R||S;module.exports=T["default"]?T["default"]:T;
 
-},{"fbjs/lib/emptyFunction":13,"fbjs/lib/emptyObject":14,"object-assign":24}],32:[function(require,module,exports){
+},{"fbjs/lib/emptyFunction":14,"fbjs/lib/emptyObject":15,"object-assign":25}],33:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -18658,7 +18813,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react.development.js":30,"./cjs/react.production.min.js":31,"_process":33}],33:[function(require,module,exports){
+},{"./cjs/react.development.js":31,"./cjs/react.production.min.js":32,"_process":34}],34:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -18844,4 +18999,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[7]);
+},{}]},{},[8]);
