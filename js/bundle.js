@@ -250,9 +250,78 @@ module.exports={
             "collaborators": "Madhu Reddy",
             "desc": "Investigation into what collaborative information behavior is. Specifically, how does CIB differ from individual information behavior, what role do current information retrieval tools play, what are the design requirements for collaborative information retrieval (CIR). Work was done within the healthcare domain, which focused on patient care teams and IT teams." 
         }
-    ]
+    ],
+	"traceAbout" : "The TRACE (Team Research Analytics in Computational Environments) research group was founded in 2017 at Clemson University's School of Computing by Dr. Nathan J. McNeese. The group conducts research on Team Decision Making, Cognition, Human Computer Interaction, and Computer Supported Collaborative Work. Dr. McNeese and his cross-disciplinary team of faculty, graduate and undergraduate students are exploring the study of team cognition and technology, the study of human-machine teaming, the development and design of human-centered tools and systems, continued development and refinement of cognitive engineering methods, context specific measurement of team cognition, the interplay between team interaction and team cognition, the development and application of unmanned aerial vehicles, and human-robot interaction. Dr. McNeese brings his prior research in healthcare systems, homeland security, command and control, emergency crisis management, and educational learning to the table, augmenting his ability to conduct high quality research and catalyst his assistants' development through mentoring. Recently funded efforts have been supported by the Office of Naval Research (ONR) and the Air Force Office of Scientific Research (AFOSR).\n The group is growing and a team of approximately 10 graduate and undergraduate students, and over 30 faculty collaborators support the TRACE research group per year. In addition to a large team of support, the group also affords many capabilities to support empirical research in teamwork and collaborative technologies. Specifically, the group has access to two independent research laboratory spaces (each housed in the School of Computing): 1) the empirical research laboratory, supported by a large open concept multimedia conference room and multiple experimental workstations (4) outfitted with multiple teamwork empirical testbeds, and 2) a collaborative design studio with space dedicated to the design and development of varying types of collaborative technologies. Additional resources include access to a wide variety of services provided by the Information Technology division of the Clemson School of Computing. Also funded by the School of Computing, the TRACE lab is secured with an electronic safety monitoring system and user access controls."
 }
+
 },{}],2:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require("react");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require("react-dom");
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Events = function (_React$Component) {
+    _inherits(Events, _React$Component);
+
+    function Events(props) {
+        _classCallCheck(this, Events);
+
+        return _possibleConstructorReturn(this, (Events.__proto__ || Object.getPrototypeOf(Events)).call(this, props));
+    }
+
+    _createClass(Events, [{
+        key: "navigate",
+        value: function navigate(x) {
+            this.props.changeLocation(x);
+        }
+    }, {
+        key: "render",
+        value: function render() {
+            var _this2 = this;
+
+            var sections = ["Home", "Research", "Publications", "Students"];
+            var nav_components = [];
+            sections.map(function (x) {
+                nav_components.push(_react2.default.createElement(
+                    "li",
+                    { className: "btn btn-default", onClick: _this2.navigate.bind(_this2, x) },
+                    " ",
+                    x,
+                    " "
+                ));
+            });
+            return _react2.default.createElement(
+                "nav",
+                { className: "nav nav-tabs nav-justified" },
+                nav_components
+            );
+        }
+    }]);
+
+    return Events;
+}(_react2.default.Component);
+
+exports.default = Events;
+},{"react":32,"react-dom":29}],3:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -319,7 +388,7 @@ var NavBar = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = NavBar;
-},{"react":31,"react-dom":28}],3:[function(require,module,exports){
+},{"react":32,"react-dom":29}],4:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -389,7 +458,7 @@ var Publication = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Publication;
-},{"react":31,"react-dom":28}],4:[function(require,module,exports){
+},{"react":32,"react-dom":29}],5:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -458,7 +527,7 @@ var Research = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Research;
-},{"react":31,"react-dom":28}],5:[function(require,module,exports){
+},{"react":32,"react-dom":29}],6:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -521,7 +590,7 @@ var Student = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Student;
-},{"react":31,"react-dom":28}],6:[function(require,module,exports){
+},{"react":32,"react-dom":29}],7:[function(require,module,exports){
 "use strict";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -553,6 +622,10 @@ var _Research2 = _interopRequireDefault(_Research);
 var _mcneeseData = require("../data/mcneeseData.json");
 
 var _mcneeseData2 = _interopRequireDefault(_mcneeseData);
+
+var _Events = require("./Events");
+
+var _Events2 = _interopRequireDefault(_Events);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -863,7 +936,7 @@ var Main = function (_React$Component) {
 }(_react2.default.Component);
 
 _reactDom2.default.render(_react2.default.createElement(Main, null), document.getElementById("main"));
-},{"../data/mcneeseData.json":1,"./NavBar":2,"./Publication":3,"./Research":4,"./Student":5,"react":31,"react-dom":28}],7:[function(require,module,exports){
+},{"../data/mcneeseData.json":1,"./Events":2,"./NavBar":3,"./Publication":4,"./Research":5,"./Student":6,"react":32,"react-dom":29}],8:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -940,7 +1013,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":12,"_process":32}],8:[function(require,module,exports){
+},{"./emptyFunction":13,"_process":33}],9:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -974,7 +1047,7 @@ var ExecutionEnvironment = {
 };
 
 module.exports = ExecutionEnvironment;
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 "use strict";
 
 /**
@@ -1004,7 +1077,7 @@ function camelize(string) {
 }
 
 module.exports = camelize;
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1042,7 +1115,7 @@ function camelizeStyleName(string) {
 }
 
 module.exports = camelizeStyleName;
-},{"./camelize":9}],11:[function(require,module,exports){
+},{"./camelize":10}],12:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1080,7 +1153,7 @@ function containsNode(outerNode, innerNode) {
 }
 
 module.exports = containsNode;
-},{"./isTextNode":20}],12:[function(require,module,exports){
+},{"./isTextNode":21}],13:[function(require,module,exports){
 "use strict";
 
 /**
@@ -1117,7 +1190,7 @@ emptyFunction.thatReturnsArgument = function (arg) {
 };
 
 module.exports = emptyFunction;
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1137,7 +1210,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":32}],14:[function(require,module,exports){
+},{"_process":33}],15:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1162,7 +1235,7 @@ function focusNode(node) {
 }
 
 module.exports = focusNode;
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1199,7 +1272,7 @@ function getActiveElement(doc) /*?DOMElement*/{
 }
 
 module.exports = getActiveElement;
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1230,7 +1303,7 @@ function hyphenate(string) {
 }
 
 module.exports = hyphenate;
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1267,7 +1340,7 @@ function hyphenateStyleName(string) {
 }
 
 module.exports = hyphenateStyleName;
-},{"./hyphenate":16}],18:[function(require,module,exports){
+},{"./hyphenate":17}],19:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1323,7 +1396,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":32}],19:[function(require,module,exports){
+},{"_process":33}],20:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1346,7 +1419,7 @@ function isNode(object) {
 }
 
 module.exports = isNode;
-},{}],20:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1369,7 +1442,7 @@ function isTextNode(object) {
 }
 
 module.exports = isTextNode;
-},{"./isNode":19}],21:[function(require,module,exports){
+},{"./isNode":20}],22:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1435,7 +1508,7 @@ function shallowEqual(objA, objB) {
 }
 
 module.exports = shallowEqual;
-},{}],22:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
@@ -1500,7 +1573,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":12,"_process":32}],23:[function(require,module,exports){
+},{"./emptyFunction":13,"_process":33}],24:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -1592,7 +1665,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1655,7 +1728,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 module.exports = checkPropTypes;
 
 }).call(this,require('_process'))
-},{"./lib/ReactPropTypesSecret":25,"_process":32,"fbjs/lib/invariant":18,"fbjs/lib/warning":22}],25:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":26,"_process":33,"fbjs/lib/invariant":19,"fbjs/lib/warning":23}],26:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1669,7 +1742,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
 
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 (function (process){
 /** @license React v16.1.1
  * react-dom.development.js
@@ -17073,7 +17146,7 @@ module.exports = reactDom;
 }
 
 }).call(this,require('_process'))
-},{"_process":32,"fbjs/lib/EventListener":7,"fbjs/lib/ExecutionEnvironment":8,"fbjs/lib/camelizeStyleName":10,"fbjs/lib/containsNode":11,"fbjs/lib/emptyFunction":12,"fbjs/lib/emptyObject":13,"fbjs/lib/focusNode":14,"fbjs/lib/getActiveElement":15,"fbjs/lib/hyphenateStyleName":17,"fbjs/lib/invariant":18,"fbjs/lib/shallowEqual":21,"fbjs/lib/warning":22,"object-assign":23,"prop-types/checkPropTypes":24,"react":31}],27:[function(require,module,exports){
+},{"_process":33,"fbjs/lib/EventListener":8,"fbjs/lib/ExecutionEnvironment":9,"fbjs/lib/camelizeStyleName":11,"fbjs/lib/containsNode":12,"fbjs/lib/emptyFunction":13,"fbjs/lib/emptyObject":14,"fbjs/lib/focusNode":15,"fbjs/lib/getActiveElement":16,"fbjs/lib/hyphenateStyleName":18,"fbjs/lib/invariant":19,"fbjs/lib/shallowEqual":22,"fbjs/lib/warning":23,"object-assign":24,"prop-types/checkPropTypes":25,"react":32}],28:[function(require,module,exports){
 /** @license React v16.1.1
  * react-dom.production.min.js
  *
@@ -17302,7 +17375,7 @@ var Og={createPortal:Mg,findDOMNode:function(a){if(null==a)return null;if(1===a.
 D("40");return a._reactRootContainer?(Z.unbatchedUpdates(function(){Lg(null,null,a,!1,function(){a._reactRootContainer=null})}),!0):!1},unstable_createPortal:Mg,unstable_batchedUpdates:tc,unstable_deferredUpdates:Z.deferredUpdates,flushSync:Z.flushSync,__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{EventPluginHub:nb,EventPluginRegistry:Ua,EventPropagators:Cb,ReactControlledComponent:qc,ReactDOMComponentTree:tb,ReactDOMEventListener:td}};
 Z.injectIntoDevTools({findFiberByHostInstance:qb,bundleType:0,version:"16.1.1",rendererPackageName:"react-dom"});var Pg=Object.freeze({default:Og}),Qg=Pg&&Og||Pg;module.exports=Qg["default"]?Qg["default"]:Qg;
 
-},{"fbjs/lib/EventListener":7,"fbjs/lib/ExecutionEnvironment":8,"fbjs/lib/containsNode":11,"fbjs/lib/emptyFunction":12,"fbjs/lib/emptyObject":13,"fbjs/lib/focusNode":14,"fbjs/lib/getActiveElement":15,"fbjs/lib/shallowEqual":21,"object-assign":23,"react":31}],28:[function(require,module,exports){
+},{"fbjs/lib/EventListener":8,"fbjs/lib/ExecutionEnvironment":9,"fbjs/lib/containsNode":12,"fbjs/lib/emptyFunction":13,"fbjs/lib/emptyObject":14,"fbjs/lib/focusNode":15,"fbjs/lib/getActiveElement":16,"fbjs/lib/shallowEqual":22,"object-assign":24,"react":32}],29:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -17344,7 +17417,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react-dom.development.js":26,"./cjs/react-dom.production.min.js":27,"_process":32}],29:[function(require,module,exports){
+},{"./cjs/react-dom.development.js":27,"./cjs/react-dom.production.min.js":28,"_process":33}],30:[function(require,module,exports){
 (function (process){
 /** @license React v16.1.1
  * react.development.js
@@ -18691,7 +18764,7 @@ module.exports = react;
 }
 
 }).call(this,require('_process'))
-},{"_process":32,"fbjs/lib/emptyFunction":12,"fbjs/lib/emptyObject":13,"fbjs/lib/invariant":18,"fbjs/lib/warning":22,"object-assign":23,"prop-types/checkPropTypes":24}],30:[function(require,module,exports){
+},{"_process":33,"fbjs/lib/emptyFunction":13,"fbjs/lib/emptyObject":14,"fbjs/lib/invariant":19,"fbjs/lib/warning":23,"object-assign":24,"prop-types/checkPropTypes":25}],31:[function(require,module,exports){
 /** @license React v16.1.1
  * react.production.min.js
  *
@@ -18715,7 +18788,7 @@ var R={Children:{map:function(a,b,e){if(null==a)return a;var d=[];Q(a,d,null,b,e
 k=a._owner;if(null!=b){void 0!==b.ref&&(h=b.ref,k=z.current);void 0!==b.key&&(c=""+b.key);if(a.type&&a.type.defaultProps)var f=a.type.defaultProps;for(g in b)A.call(b,g)&&!C.hasOwnProperty(g)&&(d[g]=void 0===b[g]&&void 0!==f?f[g]:b[g])}var g=arguments.length-2;if(1===g)d.children=e;else if(1<g){f=Array(g);for(var l=0;l<g;l++)f[l]=arguments[l+2];d.children=f}return{$$typeof:B,type:a.type,key:c,ref:h,props:d,_owner:k}},createFactory:function(a){var b=D.bind(null,a);b.type=a;return b},isValidElement:E,
 version:"16.1.1",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:z,assign:m}},S=Object.freeze({default:R}),T=S&&R||S;module.exports=T["default"]?T["default"]:T;
 
-},{"fbjs/lib/emptyFunction":12,"fbjs/lib/emptyObject":13,"object-assign":23}],31:[function(require,module,exports){
+},{"fbjs/lib/emptyFunction":13,"fbjs/lib/emptyObject":14,"object-assign":24}],32:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -18726,7 +18799,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react.development.js":29,"./cjs/react.production.min.js":30,"_process":32}],32:[function(require,module,exports){
+},{"./cjs/react.development.js":30,"./cjs/react.production.min.js":31,"_process":33}],33:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -18912,4 +18985,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[6]);
+},{}]},{},[7]);
