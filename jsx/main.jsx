@@ -6,6 +6,7 @@ import Publication from "./Publication";
 import Publications from "./Publications";
 import Research from "./Research";
 import data from "../data/mcneeseData.json";
+import Events from "./Events";
 
 class Main extends React.Component {
     constructor(props) {
