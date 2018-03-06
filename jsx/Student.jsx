@@ -8,10 +8,14 @@ class Student extends React.Component {
 
     render() {
         return(
-            <div>
-            	<img src={this.props.profilePic} />
-            	<h3> {this.props.studentName} </h3>
-            	<p> {this.props.studentDesc} </p>
+            <div className="col-md-3">
+                <div className="thumbnail">
+                    <img src={this.props.profilePic} />
+                    <div className="caption">
+                        <h3> {this.props.studentName} </h3>
+                        <p> {this.props.studentDesc} </p>
+                    </div>
+                </div>
             </div>
         )
     }

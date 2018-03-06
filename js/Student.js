@@ -36,21 +36,29 @@ var Student = function (_React$Component) {
         value: function render() {
             return _react2.default.createElement(
                 "div",
-                null,
-                _react2.default.createElement("img", { src: this.props.profilePic }),
+                { className: "col-md-3" },
                 _react2.default.createElement(
-                    "h3",
-                    null,
-                    " ",
-                    this.props.studentName,
-                    " "
-                ),
-                _react2.default.createElement(
-                    "p",
-                    null,
-                    " ",
-                    this.props.studentDesc,
-                    " "
+                    "div",
+                    { className: "thumbnail" },
+                    _react2.default.createElement("img", { src: this.props.profilePic }),
+                    _react2.default.createElement(
+                        "div",
+                        { className: "caption" },
+                        _react2.default.createElement(
+                            "h3",
+                            null,
+                            " ",
+                            this.props.studentName,
+                            " "
+                        ),
+                        _react2.default.createElement(
+                            "p",
+                            null,
+                            " ",
+                            this.props.studentDesc,
+                            " "
+                        )
+                    )
                 )
             );
         }
