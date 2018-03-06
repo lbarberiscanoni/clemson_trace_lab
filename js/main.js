@@ -22,10 +22,6 @@ var _Publication = require("./Publication");
 
 var _Publication2 = _interopRequireDefault(_Publication);
 
-var _Publications = require("./Publications");
-
-var _Publications2 = _interopRequireDefault(_Publications);
-
 var _Research = require("./Research");
 
 var _Research2 = _interopRequireDefault(_Research);
@@ -45,6 +41,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+/*import Publications from "./Publications";*/
+
 
 var Main = function (_React$Component) {
     _inherits(Main, _React$Component);
@@ -80,105 +78,33 @@ var Main = function (_React$Component) {
                             "div",
                             { className: "container" },
                             _react2.default.createElement(
-                                "center",
+                                "h3",
                                 null,
-                                _react2.default.createElement(
-                                    "h3",
-                                    null,
-                                    "Assistant Professor of Human-Centered Computing,"
-                                ),
-                                _react2.default.createElement(
-                                    "h3",
-                                    null,
-                                    "Director of TRACE Research Group,"
-                                ),
-                                _react2.default.createElement(
-                                    "h3",
-                                    null,
-                                    "Clemson University"
-                                ),
-                                _react2.default.createElement("img", { src: "https://nathanmcneese.weebly.com/uploads/1/2/6/1/12617833/published/_7200551.jpg" })
-                            ),
-                            _react2.default.createElement("p", null),
-                            _react2.default.createElement(
-                                "p",
-                                null,
-                                "Greetings! I am an Assistant Professor and Director of the Team Research Analytics in Computational Environments (TRACE) Research Group within the division of Human-Centered Computing in the School of Computing at Clemson University. I received my PhD in Information Sciences & Technology with a focus on Team Decision Making, Cognition, and Computer Supported Collaborative Work from The Pennsylvania State University in the fall of 2014."
+                                "TRACE Research Group"
                             ),
                             _react2.default.createElement(
                                 "p",
                                 null,
-                                "After graduation, I accepted a position to be a Postdoctoral Scholar and Research Associate in Human Systems Engineering at Arizona State University working directly with Dr. Nancy Cooke."
+                                "The TRACE (Team Research Analytics in Computational Environments) research group was founded in 2017 at Clemson University's School of Computing by Dr. Nathan J. McNeese. The group conducts research on Team Decision Making, Cognition, Human Computer Interaction, and Computer Supported Collaborative Work. Dr. McNeese and his cross-disciplinary team of faculty, graduate and undergraduate students are exploring the study of team cognition and technology, the study of human-machine teaming, the development and design of human-centered tools and systems, continued development and refinement of cognitive engineering methods, context specific measurement of team cognition, the interplay between team interaction and team cognition, the development and application of unmanned aerial vehicles, and human-robot interaction. Dr. McNeese brings his prior research in healthcare systems, homeland security, command and control, emergency crisis management, and educational learning to the table, augmenting his ability to conduct high quality research and catalyst his assistants' development through mentoring. Recently funded efforts have been supported by the Office of Naval Research (ONR) and the Air Force Office of Scientific Research (AFOSR)."
                             ),
                             _react2.default.createElement(
                                 "p",
                                 null,
-                                "My research interests are wide ranging and interdisciplinary, but can be generally linked to the integration of"
-                            ),
-                            _react2.default.createElement(
-                                "em",
-                                null,
+                                "The group is growing and a team of approximately 10 graduate and undergraduate students, and over 30 faculty collaborators support the TRACE research group per year. In addition to a large team of support, the group also affords many capabilities to support empirical research in teamwork and collaborative technologies. Specifically, the group has access to two independent research laboratory spaces (each housed in the School of Computing):",
                                 _react2.default.createElement(
-                                    "ul",
+                                    "ol",
                                     null,
                                     _react2.default.createElement(
                                         "li",
                                         null,
-                                        "Human Factors"
+                                        "The empirical research laboratory, supported by a large open concept multimedia conference room and multiple experimental workstations (4) outfitted with multiple teamwork empirical testbeds"
                                     ),
                                     _react2.default.createElement(
                                         "li",
                                         null,
-                                        "Human Computer Interaction"
-                                    ),
-                                    _react2.default.createElement(
-                                        "li",
-                                        null,
-                                        "Computer Supported Cooperative Work"
-                                    ),
-                                    _react2.default.createElement(
-                                        "li",
-                                        null,
-                                        "Information Sciences"
+                                        "A collaborative design studio with space dedicated to the design and development of varying types of collaborative technologies. Additional resources include access to a wide variety of services provided by the Information Technology division of the Clemson School of Computing. Also funded by the School of Computing, the TRACE lab is secured with an electronic safety monitoring system and user access controls."
                                     )
                                 )
-                            ),
-                            _react2.default.createElement(
-                                "p",
-                                null,
-                                "For over 10 years, I have conducted research on many topics within a variety of different contexts. My current research interests span across the study of individual and team cognition, the development and design of human-centered tools and systems, continued development and refinement of cognitive engineering methods, context specific measurement of team cognition, the interplay between team interaction and team cognition, the development and application of unmanned aerial vehicles, and human robot interaction. Specific contexts that I have conducted my research in: ",
-                                _react2.default.createElement(
-                                    "em",
-                                    null,
-                                    "healthcare systems, homeland security, command and control, emergency crisis management"
-                                ),
-                                ", and ",
-                                _react2.default.createElement(
-                                    "em",
-                                    null,
-                                    "educational learning"
-                                ),
-                                ". Throughout all of my research, I typically use multiple mixed methods to understand the context, work, and roles specific to the development of individual and team cognition. As a result of my work, my research has been published multiple times in numerous research communities."
-                            ),
-                            _react2.default.createElement(
-                                "p",
-                                null,
-                                _react2.default.createElement(
-                                    "strong",
-                                    null,
-                                    "Research Interests & Expertise:"
-                                ),
-                                " Human factors, team decision-making, human-computer interaction, computer-supported cooperative work, team cognition, cognitive science, usability research and design, collaborative system design, human-centered design, team mental models, mental models, collaboration, collaborative information seeking, cognitive task analysis, knowledge elicitation, human autonomy teaming, healthcare systems, big data, simulations, cybersecurity"
-                            ),
-                            _react2.default.createElement(
-                                "p",
-                                null,
-                                _react2.default.createElement(
-                                    "strong",
-                                    null,
-                                    "Research Methods:"
-                                ),
-                                " A/B testing, card sorting, cognitive walkthrough, concept mapping, contextual inquiry, ethnography, experimental design, focus groups, heuristic evaluation, interviewing, personas, prototyping, scenarios, surveying, task analysis, usability testing, wireframing"
                             )
                         )
                     );
@@ -204,7 +130,7 @@ var Main = function (_React$Component) {
                     return _react2.default.createElement(
                         "div",
                         null,
-                        _react2.default.createElement(_Publications2.default, null)
+                        _react2.default.createElement(Publications, null)
                     );
                     break;
                 case "research":
