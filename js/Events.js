@@ -32,30 +32,41 @@ var Events = function (_React$Component) {
     }
 
     _createClass(Events, [{
-        key: "navigate",
-        value: function navigate(x) {
-            this.props.changeLocation(x);
-        }
-    }, {
         key: "render",
         value: function render() {
-            var _this2 = this;
-
-            var sections = ["Home", "Research", "Publications", "Students"];
-            var nav_components = [];
-            sections.map(function (x) {
-                nav_components.push(_react2.default.createElement(
-                    "li",
-                    { className: "btn btn-default", onClick: _this2.navigate.bind(_this2, x) },
-                    " ",
-                    x,
-                    " "
-                ));
+            var components = [];
+            this.props.events.map(function (ev) {
+                var component = _react2.default.createElement(
+                    "a",
+                    { className: "list-group-item" },
+                    _react2.default.createElement(
+                        "div",
+                        { className: "d-flex w-100 justify-content-between" },
+                        _react2.default.createElement(
+                            "h5",
+                            { className: "mb-1" },
+                            ev["name"]
+                        ),
+                        _react2.default.createElement(
+                            "small",
+                            null,
+                            " ",
+                            ev["date"]
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "p",
+                        { className: "mb-1" },
+                        " ",
+                        ev["description"]
+                    )
+                );
+                components.push(component);
             });
             return _react2.default.createElement(
-                "nav",
-                { className: "nav nav-tabs nav-justified" },
-                nav_components
+                "div",
+                { className: "list-group" },
+                components
             );
         }
     }]);
