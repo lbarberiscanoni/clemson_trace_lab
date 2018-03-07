@@ -7,6 +7,7 @@ import ResearchStudy from "./ResearchStudy";
 import Publications from "./Publications";
 import data from "../data/mcneeseData.json";
 import Events from "./Events";
+import Blog from "./Blog";
 
 class Main extends React.Component {
     constructor(props) {
@@ -42,6 +43,9 @@ class Main extends React.Component {
                                         <li>A collaborative design studio with space dedicated to the design and development of varying types of collaborative technologies. Additional resources include access to a wide variety of services provided by the Information Technology division of the Clemson School of Computing. Also funded by the School of Computing, the TRACE lab is secured with an electronic safety monitoring system and user access controls.</li>
                                      </ol>
                                 </p>
+                            </div>
+                            <div className="col-md-3">
+                                <Blog blogList={ data["blog_posts"] } />
                             </div>
                         </div>
                     </div>

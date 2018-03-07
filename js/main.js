@@ -38,6 +38,10 @@ var _Events = require("./Events");
 
 var _Events2 = _interopRequireDefault(_Events);
 
+var _Blog = require("./Blog");
+
+var _Blog2 = _interopRequireDefault(_Blog);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -121,6 +125,11 @@ var Main = function (_React$Component) {
                                         )
                                     )
                                 )
+                            ),
+                            _react2.default.createElement(
+                                "div",
+                                { className: "col-md-3" },
+                                _react2.default.createElement(_Blog2.default, { blogList: _mcneeseData2.default["blog_posts"] })
                             )
                         )
                     );

@@ -1,4 +1,18 @@
 {
+    "blog_posts": [
+        {
+            "link": "https://medium.com/@cu_trace_lab/test-1-37b82ecca349", 
+            "name": "Test 1"
+        },
+        {
+            "link": "https://medium.com/@cu_trace_lab/test-2-96a57e55eb08", 
+            "name": "Test 2"
+        },
+        {
+            "link": "https://medium.com/@cu_trace_lab/test-3-7d70ace9d456",
+            "name": "Test 3"
+        }
+    ],
     "events": [
         {
             "name": "Lorem Ipsum",
@@ -110,5 +124,5 @@
             "collaborators": "Madhu Reddy",
             "desc": "Investigation into what collaborative information behavior is. Specifically, how does CIB differ from individual information behavior, what role do current information retrieval tools play, what are the design requirements for collaborative information retrieval (CIR). Work was done within the healthcare domain, which focused on patient care teams and IT teams." 
         }
-    ],
+    ]
 }
