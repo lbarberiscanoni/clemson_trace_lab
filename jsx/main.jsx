@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import NavBar from "./NavBar";
 import Student from "./Student";
 import Publication from "./Publication";
-/*import Publications from "./Publications";*/
 import ResearchStudy from "./ResearchStudy";
+import Publications from "./Publications";
 import data from "../data/mcneeseData.json";
 import Events from "./Events";
 
@@ -60,7 +60,10 @@ class Main extends React.Component {
             case "publications":
                 return(
 					<div>
-						<Publications />
+						<NavBar changeLocation = { this.navigate.bind(this) } />
+						<div className="container">
+							<Publications />
+						</div>
                     </div>
 				)
                 break;
