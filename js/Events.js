@@ -35,7 +35,7 @@ var Events = function (_React$Component) {
         key: "render",
         value: function render() {
             var components = [];
-            this.props.events.map(function (ev) {
+            this.props.eventList.map(function (ev) {
                 var component = _react2.default.createElement(
                     "a",
                     { className: "list-group-item" },
@@ -43,7 +43,7 @@ var Events = function (_React$Component) {
                         "div",
                         { className: "d-flex w-100 justify-content-between" },
                         _react2.default.createElement(
-                            "h5",
+                            "h4",
                             { className: "mb-1" },
                             ev["name"]
                         ),
@@ -58,7 +58,7 @@ var Events = function (_React$Component) {
                         "p",
                         { className: "mb-1" },
                         " ",
-                        ev["description"]
+                        ev["desc"]
                     )
                 );
                 components.push(component);
