@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 import Student from "./Student";
 import Publication from "./Publication";
 /*import Publications from "./Publications";*/
-import Research from "./Research";
+import ResearchStudy from "./ResearchStudy";
 import data from "../data/mcneeseData.json";
 import Events from "./Events";
 
@@ -67,12 +67,12 @@ class Main extends React.Component {
             case "research":
                 let currentResearchList = []
                 this.state.currentResearch.map((x) => {
-                    let researchItem = <Research title = {x.title} desc = {x.desc} collaborators = {x.collaborators} />
+                    let researchItem = <ResearchStudy title = {x.title} desc = {x.desc} collaborators = {x.collaborators} />
                     currentResearchList.push(researchItem)
                 })
                 let pastResearchList = []
                 this.state.pastResearch.map((x) => {
-                    let researchItem = <Research title = {x.title} desc = {x.desc} collaborators = {x.collaborators} />
+                    let researchItem = <ResearchStudy title = {x.title} desc = {x.desc} collaborators = {x.collaborators} />
                     pastResearchList.push(researchItem)
                 })
                 return(
@@ -80,9 +80,13 @@ class Main extends React.Component {
                         <NavBar changeLocation = { this.navigate.bind(this) } />
                         <div className="container">
                             <h2>Current Projects</h2>
-                            {currentResearchList}
+                            <div className="row">
+                                { currentResearchList }
+                            </div>
                             <h2>Previous Projects</h2>
-                            {pastResearchList}
+                            <div className="row">
+                                { pastResearchList }
+                            </div>
                         </div>
                     </div>
                 )

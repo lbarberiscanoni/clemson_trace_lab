@@ -36,33 +36,27 @@ var ResearchStudy = function (_React$Component) {
         value: function render() {
             return _react2.default.createElement(
                 "div",
-                { "class": "card" },
+                { className: "card" },
                 _react2.default.createElement(
                     "div",
-                    { "class": "card-header", id: "headingOne" },
-                    _react2.default.createElement(
-                        "h3",
-                        { "class": "mb-0" },
-                        _react2.default.createElement(
-                            "button",
-                            { "class": "btn btn-link", "data-toggle": "collapse", "data-target": "#collapseOne", "aria-expanded": "true", "aria-controls": "collapseOne" },
-                            this.props.title
-                        )
-                    )
-                ),
-                _react2.default.createElement(
-                    "div",
-                    { id: "collapseOne", "class": "collapse show", "aria-labelledby": "headingOne", "data-parent": "#accordion" },
+                    { className: "card-body" },
                     _react2.default.createElement(
                         "h5",
-                        null,
+                        { className: "card-title" },
+                        " ",
+                        this.props.title,
+                        " "
+                    ),
+                    _react2.default.createElement(
+                        "h6",
+                        { className: "card-subtitle text-muted" },
                         " ",
                         this.props.collaborators,
                         " "
                     ),
                     _react2.default.createElement(
-                        "div",
-                        { "class": "card-body" },
+                        "p",
+                        { className: "card-text" },
                         " ",
                         this.props.desc,
                         " "

@@ -503,50 +503,54 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Research = function (_React$Component) {
-    _inherits(Research, _React$Component);
+var ResearchStudy = function (_React$Component) {
+    _inherits(ResearchStudy, _React$Component);
 
-    function Research(props) {
-        _classCallCheck(this, Research);
+    function ResearchStudy(props) {
+        _classCallCheck(this, ResearchStudy);
 
-        return _possibleConstructorReturn(this, (Research.__proto__ || Object.getPrototypeOf(Research)).call(this, props));
+        return _possibleConstructorReturn(this, (ResearchStudy.__proto__ || Object.getPrototypeOf(ResearchStudy)).call(this, props));
     }
 
-    _createClass(Research, [{
+    _createClass(ResearchStudy, [{
         key: "render",
         value: function render() {
             return _react2.default.createElement(
                 "div",
-                null,
+                { className: "card" },
                 _react2.default.createElement(
-                    "h3",
-                    null,
-                    " ",
-                    this.props.title,
-                    " "
-                ),
-                _react2.default.createElement(
-                    "h5",
-                    null,
-                    " ",
-                    this.props.collaborators,
-                    " "
-                ),
-                _react2.default.createElement(
-                    "p",
-                    null,
-                    " ",
-                    this.props.desc,
-                    " "
+                    "div",
+                    { className: "card-body" },
+                    _react2.default.createElement(
+                        "h5",
+                        { className: "card-title" },
+                        " ",
+                        this.props.title,
+                        " "
+                    ),
+                    _react2.default.createElement(
+                        "h6",
+                        { className: "card-subtitle text-muted" },
+                        " ",
+                        this.props.collaborators,
+                        " "
+                    ),
+                    _react2.default.createElement(
+                        "p",
+                        { className: "card-text" },
+                        " ",
+                        this.props.desc,
+                        " "
+                    )
                 )
             );
         }
     }]);
 
-    return Research;
+    return ResearchStudy;
 }(_react2.default.Component);
 
-exports.default = Research;
+exports.default = ResearchStudy;
 },{"react":32,"react-dom":29}],6:[function(require,module,exports){
 "use strict";
 
@@ -643,9 +647,9 @@ var _Publication = require("./Publication");
 
 var _Publication2 = _interopRequireDefault(_Publication);
 
-var _Research = require("./Research");
+var _ResearchStudy = require("./ResearchStudy");
 
-var _Research2 = _interopRequireDefault(_Research);
+var _ResearchStudy2 = _interopRequireDefault(_ResearchStudy);
 
 var _mcneeseData = require("../data/mcneeseData.json");
 
@@ -757,12 +761,12 @@ var Main = function (_React$Component) {
                 case "research":
                     var currentResearchList = [];
                     this.state.currentResearch.map(function (x) {
-                        var researchItem = _react2.default.createElement(_Research2.default, { title: x.title, desc: x.desc, collaborators: x.collaborators });
+                        var researchItem = _react2.default.createElement(_ResearchStudy2.default, { title: x.title, desc: x.desc, collaborators: x.collaborators });
                         currentResearchList.push(researchItem);
                     });
                     var pastResearchList = [];
                     this.state.pastResearch.map(function (x) {
-                        var researchItem = _react2.default.createElement(_Research2.default, { title: x.title, desc: x.desc, collaborators: x.collaborators });
+                        var researchItem = _react2.default.createElement(_ResearchStudy2.default, { title: x.title, desc: x.desc, collaborators: x.collaborators });
                         pastResearchList.push(researchItem);
                     });
                     return _react2.default.createElement(
@@ -777,13 +781,21 @@ var Main = function (_React$Component) {
                                 null,
                                 "Current Projects"
                             ),
-                            currentResearchList,
+                            _react2.default.createElement(
+                                "div",
+                                { className: "row" },
+                                currentResearchList
+                            ),
                             _react2.default.createElement(
                                 "h2",
                                 null,
                                 "Previous Projects"
                             ),
-                            pastResearchList
+                            _react2.default.createElement(
+                                "div",
+                                { className: "row" },
+                                pastResearchList
+                            )
                         )
                     );
                     break;
@@ -795,7 +807,7 @@ var Main = function (_React$Component) {
 }(_react2.default.Component);
 
 _reactDom2.default.render(_react2.default.createElement(Main, null), document.getElementById("main"));
-},{"../data/mcneeseData.json":1,"./Events":2,"./NavBar":3,"./Publication":4,"./Research":5,"./Student":6,"react":32,"react-dom":29}],8:[function(require,module,exports){
+},{"../data/mcneeseData.json":1,"./Events":2,"./NavBar":3,"./Publication":4,"./ResearchStudy":5,"./Student":6,"react":32,"react-dom":29}],8:[function(require,module,exports){
 (function (process){
 'use strict';
 

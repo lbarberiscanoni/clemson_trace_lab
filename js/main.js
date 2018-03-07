@@ -22,9 +22,9 @@ var _Publication = require("./Publication");
 
 var _Publication2 = _interopRequireDefault(_Publication);
 
-var _Research = require("./Research");
+var _ResearchStudy = require("./ResearchStudy");
 
-var _Research2 = _interopRequireDefault(_Research);
+var _ResearchStudy2 = _interopRequireDefault(_ResearchStudy);
 
 var _mcneeseData = require("../data/mcneeseData.json");
 
@@ -136,12 +136,12 @@ var Main = function (_React$Component) {
                 case "research":
                     var currentResearchList = [];
                     this.state.currentResearch.map(function (x) {
-                        var researchItem = _react2.default.createElement(_Research2.default, { title: x.title, desc: x.desc, collaborators: x.collaborators });
+                        var researchItem = _react2.default.createElement(_ResearchStudy2.default, { title: x.title, desc: x.desc, collaborators: x.collaborators });
                         currentResearchList.push(researchItem);
                     });
                     var pastResearchList = [];
                     this.state.pastResearch.map(function (x) {
-                        var researchItem = _react2.default.createElement(_Research2.default, { title: x.title, desc: x.desc, collaborators: x.collaborators });
+                        var researchItem = _react2.default.createElement(_ResearchStudy2.default, { title: x.title, desc: x.desc, collaborators: x.collaborators });
                         pastResearchList.push(researchItem);
                     });
                     return _react2.default.createElement(
@@ -156,13 +156,21 @@ var Main = function (_React$Component) {
                                 null,
                                 "Current Projects"
                             ),
-                            currentResearchList,
+                            _react2.default.createElement(
+                                "div",
+                                { className: "row" },
+                                currentResearchList
+                            ),
                             _react2.default.createElement(
                                 "h2",
                                 null,
                                 "Previous Projects"
                             ),
-                            pastResearchList
+                            _react2.default.createElement(
+                                "div",
+                                { className: "row" },
+                                pastResearchList
+                            )
                         )
                     );
                     break;
