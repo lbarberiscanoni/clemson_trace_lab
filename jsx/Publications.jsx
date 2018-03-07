@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Publication from "./Publication";				
-import data from "../data/mcneeseData.json";
+import data from "../data/publications.json";
 
 class Publications extends React.Component {
     constructor(props) {

@@ -18,9 +18,9 @@ var _Publication = require("./Publication");
 
 var _Publication2 = _interopRequireDefault(_Publication);
 
-var _mcneeseData = require("../data/mcneeseData.json");
+var _publications = require("../data/publications.json");
 
-var _mcneeseData2 = _interopRequireDefault(_mcneeseData);
+var _publications2 = _interopRequireDefault(_publications);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -38,7 +38,7 @@ var Publications = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (Publications.__proto__ || Object.getPrototypeOf(Publications)).call(this, props));
 
-        _this.state = _mcneeseData2.default;
+        _this.state = _publications2.default;
         return _this;
     }
 

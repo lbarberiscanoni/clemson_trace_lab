@@ -34,6 +34,88 @@ module.exports={
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
         }
     ],
+    "currentResearch": [
+        {
+            "title": "Designing for Team Cognition", 
+            "desc": "There is little known about how to actually apply human computer interaction principles to adequately help in the development of team cognition. While much is known about HCI and team cognition separately, there is a knowledge gap in understanding their shared relationship. This study includes multiple investigations into better understanding what HCI design principles are imperative to team cognition. Through these investigations, we are starting to understand how to design interfaces and systems to best allow for team cognition.", 
+            "collaborators": "Nancy Cooke"
+        },
+        {
+            "title": "The Cognitive Science & Human Factors of Intelligence Analysis", 
+            "desc": "Multiple investigations into better understanding how intelligence analysts conduct their work. Currently, little is actually known from a Human Factors or Cognitive Science perspective about how intelligence analysts complete individual and team based work. Moving forward, it is necessary to learn more about what the analysts’ work is like in order to better design user centered technologies to aid in their analysis. Literature reviews, surveys, and experiments are currently taking place to better understand intelligence analysts’ work. This work is part of a $20M funding agreement with the National Geospatial Agency.", 
+            "collaborators": "Nancy Cooke, Ross Maciejewski, Nadya Bliss, Dave White"
+        },  
+        {
+            "title": "Information Visualization of Big Data for Team Based Cognition", 
+            "desc": "Investigations into the impact of different information visualization techniques and how they subsequently impact the development of team cognition. An empirical testbed was created that allows individuals, groups, and teams to make movie box office predications using multiple information visualizations directly linked to big data. Qualitative and quantitative measurements are currently being recorded to better understand the relationship of information visualization and team cognition, in addition to information visualizations impact on performance in the individual, group, and team condition.",
+            "collaborators": "Nancy Cooke, Ross Maciejewski" },
+        {
+            "title": "Human Automation Teaming & the Development of a Synthetic Teammate", 
+            "collaborators": "Nancy Cooke",
+            "desc": "Work focused on better understanding the the relationship between humans who team with automated systems. More specifically, experiments are being conducted that further explore the interactions between a synthetic teammate and human teammates in the context of an unmanned air vehicle synthetic task environments. In this environment there are 3 roles within the team: Air Vehicle Operator, Mission Planner, and Payload Operator. Teamwork must occur between and among all three roles for a successful mission to be accomplished. In experiments focused on the synthetic teammate interaction, the Air Vehicle Operator is a cognitively plausible ACT-R based computational model serving as a full fledged teammate." 
+        },
+        {
+            "title": "Code Blue Resuscitations & Teamwork", 
+            "collaborators": "Nancy Cooke, Ayan Sen",
+            "desc": "Investigations into better understanding the teamwork that occurs during code blue resuscitations. More specifically, this work has focused on the impact that multiple variables of team cognition have on teamwork within this context." 
+        },
+        {
+            "title": "The Role of Team Cognition During Stem Cell Therapy and Palliative Care", 
+            "collaborators": "Nancy Cooke, Ayan Sen",
+            "desc": "Palliative care is an extremely complicated process involving multiple medical practitioners and family members having to make critical decisions about end of life care. Unfortunately, far too often these decisions are disjointed and lead to lack of shared understanding among the providers and the family. This research seeks to better understand how joint cognition can be utilized to make more effective shared decisions." 
+        },
+        {
+            "title": "Theoretical & Methodological Methods to Studying Team Cognition During Sports", 
+            "collaborators": "Nancy Cooke, Rob Gray",
+            "desc": "Work focused on advancing the conceptual understanding and application of team cognition during team sports. Up to this point, team cognition has rarely been studied within the context of team sports, resulting in a lack of theoretical and methodological methods to accurately study the relationship of team cognition and sports. Within this overarching project, multiple studies have and are being conducted to identify the impact that team cognition has on team sports. More specifically, studies in collaboration with university level varsity teams are resulting in a better understanding of how team cognition develops and occurs during team sports. In addition, conceptual pieces and methods for studying team cognition within this context have been published and identified within this overall project." 
+        },
+        {
+            "title": "Human Systems Engineering of Gas Ballooning", 
+            "collaborators": "Nancy Cooke, Steven Shope",
+            "desc": "A study focused on understanding the real time cognition of two gas balloonists while they set a world record for duration and distance of a gas balloon. Multiple cognitively oriented measurements were taken, resulting in real time data from the pilots while they were flying. This data was then analyzed on the fly and recommendations were made to mission control." 
+        }
+    ],
+    "pastResearch": [
+        {
+            "title": "The Role of Team Cognition During Collaborative Information Seeking *Dissertation*", 
+            "collaborators": "Madhu Reddy, Susan Mohammed, Jim Jansen, Shawn Clark",
+            "desc": "Investigation on the role of team cognition during collaborative information seeking (CIS). The success of a team is dependent on the activity of CIS, as the team must find relevant information to accurately and successfully solve a problem. To this point, CIS has mainly been studied from an interactional perspective, with very little focus on team cognition. This work focuses on understanding the development of cognitive processes during CIS. More specifically, the cognitive construct, the team mental model, was examined. Teams conducted a CIS task and then cognitive interviews and individual/team concept maps were collected in both face-to-face and distributed conditions. In addition, evaluations of CIS tools were conducted with specific inquiry into understanding what features have the ability to help/hurt team cognition during CIS. Analysis indicated that the development of team cognition is readily apparent during CIS, and that it significantly impacts a teams’ CIS work in many ways." 
+        },
+        {
+            "title": "Non-Traditional Clinical Users of the Electronic Medical Record (EMR)", 
+            "collaborators": "Madhu Reddy, Chris DeFlitch",
+            "desc": "Work focused on how non-traditional clinical users (social workers, medical secretaries, physical therapists) interact with and use the EMR. Qualitative work was utilized to understand how these users collaborate via the EMR. In addition, potential design implications were developed to better equip the EMR to support these users."
+        },
+        {
+            "title": "Team Performance in Real & Virtual Worlds", 
+            "collaborators": "Mark Pfaff, Gerry Santoro, Michael McNeese",
+            "desc": "Experimental investigation on the effectiveness of distributed cognition in face-to-face, teleconferencing, and virtual communication mediums. Team performance was captured and analyzed. Results showed that team members perceived the face-to-face modality to better aid the team than the virtual world or the auditory teleconferencing mode, yet the data also showed an experience-based bias toward face-to-face interaction." 
+        },
+        {
+            "title": "Enhanced Messaging for Emergency Response (EMERSE)", 
+            "collaborators": "John Yen, Lee Giles, Jim Jansen, Andrea Tapia, Prasenjit Mitra",
+            "desc": "Investigation on how text messaging can be better utilized within third world countries during emergencies. The specific emergency that this project focused on was the Haiti earthquake, in which we had access to real world text message through the Ushahidi platform." 
+        },
+        {
+            "title": "Human Centered Fusion: The Characterization of Soft Sensors", 
+            "collaborators": "David Hall, James Llinas", 
+            "desc": "Work focused on the collaboration and synthesis of hard and soft data. Specifically, in this study humans were characterized as soft sensors that have the ability to observe data and be active sensors. This study successfully developed specific characterizations of soft sensors, a framework for modeling performance, and a literature review on human observational performance." 
+        },
+        {
+            "title": "Hospital-to-Hospital Health Information Technology Partnerships: A New Model for IT Diffusion in Rural Hospitals", 
+            "collaborators": "Madhu Reddy, Sandeep Purao",
+            "desc": "Study of the benefits, critical success factors, and challenges related to the hospital-to-hospital partnership (HHP). In-depth qualitative work and a broad survey were both utilized to further understand and gauge hospitals interest in such a partnership." 
+        },
+        {
+            "title": "Collaborative Information Behavior (CIB)", 
+            "collaborators": "Madhu Reddy",
+            "desc": "Investigation into what collaborative information behavior is. Specifically, how does CIB differ from individual information behavior, what role do current information retrieval tools play, what are the design requirements for collaborative information retrieval (CIR). Work was done within the healthcare domain, which focused on patient care teams and IT teams." 
+        }
+    ],
+}
+
+},{}],2:[function(require,module,exports){
+module.exports={
     "dissertation":[
         {
             "title": "The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making", 
@@ -199,88 +281,10 @@ module.exports={
         {
             "desc": "McNeese, N. (chair), Cooke, N., Hoffman, R., Klein, G., McNeese, M., Patterson, E. (2015) The Human Factors of Intelligence Analysis. 2015 Annual Meeting of Human Factors and Ergonomic Society. Los Angeles, CA. Human Factors and Ergonomics Society. October 26-30, 2015. pp. 130-134."
         }
-    ],
-    "currentResearch": [
-        {
-            "title": "Designing for Team Cognition", 
-            "desc": "There is little known about how to actually apply human computer interaction principles to adequately help in the development of team cognition. While much is known about HCI and team cognition separately, there is a knowledge gap in understanding their shared relationship. This study includes multiple investigations into better understanding what HCI design principles are imperative to team cognition. Through these investigations, we are starting to understand how to design interfaces and systems to best allow for team cognition.", 
-            "collaborators": "Nancy Cooke"
-        },
-        {
-            "title": "The Cognitive Science & Human Factors of Intelligence Analysis", 
-            "desc": "Multiple investigations into better understanding how intelligence analysts conduct their work. Currently, little is actually known from a Human Factors or Cognitive Science perspective about how intelligence analysts complete individual and team based work. Moving forward, it is necessary to learn more about what the analysts’ work is like in order to better design user centered technologies to aid in their analysis. Literature reviews, surveys, and experiments are currently taking place to better understand intelligence analysts’ work. This work is part of a $20M funding agreement with the National Geospatial Agency.", 
-            "collaborators": "Nancy Cooke, Ross Maciejewski, Nadya Bliss, Dave White"
-        },  
-        {
-            "title": "Information Visualization of Big Data for Team Based Cognition", 
-            "desc": "Investigations into the impact of different information visualization techniques and how they subsequently impact the development of team cognition. An empirical testbed was created that allows individuals, groups, and teams to make movie box office predications using multiple information visualizations directly linked to big data. Qualitative and quantitative measurements are currently being recorded to better understand the relationship of information visualization and team cognition, in addition to information visualizations impact on performance in the individual, group, and team condition.",
-            "collaborators": "Nancy Cooke, Ross Maciejewski" },
-        {
-            "title": "Human Automation Teaming & the Development of a Synthetic Teammate", 
-            "collaborators": "Nancy Cooke",
-            "desc": "Work focused on better understanding the the relationship between humans who team with automated systems. More specifically, experiments are being conducted that further explore the interactions between a synthetic teammate and human teammates in the context of an unmanned air vehicle synthetic task environments. In this environment there are 3 roles within the team: Air Vehicle Operator, Mission Planner, and Payload Operator. Teamwork must occur between and among all three roles for a successful mission to be accomplished. In experiments focused on the synthetic teammate interaction, the Air Vehicle Operator is a cognitively plausible ACT-R based computational model serving as a full fledged teammate." 
-        },
-        {
-            "title": "Code Blue Resuscitations & Teamwork", 
-            "collaborators": "Nancy Cooke, Ayan Sen",
-            "desc": "Investigations into better understanding the teamwork that occurs during code blue resuscitations. More specifically, this work has focused on the impact that multiple variables of team cognition have on teamwork within this context." 
-        },
-        {
-            "title": "The Role of Team Cognition During Stem Cell Therapy and Palliative Care", 
-            "collaborators": "Nancy Cooke, Ayan Sen",
-            "desc": "Palliative care is an extremely complicated process involving multiple medical practitioners and family members having to make critical decisions about end of life care. Unfortunately, far too often these decisions are disjointed and lead to lack of shared understanding among the providers and the family. This research seeks to better understand how joint cognition can be utilized to make more effective shared decisions." 
-        },
-        {
-            "title": "Theoretical & Methodological Methods to Studying Team Cognition During Sports", 
-            "collaborators": "Nancy Cooke, Rob Gray",
-            "desc": "Work focused on advancing the conceptual understanding and application of team cognition during team sports. Up to this point, team cognition has rarely been studied within the context of team sports, resulting in a lack of theoretical and methodological methods to accurately study the relationship of team cognition and sports. Within this overarching project, multiple studies have and are being conducted to identify the impact that team cognition has on team sports. More specifically, studies in collaboration with university level varsity teams are resulting in a better understanding of how team cognition develops and occurs during team sports. In addition, conceptual pieces and methods for studying team cognition within this context have been published and identified within this overall project." 
-        },
-        {
-            "title": "Human Systems Engineering of Gas Ballooning", 
-            "collaborators": "Nancy Cooke, Steven Shope",
-            "desc": "A study focused on understanding the real time cognition of two gas balloonists while they set a world record for duration and distance of a gas balloon. Multiple cognitively oriented measurements were taken, resulting in real time data from the pilots while they were flying. This data was then analyzed on the fly and recommendations were made to mission control." 
-        }
-    ],
-    "pastResearch": [
-        {
-            "title": "The Role of Team Cognition During Collaborative Information Seeking *Dissertation*", 
-            "collaborators": "Madhu Reddy, Susan Mohammed, Jim Jansen, Shawn Clark",
-            "desc": "Investigation on the role of team cognition during collaborative information seeking (CIS). The success of a team is dependent on the activity of CIS, as the team must find relevant information to accurately and successfully solve a problem. To this point, CIS has mainly been studied from an interactional perspective, with very little focus on team cognition. This work focuses on understanding the development of cognitive processes during CIS. More specifically, the cognitive construct, the team mental model, was examined. Teams conducted a CIS task and then cognitive interviews and individual/team concept maps were collected in both face-to-face and distributed conditions. In addition, evaluations of CIS tools were conducted with specific inquiry into understanding what features have the ability to help/hurt team cognition during CIS. Analysis indicated that the development of team cognition is readily apparent during CIS, and that it significantly impacts a teams’ CIS work in many ways." 
-        },
-        {
-            "title": "Non-Traditional Clinical Users of the Electronic Medical Record (EMR)", 
-            "collaborators": "Madhu Reddy, Chris DeFlitch",
-            "desc": "Work focused on how non-traditional clinical users (social workers, medical secretaries, physical therapists) interact with and use the EMR. Qualitative work was utilized to understand how these users collaborate via the EMR. In addition, potential design implications were developed to better equip the EMR to support these users."
-        },
-        {
-            "title": "Team Performance in Real & Virtual Worlds", 
-            "collaborators": "Mark Pfaff, Gerry Santoro, Michael McNeese",
-            "desc": "Experimental investigation on the effectiveness of distributed cognition in face-to-face, teleconferencing, and virtual communication mediums. Team performance was captured and analyzed. Results showed that team members perceived the face-to-face modality to better aid the team than the virtual world or the auditory teleconferencing mode, yet the data also showed an experience-based bias toward face-to-face interaction." 
-        },
-        {
-            "title": "Enhanced Messaging for Emergency Response (EMERSE)", 
-            "collaborators": "John Yen, Lee Giles, Jim Jansen, Andrea Tapia, Prasenjit Mitra",
-            "desc": "Investigation on how text messaging can be better utilized within third world countries during emergencies. The specific emergency that this project focused on was the Haiti earthquake, in which we had access to real world text message through the Ushahidi platform." 
-        },
-        {
-            "title": "Human Centered Fusion: The Characterization of Soft Sensors", 
-            "collaborators": "David Hall, James Llinas", 
-            "desc": "Work focused on the collaboration and synthesis of hard and soft data. Specifically, in this study humans were characterized as soft sensors that have the ability to observe data and be active sensors. This study successfully developed specific characterizations of soft sensors, a framework for modeling performance, and a literature review on human observational performance." 
-        },
-        {
-            "title": "Hospital-to-Hospital Health Information Technology Partnerships: A New Model for IT Diffusion in Rural Hospitals", 
-            "collaborators": "Madhu Reddy, Sandeep Purao",
-            "desc": "Study of the benefits, critical success factors, and challenges related to the hospital-to-hospital partnership (HHP). In-depth qualitative work and a broad survey were both utilized to further understand and gauge hospitals interest in such a partnership." 
-        },
-        {
-            "title": "Collaborative Information Behavior (CIB)", 
-            "collaborators": "Madhu Reddy",
-            "desc": "Investigation into what collaborative information behavior is. Specifically, how does CIB differ from individual information behavior, what role do current information retrieval tools play, what are the design requirements for collaborative information retrieval (CIR). Work was done within the healthcare domain, which focused on patient care teams and IT teams." 
-        }
-    ],
+    ]
 }
 
-},{}],2:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -358,7 +362,7 @@ var Events = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Events;
-},{"react":33,"react-dom":30}],3:[function(require,module,exports){
+},{"react":34,"react-dom":31}],4:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -425,7 +429,7 @@ var NavBar = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = NavBar;
-},{"react":33,"react-dom":30}],4:[function(require,module,exports){
+},{"react":34,"react-dom":31}],5:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -495,7 +499,7 @@ var Publication = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Publication;
-},{"react":33,"react-dom":30}],5:[function(require,module,exports){
+},{"react":34,"react-dom":31}],6:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -516,9 +520,9 @@ var _Publication = require("./Publication");
 
 var _Publication2 = _interopRequireDefault(_Publication);
 
-var _mcneeseData = require("../data/mcneeseData.json");
+var _publications = require("../data/publications.json");
 
-var _mcneeseData2 = _interopRequireDefault(_mcneeseData);
+var _publications2 = _interopRequireDefault(_publications);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -536,7 +540,7 @@ var Publications = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (Publications.__proto__ || Object.getPrototypeOf(Publications)).call(this, props));
 
-        _this.state = _mcneeseData2.default;
+        _this.state = _publications2.default;
         return _this;
     }
 
@@ -647,7 +651,7 @@ var Publications = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Publications;
-},{"../data/mcneeseData.json":1,"./Publication":4,"react":33,"react-dom":30}],6:[function(require,module,exports){
+},{"../data/publications.json":2,"./Publication":5,"react":34,"react-dom":31}],7:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -720,7 +724,7 @@ var ResearchStudy = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = ResearchStudy;
-},{"react":33,"react-dom":30}],7:[function(require,module,exports){
+},{"react":34,"react-dom":31}],8:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -791,7 +795,7 @@ var Student = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Student;
-},{"react":33,"react-dom":30}],8:[function(require,module,exports){
+},{"react":34,"react-dom":31}],9:[function(require,module,exports){
 "use strict";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -997,7 +1001,7 @@ var Main = function (_React$Component) {
 }(_react2.default.Component);
 
 _reactDom2.default.render(_react2.default.createElement(Main, null), document.getElementById("main"));
-},{"../data/mcneeseData.json":1,"./Events":2,"./NavBar":3,"./Publication":4,"./Publications":5,"./ResearchStudy":6,"./Student":7,"react":33,"react-dom":30}],9:[function(require,module,exports){
+},{"../data/mcneeseData.json":1,"./Events":3,"./NavBar":4,"./Publication":5,"./Publications":6,"./ResearchStudy":7,"./Student":8,"react":34,"react-dom":31}],10:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -1074,7 +1078,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":14,"_process":34}],10:[function(require,module,exports){
+},{"./emptyFunction":15,"_process":35}],11:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1108,7 +1112,7 @@ var ExecutionEnvironment = {
 };
 
 module.exports = ExecutionEnvironment;
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 "use strict";
 
 /**
@@ -1138,7 +1142,7 @@ function camelize(string) {
 }
 
 module.exports = camelize;
-},{}],12:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1176,7 +1180,7 @@ function camelizeStyleName(string) {
 }
 
 module.exports = camelizeStyleName;
-},{"./camelize":11}],13:[function(require,module,exports){
+},{"./camelize":12}],14:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1214,7 +1218,7 @@ function containsNode(outerNode, innerNode) {
 }
 
 module.exports = containsNode;
-},{"./isTextNode":22}],14:[function(require,module,exports){
+},{"./isTextNode":23}],15:[function(require,module,exports){
 "use strict";
 
 /**
@@ -1251,7 +1255,7 @@ emptyFunction.thatReturnsArgument = function (arg) {
 };
 
 module.exports = emptyFunction;
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1271,7 +1275,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":34}],16:[function(require,module,exports){
+},{"_process":35}],17:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1296,7 +1300,7 @@ function focusNode(node) {
 }
 
 module.exports = focusNode;
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1333,7 +1337,7 @@ function getActiveElement(doc) /*?DOMElement*/{
 }
 
 module.exports = getActiveElement;
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1364,7 +1368,7 @@ function hyphenate(string) {
 }
 
 module.exports = hyphenate;
-},{}],19:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1401,7 +1405,7 @@ function hyphenateStyleName(string) {
 }
 
 module.exports = hyphenateStyleName;
-},{"./hyphenate":18}],20:[function(require,module,exports){
+},{"./hyphenate":19}],21:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1457,7 +1461,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":34}],21:[function(require,module,exports){
+},{"_process":35}],22:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1480,7 +1484,7 @@ function isNode(object) {
 }
 
 module.exports = isNode;
-},{}],22:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1503,7 +1507,7 @@ function isTextNode(object) {
 }
 
 module.exports = isTextNode;
-},{"./isNode":21}],23:[function(require,module,exports){
+},{"./isNode":22}],24:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1569,7 +1573,7 @@ function shallowEqual(objA, objB) {
 }
 
 module.exports = shallowEqual;
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
@@ -1634,7 +1638,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":14,"_process":34}],25:[function(require,module,exports){
+},{"./emptyFunction":15,"_process":35}],26:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -1726,7 +1730,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1789,7 +1793,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 module.exports = checkPropTypes;
 
 }).call(this,require('_process'))
-},{"./lib/ReactPropTypesSecret":27,"_process":34,"fbjs/lib/invariant":20,"fbjs/lib/warning":24}],27:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":28,"_process":35,"fbjs/lib/invariant":21,"fbjs/lib/warning":25}],28:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1803,7 +1807,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
 
-},{}],28:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 (function (process){
 /** @license React v16.1.1
  * react-dom.development.js
@@ -17207,7 +17211,7 @@ module.exports = reactDom;
 }
 
 }).call(this,require('_process'))
-},{"_process":34,"fbjs/lib/EventListener":9,"fbjs/lib/ExecutionEnvironment":10,"fbjs/lib/camelizeStyleName":12,"fbjs/lib/containsNode":13,"fbjs/lib/emptyFunction":14,"fbjs/lib/emptyObject":15,"fbjs/lib/focusNode":16,"fbjs/lib/getActiveElement":17,"fbjs/lib/hyphenateStyleName":19,"fbjs/lib/invariant":20,"fbjs/lib/shallowEqual":23,"fbjs/lib/warning":24,"object-assign":25,"prop-types/checkPropTypes":26,"react":33}],29:[function(require,module,exports){
+},{"_process":35,"fbjs/lib/EventListener":10,"fbjs/lib/ExecutionEnvironment":11,"fbjs/lib/camelizeStyleName":13,"fbjs/lib/containsNode":14,"fbjs/lib/emptyFunction":15,"fbjs/lib/emptyObject":16,"fbjs/lib/focusNode":17,"fbjs/lib/getActiveElement":18,"fbjs/lib/hyphenateStyleName":20,"fbjs/lib/invariant":21,"fbjs/lib/shallowEqual":24,"fbjs/lib/warning":25,"object-assign":26,"prop-types/checkPropTypes":27,"react":34}],30:[function(require,module,exports){
 /** @license React v16.1.1
  * react-dom.production.min.js
  *
@@ -17436,7 +17440,7 @@ var Og={createPortal:Mg,findDOMNode:function(a){if(null==a)return null;if(1===a.
 D("40");return a._reactRootContainer?(Z.unbatchedUpdates(function(){Lg(null,null,a,!1,function(){a._reactRootContainer=null})}),!0):!1},unstable_createPortal:Mg,unstable_batchedUpdates:tc,unstable_deferredUpdates:Z.deferredUpdates,flushSync:Z.flushSync,__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{EventPluginHub:nb,EventPluginRegistry:Ua,EventPropagators:Cb,ReactControlledComponent:qc,ReactDOMComponentTree:tb,ReactDOMEventListener:td}};
 Z.injectIntoDevTools({findFiberByHostInstance:qb,bundleType:0,version:"16.1.1",rendererPackageName:"react-dom"});var Pg=Object.freeze({default:Og}),Qg=Pg&&Og||Pg;module.exports=Qg["default"]?Qg["default"]:Qg;
 
-},{"fbjs/lib/EventListener":9,"fbjs/lib/ExecutionEnvironment":10,"fbjs/lib/containsNode":13,"fbjs/lib/emptyFunction":14,"fbjs/lib/emptyObject":15,"fbjs/lib/focusNode":16,"fbjs/lib/getActiveElement":17,"fbjs/lib/shallowEqual":23,"object-assign":25,"react":33}],30:[function(require,module,exports){
+},{"fbjs/lib/EventListener":10,"fbjs/lib/ExecutionEnvironment":11,"fbjs/lib/containsNode":14,"fbjs/lib/emptyFunction":15,"fbjs/lib/emptyObject":16,"fbjs/lib/focusNode":17,"fbjs/lib/getActiveElement":18,"fbjs/lib/shallowEqual":24,"object-assign":26,"react":34}],31:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -17478,7 +17482,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react-dom.development.js":28,"./cjs/react-dom.production.min.js":29,"_process":34}],31:[function(require,module,exports){
+},{"./cjs/react-dom.development.js":29,"./cjs/react-dom.production.min.js":30,"_process":35}],32:[function(require,module,exports){
 (function (process){
 /** @license React v16.1.1
  * react.development.js
@@ -18825,7 +18829,7 @@ module.exports = react;
 }
 
 }).call(this,require('_process'))
-},{"_process":34,"fbjs/lib/emptyFunction":14,"fbjs/lib/emptyObject":15,"fbjs/lib/invariant":20,"fbjs/lib/warning":24,"object-assign":25,"prop-types/checkPropTypes":26}],32:[function(require,module,exports){
+},{"_process":35,"fbjs/lib/emptyFunction":15,"fbjs/lib/emptyObject":16,"fbjs/lib/invariant":21,"fbjs/lib/warning":25,"object-assign":26,"prop-types/checkPropTypes":27}],33:[function(require,module,exports){
 /** @license React v16.1.1
  * react.production.min.js
  *
@@ -18849,7 +18853,7 @@ var R={Children:{map:function(a,b,e){if(null==a)return a;var d=[];Q(a,d,null,b,e
 k=a._owner;if(null!=b){void 0!==b.ref&&(h=b.ref,k=z.current);void 0!==b.key&&(c=""+b.key);if(a.type&&a.type.defaultProps)var f=a.type.defaultProps;for(g in b)A.call(b,g)&&!C.hasOwnProperty(g)&&(d[g]=void 0===b[g]&&void 0!==f?f[g]:b[g])}var g=arguments.length-2;if(1===g)d.children=e;else if(1<g){f=Array(g);for(var l=0;l<g;l++)f[l]=arguments[l+2];d.children=f}return{$$typeof:B,type:a.type,key:c,ref:h,props:d,_owner:k}},createFactory:function(a){var b=D.bind(null,a);b.type=a;return b},isValidElement:E,
 version:"16.1.1",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:z,assign:m}},S=Object.freeze({default:R}),T=S&&R||S;module.exports=T["default"]?T["default"]:T;
 
-},{"fbjs/lib/emptyFunction":14,"fbjs/lib/emptyObject":15,"object-assign":25}],33:[function(require,module,exports){
+},{"fbjs/lib/emptyFunction":15,"fbjs/lib/emptyObject":16,"object-assign":26}],34:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -18860,7 +18864,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react.development.js":31,"./cjs/react.production.min.js":32,"_process":34}],34:[function(require,module,exports){
+},{"./cjs/react.development.js":32,"./cjs/react.production.min.js":33,"_process":35}],35:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -19046,4 +19050,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[8]);
+},{}]},{},[9]);
