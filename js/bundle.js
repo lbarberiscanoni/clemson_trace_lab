@@ -1,12 +1,30 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+module.exports={
+    "mcneese_title": [
+      "Assistant Professor of Human-Centered Computing,",
+      "Director of TRACE Research Group,",
+      "Clemson University"
+    ],
+    "mcneese_picture_url": "https://nathanmcneese.weebly.com/uploads/1/2/6/1/12617833/published/_7200551.jpg",
+    "mcneese_about_text":[
+      "Greetings! I am an Assistant Professor and Director of the Team Research Analytics in Computational Environments (TRACE) Research Group within the division of Human-Centered Computing in the School of Computing at Clemson University. I received my PhD in Information Sciences & Technology with a focus on Team Decision Making, Cognition, and Computer Supported Collaborative Work from The Pennsylvania State University in the fall of 2014.",
+      "After graduation, I accepted a position to be a Postdoctoral Scholar and Research Associate in Human Systems Engineering at Arizona State University working directly with Dr. Nancy Cooke.",
+      "My research interests are wide ranging and interdisciplinary, but can be generally linked to the integration of:\n -Human Factors\n -Human Computer Interaction\n -Computer Supported Cooperative Work\n -Information Sciences",
+      "For over 10 years, I have conducted research on many topics within a variety of different contexts. My current research interests span across the study of individual and team cognition, the development and design of human-centered tools and systems, continued development and refinement of cognitive engineering methods, context specific measurement of team cognition, the interplay between team interaction and team cognition, the development and application of unmanned aerial vehicles, and human robot interaction. Specific contexts that I have conducted my research in: healthcare systems, homeland security, command and control, emergency crisis management, and educational learning. Throughout all of my research, I typically use multiple mixed methods to understand the context, work, and roles specific to the development of individual and team cognition. As a result of my work, my research has been published multiple times in numerous research communities.",
+      "Research Interests & Expertise: Human factors, team decision-making, human-computer interaction, computer-supported cooperative work, team cognition, cognitive science, usability research and design, collaborative system design, human-centered design, team mental models, mental models, collaboration, collaborative information seeking, cognitive task analysis, knowledge elicitation, human autonomy teaming, healthcare systems, big data, simulations, cybersecurity",
+      "Research Methods: A/B testing, card sorting, cognitive walkthrough, concept mapping, contextual inquiry, ethnography, experimental design, focus groups, heuristic evaluation, interviewing, personas, prototyping, scenarios, surveying, task analysis, usability testing, wireframing",
+    ],
+}
+
+},{}],2:[function(require,module,exports){
 module.exports={
     "blog_posts": [
         {
-            "link": "https://medium.com/@cu_trace_lab/test-1-37b82ecca349", 
+            "link": "https://medium.com/@cu_trace_lab/test-1-37b82ecca349",
             "name": "Test 1"
         },
         {
-            "link": "https://medium.com/@cu_trace_lab/test-2-96a57e55eb08", 
+            "link": "https://medium.com/@cu_trace_lab/test-2-96a57e55eb08",
             "name": "Test 2"
         },
         {
@@ -35,149 +53,144 @@ module.exports={
         {
             "name": "Lorenzo",
             "pic": "https://my.clemson.edu/app/resources/img/paw.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.x"
+            "description": "PhD Student"
         },
 		{
             "name": "Bekk",
             "pic": "https://my.clemson.edu/app/resources/img/paw.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+            "description": "Undergraduate Computer Science Student"
         },
 		{
             "name": "Rafael",
             "pic": "https://my.clemson.edu/app/resources/img/paw.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+            "description": "Undergraduate Computer Science Student"
         }
     ],
     "currentResearch": [
         {
-            "title": "Designing for Team Cognition", 
-            "desc": "There is little known about how to actually apply human computer interaction principles to adequately help in the development of team cognition. While much is known about HCI and team cognition separately, there is a knowledge gap in understanding their shared relationship. This study includes multiple investigations into better understanding what HCI design principles are imperative to team cognition. Through these investigations, we are starting to understand how to design interfaces and systems to best allow for team cognition.", 
+            "title": "Designing for Team Cognition",
+            "desc": "There is little known about how to actually apply human computer interaction principles to adequately help in the development of team cognition. While much is known about HCI and team cognition separately, there is a knowledge gap in understanding their shared relationship. This study includes multiple investigations into better understanding what HCI design principles are imperative to team cognition. Through these investigations, we are starting to understand how to design interfaces and systems to best allow for team cognition.",
             "collaborators": "Nancy Cooke"
         },
         {
-            "title": "The Cognitive Science & Human Factors of Intelligence Analysis", 
-            "desc": "Multiple investigations into better understanding how intelligence analysts conduct their work. Currently, little is actually known from a Human Factors or Cognitive Science perspective about how intelligence analysts complete individual and team based work. Moving forward, it is necessary to learn more about what the analysts’ work is like in order to better design user centered technologies to aid in their analysis. Literature reviews, surveys, and experiments are currently taking place to better understand intelligence analysts’ work. This work is part of a $20M funding agreement with the National Geospatial Agency.", 
+            "title": "The Cognitive Science & Human Factors of Intelligence Analysis",
+            "desc": "Multiple investigations into better understanding how intelligence analysts conduct their work. Currently, little is actually known from a Human Factors or Cognitive Science perspective about how intelligence analysts complete individual and team based work. Moving forward, it is necessary to learn more about what the analysts’ work is like in order to better design user centered technologies to aid in their analysis. Literature reviews, surveys, and experiments are currently taking place to better understand intelligence analysts’ work. This work is part of a $20M funding agreement with the National Geospatial Agency.",
             "collaborators": "Nancy Cooke, Ross Maciejewski, Nadya Bliss, Dave White"
-        },  
+        },
         {
-            "title": "Information Visualization of Big Data for Team Based Cognition", 
+            "title": "Information Visualization of Big Data for Team Based Cognition",
             "desc": "Investigations into the impact of different information visualization techniques and how they subsequently impact the development of team cognition. An empirical testbed was created that allows individuals, groups, and teams to make movie box office predications using multiple information visualizations directly linked to big data. Qualitative and quantitative measurements are currently being recorded to better understand the relationship of information visualization and team cognition, in addition to information visualizations impact on performance in the individual, group, and team condition.",
             "collaborators": "Nancy Cooke, Ross Maciejewski" },
         {
-            "title": "Human Automation Teaming & the Development of a Synthetic Teammate", 
+            "title": "Human Automation Teaming & the Development of a Synthetic Teammate",
             "collaborators": "Nancy Cooke",
-            "desc": "Work focused on better understanding the the relationship between humans who team with automated systems. More specifically, experiments are being conducted that further explore the interactions between a synthetic teammate and human teammates in the context of an unmanned air vehicle synthetic task environments. In this environment there are 3 roles within the team: Air Vehicle Operator, Mission Planner, and Payload Operator. Teamwork must occur between and among all three roles for a successful mission to be accomplished. In experiments focused on the synthetic teammate interaction, the Air Vehicle Operator is a cognitively plausible ACT-R based computational model serving as a full fledged teammate." 
+            "desc": "Work focused on better understanding the the relationship between humans who team with automated systems. More specifically, experiments are being conducted that further explore the interactions between a synthetic teammate and human teammates in the context of an unmanned air vehicle synthetic task environments. In this environment there are 3 roles within the team: Air Vehicle Operator, Mission Planner, and Payload Operator. Teamwork must occur between and among all three roles for a successful mission to be accomplished. In experiments focused on the synthetic teammate interaction, the Air Vehicle Operator is a cognitively plausible ACT-R based computational model serving as a full fledged teammate."
         },
         {
-            "title": "Code Blue Resuscitations & Teamwork", 
+            "title": "Code Blue Resuscitations & Teamwork",
             "collaborators": "Nancy Cooke, Ayan Sen",
-            "desc": "Investigations into better understanding the teamwork that occurs during code blue resuscitations. More specifically, this work has focused on the impact that multiple variables of team cognition have on teamwork within this context." 
+            "desc": "Investigations into better understanding the teamwork that occurs during code blue resuscitations. More specifically, this work has focused on the impact that multiple variables of team cognition have on teamwork within this context."
         },
         {
-            "title": "The Role of Team Cognition During Stem Cell Therapy and Palliative Care", 
+            "title": "The Role of Team Cognition During Stem Cell Therapy and Palliative Care",
             "collaborators": "Nancy Cooke, Ayan Sen",
-            "desc": "Palliative care is an extremely complicated process involving multiple medical practitioners and family members having to make critical decisions about end of life care. Unfortunately, far too often these decisions are disjointed and lead to lack of shared understanding among the providers and the family. This research seeks to better understand how joint cognition can be utilized to make more effective shared decisions." 
+            "desc": "Palliative care is an extremely complicated process involving multiple medical practitioners and family members having to make critical decisions about end of life care. Unfortunately, far too often these decisions are disjointed and lead to lack of shared understanding among the providers and the family. This research seeks to better understand how joint cognition can be utilized to make more effective shared decisions."
         },
         {
-            "title": "Theoretical & Methodological Methods to Studying Team Cognition During Sports", 
+            "title": "Theoretical & Methodological Methods to Studying Team Cognition During Sports",
             "collaborators": "Nancy Cooke, Rob Gray",
-            "desc": "Work focused on advancing the conceptual understanding and application of team cognition during team sports. Up to this point, team cognition has rarely been studied within the context of team sports, resulting in a lack of theoretical and methodological methods to accurately study the relationship of team cognition and sports. Within this overarching project, multiple studies have and are being conducted to identify the impact that team cognition has on team sports. More specifically, studies in collaboration with university level varsity teams are resulting in a better understanding of how team cognition develops and occurs during team sports. In addition, conceptual pieces and methods for studying team cognition within this context have been published and identified within this overall project." 
+            "desc": "Work focused on advancing the conceptual understanding and application of team cognition during team sports. Up to this point, team cognition has rarely been studied within the context of team sports, resulting in a lack of theoretical and methodological methods to accurately study the relationship of team cognition and sports. Within this overarching project, multiple studies have and are being conducted to identify the impact that team cognition has on team sports. More specifically, studies in collaboration with university level varsity teams are resulting in a better understanding of how team cognition develops and occurs during team sports. In addition, conceptual pieces and methods for studying team cognition within this context have been published and identified within this overall project."
         },
         {
-            "title": "Human Systems Engineering of Gas Ballooning", 
+            "title": "Human Systems Engineering of Gas Ballooning",
             "collaborators": "Nancy Cooke, Steven Shope",
-            "desc": "A study focused on understanding the real time cognition of two gas balloonists while they set a world record for duration and distance of a gas balloon. Multiple cognitively oriented measurements were taken, resulting in real time data from the pilots while they were flying. This data was then analyzed on the fly and recommendations were made to mission control." 
+            "desc": "A study focused on understanding the real time cognition of two gas balloonists while they set a world record for duration and distance of a gas balloon. Multiple cognitively oriented measurements were taken, resulting in real time data from the pilots while they were flying. This data was then analyzed on the fly and recommendations were made to mission control."
         }
     ],
     "pastResearch": [
         {
-            "title": "The Role of Team Cognition During Collaborative Information Seeking *Dissertation*", 
+            "title": "The Role of Team Cognition During Collaborative Information Seeking *Dissertation*",
             "collaborators": "Madhu Reddy, Susan Mohammed, Jim Jansen, Shawn Clark",
-            "desc": "Investigation on the role of team cognition during collaborative information seeking (CIS). The success of a team is dependent on the activity of CIS, as the team must find relevant information to accurately and successfully solve a problem. To this point, CIS has mainly been studied from an interactional perspective, with very little focus on team cognition. This work focuses on understanding the development of cognitive processes during CIS. More specifically, the cognitive construct, the team mental model, was examined. Teams conducted a CIS task and then cognitive interviews and individual/team concept maps were collected in both face-to-face and distributed conditions. In addition, evaluations of CIS tools were conducted with specific inquiry into understanding what features have the ability to help/hurt team cognition during CIS. Analysis indicated that the development of team cognition is readily apparent during CIS, and that it significantly impacts a teams’ CIS work in many ways." 
+            "desc": "Investigation on the role of team cognition during collaborative information seeking (CIS). The success of a team is dependent on the activity of CIS, as the team must find relevant information to accurately and successfully solve a problem. To this point, CIS has mainly been studied from an interactional perspective, with very little focus on team cognition. This work focuses on understanding the development of cognitive processes during CIS. More specifically, the cognitive construct, the team mental model, was examined. Teams conducted a CIS task and then cognitive interviews and individual/team concept maps were collected in both face-to-face and distributed conditions. In addition, evaluations of CIS tools were conducted with specific inquiry into understanding what features have the ability to help/hurt team cognition during CIS. Analysis indicated that the development of team cognition is readily apparent during CIS, and that it significantly impacts a teams’ CIS work in many ways."
         },
         {
-            "title": "Non-Traditional Clinical Users of the Electronic Medical Record (EMR)", 
+            "title": "Non-Traditional Clinical Users of the Electronic Medical Record (EMR)",
             "collaborators": "Madhu Reddy, Chris DeFlitch",
             "desc": "Work focused on how non-traditional clinical users (social workers, medical secretaries, physical therapists) interact with and use the EMR. Qualitative work was utilized to understand how these users collaborate via the EMR. In addition, potential design implications were developed to better equip the EMR to support these users."
         },
         {
-            "title": "Team Performance in Real & Virtual Worlds", 
+            "title": "Team Performance in Real & Virtual Worlds",
             "collaborators": "Mark Pfaff, Gerry Santoro, Michael McNeese",
-            "desc": "Experimental investigation on the effectiveness of distributed cognition in face-to-face, teleconferencing, and virtual communication mediums. Team performance was captured and analyzed. Results showed that team members perceived the face-to-face modality to better aid the team than the virtual world or the auditory teleconferencing mode, yet the data also showed an experience-based bias toward face-to-face interaction." 
+            "desc": "Experimental investigation on the effectiveness of distributed cognition in face-to-face, teleconferencing, and virtual communication mediums. Team performance was captured and analyzed. Results showed that team members perceived the face-to-face modality to better aid the team than the virtual world or the auditory teleconferencing mode, yet the data also showed an experience-based bias toward face-to-face interaction."
         },
         {
-            "title": "Enhanced Messaging for Emergency Response (EMERSE)", 
+            "title": "Enhanced Messaging for Emergency Response (EMERSE)",
             "collaborators": "John Yen, Lee Giles, Jim Jansen, Andrea Tapia, Prasenjit Mitra",
-            "desc": "Investigation on how text messaging can be better utilized within third world countries during emergencies. The specific emergency that this project focused on was the Haiti earthquake, in which we had access to real world text message through the Ushahidi platform." 
+            "desc": "Investigation on how text messaging can be better utilized within third world countries during emergencies. The specific emergency that this project focused on was the Haiti earthquake, in which we had access to real world text message through the Ushahidi platform."
         },
         {
-            "title": "Human Centered Fusion: The Characterization of Soft Sensors", 
-            "collaborators": "David Hall, James Llinas", 
-            "desc": "Work focused on the collaboration and synthesis of hard and soft data. Specifically, in this study humans were characterized as soft sensors that have the ability to observe data and be active sensors. This study successfully developed specific characterizations of soft sensors, a framework for modeling performance, and a literature review on human observational performance." 
+            "title": "Human Centered Fusion: The Characterization of Soft Sensors",
+            "collaborators": "David Hall, James Llinas",
+            "desc": "Work focused on the collaboration and synthesis of hard and soft data. Specifically, in this study humans were characterized as soft sensors that have the ability to observe data and be active sensors. This study successfully developed specific characterizations of soft sensors, a framework for modeling performance, and a literature review on human observational performance."
         },
         {
-            "title": "Hospital-to-Hospital Health Information Technology Partnerships: A New Model for IT Diffusion in Rural Hospitals", 
+            "title": "Hospital-to-Hospital Health Information Technology Partnerships: A New Model for IT Diffusion in Rural Hospitals",
             "collaborators": "Madhu Reddy, Sandeep Purao",
-            "desc": "Study of the benefits, critical success factors, and challenges related to the hospital-to-hospital partnership (HHP). In-depth qualitative work and a broad survey were both utilized to further understand and gauge hospitals interest in such a partnership." 
+            "desc": "Study of the benefits, critical success factors, and challenges related to the hospital-to-hospital partnership (HHP). In-depth qualitative work and a broad survey were both utilized to further understand and gauge hospitals interest in such a partnership."
         },
         {
-            "title": "Collaborative Information Behavior (CIB)", 
+            "title": "Collaborative Information Behavior (CIB)",
             "collaborators": "Madhu Reddy",
-            "desc": "Investigation into what collaborative information behavior is. Specifically, how does CIB differ from individual information behavior, what role do current information retrieval tools play, what are the design requirements for collaborative information retrieval (CIR). Work was done within the healthcare domain, which focused on patient care teams and IT teams." 
+            "desc": "Investigation into what collaborative information behavior is. Specifically, how does CIB differ from individual information behavior, what role do current information retrieval tools play, what are the design requirements for collaborative information retrieval (CIR). Work was done within the healthcare domain, which focused on patient care teams and IT teams."
         }
     ]
 }
 
-},{}],2:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
 module.exports={
     "dissertation":[
         {
-            "title": "The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making", 
+            "title": "The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making",
             "desc":"McNeese, N. (2014) The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making. The Pennsylvania State University. Doctoral Dissertation."
         }
     ],
     "articlesAndChapters":[
         {
-            //"title": "Teaming with a Synthetic Teammate: Insights into Human Autonomy Teaming", 
-            "desc": "McNeese, N., *Demir, M., Cooke, N., & Myers, C. (Accepted). Teaming with a Synthetic Teammate: Insights into Human Autonomy Teaming. Human Factors." 
+            //"title": "Teaming with a Synthetic Teammate: Insights into Human Autonomy Teaming",
+            "desc": "McNeese, N., *Demir, M., Cooke, N., & Myers, C. (Accepted). Teaming with a Synthetic Teammate: Insights into Human Autonomy Teaming. Human Factors."
         },
         {
-            "title": "", 
-            "desc": "*Buchanan, V., Lu, Y., McNeese, N., Steptoe, M., Maciejewski, R., & Cooke, N. The Role of Teamwork in the Analysis of Big Data- A Study of Visual Analytics and Box Office Prediction. (2017). Big Data. 5 (1), 53-66." 
+            "title": "",
+            "desc": "*Buchanan, V., Lu, Y., McNeese, N., Steptoe, M., Maciejewski, R., & Cooke, N. The Role of Teamwork in the Analysis of Big Data- A Study of Visual Analytics and Box Office Prediction. (2017). Big Data. 5 (1), 53-66."
         },
         {
-            "title": "", 
-            "desc": "*Demir, M., McNeese, N., & Cooke, N. (2017). Team Situational Awareness within the Context of Human-Autonomy Teaming. Cognitive Systems Research. Cognitive Systems Research. 46, 3-12." 
+            "title": "",
+            "desc": "*Demir, M., McNeese, N., & Cooke, N. (2017). Team Situational Awareness within the Context of Human-Autonomy Teaming. Cognitive Systems Research. Cognitive Systems Research. 46, 3-12."
         },
         {
-            "title": "", 
-            "desc": "McNeese, N., Cooke, N., Branaghan, R., Knobloch, A., & Taylor, A. (2016). Leveraging Expertise in Identification of the Emplacement of Improvised Explosive Devices for Mission Payload Operator Training. Applied Ergonomics. 60, 43-51." 
+            "title": "",
+            "desc": "McNeese, N., Cooke, N., Branaghan, R., Knobloch, A., & Taylor, A. (2016). Leveraging Expertise in Identification of the Emplacement of Improvised Explosive Devices for Mission Payload Operator Training. Applied Ergonomics. 60, 43-51."
         },
         {
-            "title": "", 
-            "desc": "McNeese, N., Khera, N., Wordingham, S., Arring, N., Nyquist, S., Gentry, A., Tomlinson, B., Cooke, N., & Sen, A. (2016). Applying the Science of Teams to Improve Critically Ill Cancer Care Delivery in Hematopoietic Stem Cell Transplant Patients. Journal of Oncology Practice. JOPR013672." 
+            "title": "",
+            "desc": "McNeese, N., Khera, N., Wordingham, S., Arring, N., Nyquist, S., Gentry, A., Tomlinson, B., Cooke, N., & Sen, A. (2016). Applying the Science of Teams to Improve Critically Ill Cancer Care Delivery in Hematopoietic Stem Cell Transplant Patients. Journal of Oncology Practice. JOPR013672."
         },
         {
-            "title": "", 
-            "desc": "McNeese, N. & Reddy, M. (2015) The Role of Team Cognition in Collaborative Information Seeking. Journal of the Association for Information Science and Technology. doi: 10.1002/asi.23614" 
+            "title": "",
+            "desc": "McNeese, N. & Reddy, M. (2015) The Role of Team Cognition in Collaborative Information Seeking. Journal of the Association for Information Science and Technology. doi: 10.1002/asi.23614"
         },
         {
-            "title": "", 
-            "desc": "McNeese. N., *Demir, M., & Reddy, M. (Forthcoming) \"Methodological Techniques and Approaches to Developing Empirical Insights of Cognition During Collaborative Information Seeking\", Chapter in Cognitive Systems Engineering: An Integrative Living Lab Framework. CRC Taylor & Francis." 
+            "title": "",
+            "desc": "McNeese. N., *Demir, M., & Reddy, M. (Forthcoming) \"Methodological Techniques and Approaches to Developing Empirical Insights of Cognition During Collaborative Information Seeking\", Chapter in Cognitive Systems Engineering: An Integrative Living Lab Framework. CRC Taylor & Francis."
         },
         {
-            "title": "", 
-            "desc": "McNeese. N., Cooke, N., *Fedele, M., & Gray, R. (2016) \"Perspectives on Team Cognition and Team Sports\", Chapter in Sport and Exercise Psychology Research. European Federation of Sport Psychology." 
+            "title": "",
+            "desc": "McNeese. N., Cooke, N., *Fedele, M., & Gray, R. (2016) \"Perspectives on Team Cognition and Team Sports\", Chapter in Sport and Exercise Psychology Research. European Federation of Sport Psychology."
         },
         {
-            "title": "", 
-            "desc": "Hall, D., McNeese, N., & Llinas J. (2010) \"H-Space: Humans as Observers\", Chapter 3 in Human-Centered Fusion, D. Hall and J. Jordan. pg. 59-84. Artech House." 
+            "title": "",
+            "desc": "Hall, D., McNeese, N., & Llinas J. (2010) \"H-Space: Humans as Observers\", Chapter 3 in Human-Centered Fusion, D. Hall and J. Jordan. pg. 59-84. Artech House."
         }
-        /*                
-        {
-            "title": "", 
-            "desc": "" 
-        },*/
     ],
     "refereedConferencePapers": [
         {
@@ -298,7 +311,78 @@ module.exports={
     ]
 }
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require("react");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require("react-dom");
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var AboutMcNeese = function (_React$Component) {
+    _inherits(AboutMcNeese, _React$Component);
+
+    function AboutMcNeese(props) {
+        _classCallCheck(this, AboutMcNeese);
+
+        return _possibleConstructorReturn(this, (AboutMcNeese.__proto__ || Object.getPrototypeOf(AboutMcNeese)).call(this, props));
+    }
+
+    _createClass(AboutMcNeese, [{
+        key: "render",
+        value: function render() {
+
+            return _react2.default.createElement(
+                "div",
+                null,
+                this.props.title && _react2.default.createElement(
+                    "h3",
+                    null,
+                    " ",
+                    this.props.title,
+                    " "
+                ),
+                _react2.default.createElement(
+                    "p",
+                    null,
+                    " ",
+                    this.props.desc,
+                    " "
+                ),
+                this.props.comment && _react2.default.createElement(
+                    "p",
+                    null,
+                    " ",
+                    this.props.comment,
+                    " "
+                ),
+                _react2.default.createElement("p", null)
+            );
+        }
+    }]);
+
+    return AboutMcNeese;
+}(_react2.default.Component);
+
+exports.default = AboutMcNeese;
+},{"react":37,"react-dom":34}],5:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -361,7 +445,7 @@ var Events = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Events;
-},{"react":35,"react-dom":32}],4:[function(require,module,exports){
+},{"react":37,"react-dom":34}],6:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -439,7 +523,7 @@ var Events = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Events;
-},{"react":35,"react-dom":32}],5:[function(require,module,exports){
+},{"react":37,"react-dom":34}],7:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -483,7 +567,7 @@ var NavBar = function (_React$Component) {
         value: function render() {
             var _this2 = this;
 
-            var sections = ["Home", "Research", "Publications", "Students"];
+            var sections = ["Home", "Dr. McNeese", "Research", "Publications", "Students"];
             var nav_components = [];
             sections.map(function (x) {
                 nav_components.push(_react2.default.createElement(
@@ -506,7 +590,7 @@ var NavBar = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = NavBar;
-},{"react":35,"react-dom":32}],6:[function(require,module,exports){
+},{"react":37,"react-dom":34}],8:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -545,29 +629,32 @@ var Publication = function (_React$Component) {
         value: function render() {
             return _react2.default.createElement(
                 "div",
-                null,
-                this.props.title && _react2.default.createElement(
-                    "h3",
-                    null,
-                    " ",
-                    this.props.title,
-                    " "
-                ),
+                { className: "card" },
                 _react2.default.createElement(
-                    "p",
-                    null,
-                    " ",
-                    this.props.desc,
-                    " "
-                ),
-                this.props.comment && _react2.default.createElement(
-                    "p",
-                    null,
-                    " ",
-                    this.props.comment,
-                    " "
-                ),
-                _react2.default.createElement("p", null)
+                    "div",
+                    { className: "card-body" },
+                    this.props.title && _react2.default.createElement(
+                        "h5",
+                        { className: "card-title" },
+                        " ",
+                        this.props.title,
+                        " "
+                    ),
+                    _react2.default.createElement(
+                        "p",
+                        { className: "card-text" },
+                        " ",
+                        this.props.desc,
+                        " "
+                    ),
+                    this.props.comment && _react2.default.createElement(
+                        "p",
+                        { className: "card-subtitle text-muted" },
+                        " ",
+                        this.props.comment,
+                        " "
+                    )
+                )
             );
         }
     }]);
@@ -576,7 +663,7 @@ var Publication = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Publication;
-},{"react":35,"react-dom":32}],7:[function(require,module,exports){
+},{"react":37,"react-dom":34}],9:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -659,14 +746,14 @@ var Publications = function (_React$Component) {
             });
             return _react2.default.createElement(
                 "div",
-                null,
+                { className: "container" },
                 _react2.default.createElement(
-                    "h2",
+                    "h3",
                     null,
                     "Selected Publications (most up to date list is in CV)"
                 ),
                 _react2.default.createElement(
-                    "h3",
+                    "h4",
                     null,
                     _react2.default.createElement(
                         "em",
@@ -689,37 +776,61 @@ var Publications = function (_React$Component) {
                     null,
                     "Dissertation (Approved by Committee)"
                 ),
-                dissertationList,
+                _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    dissertationList
+                ),
                 _react2.default.createElement(
                     "h1",
                     null,
                     "Journal Articles & Book Chapters:\u200B"
                 ),
-                articlesAndChaptersList,
+                _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    articlesAndChaptersList
+                ),
                 _react2.default.createElement(
                     "h1",
                     null,
                     "Refereed Conference Papers"
                 ),
-                refereedConferencePapersList,
+                _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    refereedConferencePapersList
+                ),
                 _react2.default.createElement(
                     "h1",
                     null,
                     "Workshop Papers (Peer Reviewed)"
                 ),
-                workshopPapersList,
+                _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    workshopPapersList
+                ),
                 _react2.default.createElement(
                     "h1",
                     null,
                     "Posters & Technical Reports"
                 ),
-                postersAndTechnicalReportsList,
+                _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    postersAndTechnicalReportsList
+                ),
                 _react2.default.createElement(
                     "h1",
                     null,
                     "Panels"
                 ),
-                panelsList
+                _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    panelsList
+                )
             );
         }
     }]);
@@ -728,7 +839,7 @@ var Publications = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Publications;
-},{"../data/publications.json":2,"./Publication":6,"react":35,"react-dom":32}],8:[function(require,module,exports){
+},{"../data/publications.json":3,"./Publication":8,"react":37,"react-dom":34}],10:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -801,7 +912,7 @@ var ResearchStudy = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = ResearchStudy;
-},{"react":35,"react-dom":32}],9:[function(require,module,exports){
+},{"react":37,"react-dom":34}],11:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -840,7 +951,7 @@ var Student = function (_React$Component) {
         value: function render() {
             return _react2.default.createElement(
                 "div",
-                { className: "col-md-3" },
+                { className: "col-md-4" },
                 _react2.default.createElement(
                     "div",
                     { className: "thumbnail" },
@@ -872,7 +983,7 @@ var Student = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Student;
-},{"react":35,"react-dom":32}],10:[function(require,module,exports){
+},{"react":37,"react-dom":34}],12:[function(require,module,exports){
 "use strict";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -901,6 +1012,10 @@ var _ResearchStudy = require("./ResearchStudy");
 
 var _ResearchStudy2 = _interopRequireDefault(_ResearchStudy);
 
+var _AboutMcNeese = require("./AboutMcNeese");
+
+var _AboutMcNeese2 = _interopRequireDefault(_AboutMcNeese);
+
 var _Publications = require("./Publications");
 
 var _Publications2 = _interopRequireDefault(_Publications);
@@ -908,6 +1023,10 @@ var _Publications2 = _interopRequireDefault(_Publications);
 var _mcneeseData = require("../data/mcneeseData.json");
 
 var _mcneeseData2 = _interopRequireDefault(_mcneeseData);
+
+var _mcneeseAbout = require("../data/mcneeseAbout.json");
+
+var _mcneeseAbout2 = _interopRequireDefault(_mcneeseAbout);
 
 var _Events = require("./Events");
 
@@ -959,7 +1078,7 @@ var Main = function (_React$Component) {
                             "div",
                             { className: "container" },
                             _react2.default.createElement(
-                                "h3",
+                                "h2",
                                 { className: "text-center" },
                                 "TRACE Research Group"
                             ),
@@ -976,6 +1095,7 @@ var Main = function (_React$Component) {
                             _react2.default.createElement(
                                 "div",
                                 { className: "col-md-6" },
+                                _react2.default.createElement("img", { src: "https://i.imgur.com/vOSylvW.png", "class": "center" }),
                                 _react2.default.createElement(
                                     "p",
                                     null,
@@ -1009,6 +1129,119 @@ var Main = function (_React$Component) {
                         )
                     );
                     break;
+                case "dr. mcneese":
+                    return _react2.default.createElement(
+                        "div",
+                        null,
+                        _react2.default.createElement(_NavBar2.default, { changeLocation: this.navigate.bind(this) }),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "container" },
+                            _react2.default.createElement(
+                                "center",
+                                null,
+                                _react2.default.createElement(
+                                    "h2",
+                                    { className: "mcneese-title" },
+                                    "Assistant Professor of Human-Centered Computing,"
+                                ),
+                                _react2.default.createElement(
+                                    "h2",
+                                    { className: "mcneese-title" },
+                                    "Director of TRACE Research Group,"
+                                ),
+                                _react2.default.createElement(
+                                    "h2",
+                                    { className: "mcneese-title" },
+                                    "Clemson University"
+                                ),
+                                _react2.default.createElement("h2", null)
+                            ),
+                            _react2.default.createElement("p", null),
+                            _react2.default.createElement("img", { src: "https://nathanmcneese.weebly.com/uploads/1/2/6/1/12617833/published/_7200551.jpg", className: "face" }),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                "Greetings! I am an Assistant Professor and Director of the Team Research Analytics in Computational Environments (TRACE) Research Group within the division of Human-Centered Computing in the School of Computing at Clemson University. I received my PhD in Information Sciences & Technology with a focus on Team Decision Making, Cognition, and Computer Supported Collaborative Work from The Pennsylvania State University in the fall of 2014."
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                "After graduation, I accepted a position to be a Postdoctoral Scholar and Research Associate in Human Systems Engineering at Arizona State University working directly with Dr. Nancy Cooke."
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                "My research interests are wide ranging and interdisciplinary, but can be generally linked to the integration of"
+                            ),
+                            _react2.default.createElement(
+                                "em",
+                                null,
+                                _react2.default.createElement(
+                                    "ul",
+                                    null,
+                                    _react2.default.createElement(
+                                        "li",
+                                        null,
+                                        "Human Factors"
+                                    ),
+                                    _react2.default.createElement(
+                                        "li",
+                                        null,
+                                        "Human Computer Interaction"
+                                    ),
+                                    _react2.default.createElement(
+                                        "li",
+                                        null,
+                                        "Computer Supported Cooperative Work"
+                                    ),
+                                    _react2.default.createElement(
+                                        "li",
+                                        null,
+                                        "Information Sciences"
+                                    )
+                                )
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                "For over 10 years, I have conducted research on many topics within a variety of different contexts. My current research interests span across the study of individual and team cognition, the development and design of human-centered tools and systems, continued development and refinement of cognitive engineering methods, context specific measurement of team cognition, the interplay between team interaction and team cognition, the development and application of unmanned aerial vehicles, and human robot interaction. Specific contexts that I have conducted my research in: ",
+                                _react2.default.createElement(
+                                    "em",
+                                    null,
+                                    "healthcare systems, homeland security, command and control, emergency crisis management"
+                                ),
+                                ", and ",
+                                _react2.default.createElement(
+                                    "em",
+                                    null,
+                                    "educational learning"
+                                ),
+                                ". Throughout all of my research, I typically use multiple mixed methods to understand the context, work, and roles specific to the development of individual and team cognition. As a result of my work, my research has been published multiple times in numerous research communities."
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                _react2.default.createElement(
+                                    "strong",
+                                    null,
+                                    "Research Interests & Expertise:"
+                                ),
+                                " Human factors, team decision-making, human-computer interaction, computer-supported cooperative work, team cognition, cognitive science, usability research and design, collaborative system design, human-centered design, team mental models, mental models, collaboration, collaborative information seeking, cognitive task analysis, knowledge elicitation, human autonomy teaming, healthcare systems, big data, simulations, cybersecurity"
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                _react2.default.createElement(
+                                    "strong",
+                                    null,
+                                    "Research Methods:"
+                                ),
+                                " A/B testing, card sorting, cognitive walkthrough, concept mapping, contextual inquiry, ethnography, experimental design, focus groups, heuristic evaluation, interviewing, personas, prototyping, scenarios, surveying, task analysis, usability testing, wireframing"
+                            )
+                        )
+                    );
+                    break;
                 case "students":
                     var studentList = [];
                     this.state.students.map(function (x) {
@@ -1019,6 +1252,7 @@ var Main = function (_React$Component) {
                         "div",
                         null,
                         _react2.default.createElement(_NavBar2.default, { changeLocation: this.navigate.bind(this) }),
+                        _react2.default.createElement("p", null),
                         _react2.default.createElement(
                             "div",
                             { className: "container" },
@@ -1087,7 +1321,7 @@ var Main = function (_React$Component) {
 }(_react2.default.Component);
 
 _reactDom2.default.render(_react2.default.createElement(Main, null), document.getElementById("main"));
-},{"../data/mcneeseData.json":1,"./Blog":3,"./Events":4,"./NavBar":5,"./Publication":6,"./Publications":7,"./ResearchStudy":8,"./Student":9,"react":35,"react-dom":32}],11:[function(require,module,exports){
+},{"../data/mcneeseAbout.json":1,"../data/mcneeseData.json":2,"./AboutMcNeese":4,"./Blog":5,"./Events":6,"./NavBar":7,"./Publication":8,"./Publications":9,"./ResearchStudy":10,"./Student":11,"react":37,"react-dom":34}],13:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -1164,7 +1398,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":16,"_process":36}],12:[function(require,module,exports){
+},{"./emptyFunction":18,"_process":38}],14:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1198,7 +1432,7 @@ var ExecutionEnvironment = {
 };
 
 module.exports = ExecutionEnvironment;
-},{}],13:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 "use strict";
 
 /**
@@ -1228,7 +1462,7 @@ function camelize(string) {
 }
 
 module.exports = camelize;
-},{}],14:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1266,7 +1500,7 @@ function camelizeStyleName(string) {
 }
 
 module.exports = camelizeStyleName;
-},{"./camelize":13}],15:[function(require,module,exports){
+},{"./camelize":15}],17:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1304,7 +1538,7 @@ function containsNode(outerNode, innerNode) {
 }
 
 module.exports = containsNode;
-},{"./isTextNode":24}],16:[function(require,module,exports){
+},{"./isTextNode":26}],18:[function(require,module,exports){
 "use strict";
 
 /**
@@ -1341,7 +1575,7 @@ emptyFunction.thatReturnsArgument = function (arg) {
 };
 
 module.exports = emptyFunction;
-},{}],17:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1361,7 +1595,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":36}],18:[function(require,module,exports){
+},{"_process":38}],20:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1386,7 +1620,7 @@ function focusNode(node) {
 }
 
 module.exports = focusNode;
-},{}],19:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1423,7 +1657,7 @@ function getActiveElement(doc) /*?DOMElement*/{
 }
 
 module.exports = getActiveElement;
-},{}],20:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1454,7 +1688,7 @@ function hyphenate(string) {
 }
 
 module.exports = hyphenate;
-},{}],21:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1491,7 +1725,7 @@ function hyphenateStyleName(string) {
 }
 
 module.exports = hyphenateStyleName;
-},{"./hyphenate":20}],22:[function(require,module,exports){
+},{"./hyphenate":22}],24:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1547,7 +1781,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":36}],23:[function(require,module,exports){
+},{"_process":38}],25:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1570,7 +1804,7 @@ function isNode(object) {
 }
 
 module.exports = isNode;
-},{}],24:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1593,7 +1827,7 @@ function isTextNode(object) {
 }
 
 module.exports = isTextNode;
-},{"./isNode":23}],25:[function(require,module,exports){
+},{"./isNode":25}],27:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1659,7 +1893,7 @@ function shallowEqual(objA, objB) {
 }
 
 module.exports = shallowEqual;
-},{}],26:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
@@ -1724,7 +1958,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":16,"_process":36}],27:[function(require,module,exports){
+},{"./emptyFunction":18,"_process":38}],29:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -1816,7 +2050,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],28:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1879,7 +2113,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 module.exports = checkPropTypes;
 
 }).call(this,require('_process'))
-},{"./lib/ReactPropTypesSecret":29,"_process":36,"fbjs/lib/invariant":22,"fbjs/lib/warning":26}],29:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":31,"_process":38,"fbjs/lib/invariant":24,"fbjs/lib/warning":28}],31:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1893,7 +2127,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
 
-},{}],30:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 (function (process){
 /** @license React v16.1.1
  * react-dom.development.js
@@ -17297,7 +17531,7 @@ module.exports = reactDom;
 }
 
 }).call(this,require('_process'))
-},{"_process":36,"fbjs/lib/EventListener":11,"fbjs/lib/ExecutionEnvironment":12,"fbjs/lib/camelizeStyleName":14,"fbjs/lib/containsNode":15,"fbjs/lib/emptyFunction":16,"fbjs/lib/emptyObject":17,"fbjs/lib/focusNode":18,"fbjs/lib/getActiveElement":19,"fbjs/lib/hyphenateStyleName":21,"fbjs/lib/invariant":22,"fbjs/lib/shallowEqual":25,"fbjs/lib/warning":26,"object-assign":27,"prop-types/checkPropTypes":28,"react":35}],31:[function(require,module,exports){
+},{"_process":38,"fbjs/lib/EventListener":13,"fbjs/lib/ExecutionEnvironment":14,"fbjs/lib/camelizeStyleName":16,"fbjs/lib/containsNode":17,"fbjs/lib/emptyFunction":18,"fbjs/lib/emptyObject":19,"fbjs/lib/focusNode":20,"fbjs/lib/getActiveElement":21,"fbjs/lib/hyphenateStyleName":23,"fbjs/lib/invariant":24,"fbjs/lib/shallowEqual":27,"fbjs/lib/warning":28,"object-assign":29,"prop-types/checkPropTypes":30,"react":37}],33:[function(require,module,exports){
 /** @license React v16.1.1
  * react-dom.production.min.js
  *
@@ -17526,7 +17760,7 @@ var Og={createPortal:Mg,findDOMNode:function(a){if(null==a)return null;if(1===a.
 D("40");return a._reactRootContainer?(Z.unbatchedUpdates(function(){Lg(null,null,a,!1,function(){a._reactRootContainer=null})}),!0):!1},unstable_createPortal:Mg,unstable_batchedUpdates:tc,unstable_deferredUpdates:Z.deferredUpdates,flushSync:Z.flushSync,__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{EventPluginHub:nb,EventPluginRegistry:Ua,EventPropagators:Cb,ReactControlledComponent:qc,ReactDOMComponentTree:tb,ReactDOMEventListener:td}};
 Z.injectIntoDevTools({findFiberByHostInstance:qb,bundleType:0,version:"16.1.1",rendererPackageName:"react-dom"});var Pg=Object.freeze({default:Og}),Qg=Pg&&Og||Pg;module.exports=Qg["default"]?Qg["default"]:Qg;
 
-},{"fbjs/lib/EventListener":11,"fbjs/lib/ExecutionEnvironment":12,"fbjs/lib/containsNode":15,"fbjs/lib/emptyFunction":16,"fbjs/lib/emptyObject":17,"fbjs/lib/focusNode":18,"fbjs/lib/getActiveElement":19,"fbjs/lib/shallowEqual":25,"object-assign":27,"react":35}],32:[function(require,module,exports){
+},{"fbjs/lib/EventListener":13,"fbjs/lib/ExecutionEnvironment":14,"fbjs/lib/containsNode":17,"fbjs/lib/emptyFunction":18,"fbjs/lib/emptyObject":19,"fbjs/lib/focusNode":20,"fbjs/lib/getActiveElement":21,"fbjs/lib/shallowEqual":27,"object-assign":29,"react":37}],34:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -17568,7 +17802,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react-dom.development.js":30,"./cjs/react-dom.production.min.js":31,"_process":36}],33:[function(require,module,exports){
+},{"./cjs/react-dom.development.js":32,"./cjs/react-dom.production.min.js":33,"_process":38}],35:[function(require,module,exports){
 (function (process){
 /** @license React v16.1.1
  * react.development.js
@@ -18915,7 +19149,7 @@ module.exports = react;
 }
 
 }).call(this,require('_process'))
-},{"_process":36,"fbjs/lib/emptyFunction":16,"fbjs/lib/emptyObject":17,"fbjs/lib/invariant":22,"fbjs/lib/warning":26,"object-assign":27,"prop-types/checkPropTypes":28}],34:[function(require,module,exports){
+},{"_process":38,"fbjs/lib/emptyFunction":18,"fbjs/lib/emptyObject":19,"fbjs/lib/invariant":24,"fbjs/lib/warning":28,"object-assign":29,"prop-types/checkPropTypes":30}],36:[function(require,module,exports){
 /** @license React v16.1.1
  * react.production.min.js
  *
@@ -18939,7 +19173,7 @@ var R={Children:{map:function(a,b,e){if(null==a)return a;var d=[];Q(a,d,null,b,e
 k=a._owner;if(null!=b){void 0!==b.ref&&(h=b.ref,k=z.current);void 0!==b.key&&(c=""+b.key);if(a.type&&a.type.defaultProps)var f=a.type.defaultProps;for(g in b)A.call(b,g)&&!C.hasOwnProperty(g)&&(d[g]=void 0===b[g]&&void 0!==f?f[g]:b[g])}var g=arguments.length-2;if(1===g)d.children=e;else if(1<g){f=Array(g);for(var l=0;l<g;l++)f[l]=arguments[l+2];d.children=f}return{$$typeof:B,type:a.type,key:c,ref:h,props:d,_owner:k}},createFactory:function(a){var b=D.bind(null,a);b.type=a;return b},isValidElement:E,
 version:"16.1.1",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:z,assign:m}},S=Object.freeze({default:R}),T=S&&R||S;module.exports=T["default"]?T["default"]:T;
 
-},{"fbjs/lib/emptyFunction":16,"fbjs/lib/emptyObject":17,"object-assign":27}],35:[function(require,module,exports){
+},{"fbjs/lib/emptyFunction":18,"fbjs/lib/emptyObject":19,"object-assign":29}],37:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -18950,7 +19184,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react.development.js":33,"./cjs/react.production.min.js":34,"_process":36}],36:[function(require,module,exports){
+},{"./cjs/react.development.js":35,"./cjs/react.production.min.js":36,"_process":38}],38:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -19136,4 +19370,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[10]);
+},{}]},{},[12]);

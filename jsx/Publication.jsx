@@ -8,11 +8,12 @@ class Publication extends React.Component {
 
     render() {
         return(
-            <div>
-                { this.props.title && <h3> {this.props.title} </h3> }
-                <p> { this.props.desc } </p>
-                { this.props.comment && <p> {this.props.comment} </p> }
-                <p></p>
+            <div className="card">
+              <div className="card-body">
+                  { this.props.title && <h5 className="card-title"> {this.props.title} </h5> }
+                  <p className="card-text"> { this.props.desc } </p>
+                  { this.props.comment && <p className="card-subtitle text-muted"> {this.props.comment} </p> }
+                </div>
             </div>
         )
     }

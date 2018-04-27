@@ -41,7 +41,7 @@ var NavBar = function (_React$Component) {
         value: function render() {
             var _this2 = this;
 
-            var sections = ["Home", "Research", "Publications", "Students"];
+            var sections = ["Home", "Dr. McNeese", "Research", "Publications", "Students"];
             var nav_components = [];
             sections.map(function (x) {
                 nav_components.push(_react2.default.createElement(

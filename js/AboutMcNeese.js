@@ -22,51 +22,49 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Publication = function (_React$Component) {
-    _inherits(Publication, _React$Component);
+var AboutMcNeese = function (_React$Component) {
+    _inherits(AboutMcNeese, _React$Component);
 
-    function Publication(props) {
-        _classCallCheck(this, Publication);
+    function AboutMcNeese(props) {
+        _classCallCheck(this, AboutMcNeese);
 
-        return _possibleConstructorReturn(this, (Publication.__proto__ || Object.getPrototypeOf(Publication)).call(this, props));
+        return _possibleConstructorReturn(this, (AboutMcNeese.__proto__ || Object.getPrototypeOf(AboutMcNeese)).call(this, props));
     }
 
-    _createClass(Publication, [{
+    _createClass(AboutMcNeese, [{
         key: "render",
         value: function render() {
+
             return _react2.default.createElement(
                 "div",
-                { className: "card" },
+                null,
+                this.props.title && _react2.default.createElement(
+                    "h3",
+                    null,
+                    " ",
+                    this.props.title,
+                    " "
+                ),
                 _react2.default.createElement(
-                    "div",
-                    { className: "card-body" },
-                    this.props.title && _react2.default.createElement(
-                        "h5",
-                        { className: "card-title" },
-                        " ",
-                        this.props.title,
-                        " "
-                    ),
-                    _react2.default.createElement(
-                        "p",
-                        { className: "card-text" },
-                        " ",
-                        this.props.desc,
-                        " "
-                    ),
-                    this.props.comment && _react2.default.createElement(
-                        "p",
-                        { className: "card-subtitle text-muted" },
-                        " ",
-                        this.props.comment,
-                        " "
-                    )
-                )
+                    "p",
+                    null,
+                    " ",
+                    this.props.desc,
+                    " "
+                ),
+                this.props.comment && _react2.default.createElement(
+                    "p",
+                    null,
+                    " ",
+                    this.props.comment,
+                    " "
+                ),
+                _react2.default.createElement("p", null)
             );
         }
     }]);
 
-    return Publication;
+    return AboutMcNeese;
 }(_react2.default.Component);
 
-exports.default = Publication;
+exports.default = AboutMcNeese;

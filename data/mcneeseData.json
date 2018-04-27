@@ -1,11 +1,11 @@
 {
     "blog_posts": [
         {
-            "link": "https://medium.com/@cu_trace_lab/test-1-37b82ecca349", 
+            "link": "https://medium.com/@cu_trace_lab/test-1-37b82ecca349",
             "name": "Test 1"
         },
         {
-            "link": "https://medium.com/@cu_trace_lab/test-2-96a57e55eb08", 
+            "link": "https://medium.com/@cu_trace_lab/test-2-96a57e55eb08",
             "name": "Test 2"
         },
         {
@@ -34,95 +34,95 @@
         {
             "name": "Lorenzo",
             "pic": "https://my.clemson.edu/app/resources/img/paw.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.x"
+            "description": "PhD Student"
         },
 		{
             "name": "Bekk",
             "pic": "https://my.clemson.edu/app/resources/img/paw.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+            "description": "Undergraduate Computer Science Student"
         },
 		{
             "name": "Rafael",
             "pic": "https://my.clemson.edu/app/resources/img/paw.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+            "description": "Undergraduate Computer Science Student"
         }
     ],
     "currentResearch": [
         {
-            "title": "Designing for Team Cognition", 
-            "desc": "There is little known about how to actually apply human computer interaction principles to adequately help in the development of team cognition. While much is known about HCI and team cognition separately, there is a knowledge gap in understanding their shared relationship. This study includes multiple investigations into better understanding what HCI design principles are imperative to team cognition. Through these investigations, we are starting to understand how to design interfaces and systems to best allow for team cognition.", 
+            "title": "Designing for Team Cognition",
+            "desc": "There is little known about how to actually apply human computer interaction principles to adequately help in the development of team cognition. While much is known about HCI and team cognition separately, there is a knowledge gap in understanding their shared relationship. This study includes multiple investigations into better understanding what HCI design principles are imperative to team cognition. Through these investigations, we are starting to understand how to design interfaces and systems to best allow for team cognition.",
             "collaborators": "Nancy Cooke"
         },
         {
-            "title": "The Cognitive Science & Human Factors of Intelligence Analysis", 
-            "desc": "Multiple investigations into better understanding how intelligence analysts conduct their work. Currently, little is actually known from a Human Factors or Cognitive Science perspective about how intelligence analysts complete individual and team based work. Moving forward, it is necessary to learn more about what the analysts’ work is like in order to better design user centered technologies to aid in their analysis. Literature reviews, surveys, and experiments are currently taking place to better understand intelligence analysts’ work. This work is part of a $20M funding agreement with the National Geospatial Agency.", 
+            "title": "The Cognitive Science & Human Factors of Intelligence Analysis",
+            "desc": "Multiple investigations into better understanding how intelligence analysts conduct their work. Currently, little is actually known from a Human Factors or Cognitive Science perspective about how intelligence analysts complete individual and team based work. Moving forward, it is necessary to learn more about what the analysts’ work is like in order to better design user centered technologies to aid in their analysis. Literature reviews, surveys, and experiments are currently taking place to better understand intelligence analysts’ work. This work is part of a $20M funding agreement with the National Geospatial Agency.",
             "collaborators": "Nancy Cooke, Ross Maciejewski, Nadya Bliss, Dave White"
-        },  
+        },
         {
-            "title": "Information Visualization of Big Data for Team Based Cognition", 
+            "title": "Information Visualization of Big Data for Team Based Cognition",
             "desc": "Investigations into the impact of different information visualization techniques and how they subsequently impact the development of team cognition. An empirical testbed was created that allows individuals, groups, and teams to make movie box office predications using multiple information visualizations directly linked to big data. Qualitative and quantitative measurements are currently being recorded to better understand the relationship of information visualization and team cognition, in addition to information visualizations impact on performance in the individual, group, and team condition.",
             "collaborators": "Nancy Cooke, Ross Maciejewski" },
         {
-            "title": "Human Automation Teaming & the Development of a Synthetic Teammate", 
+            "title": "Human Automation Teaming & the Development of a Synthetic Teammate",
             "collaborators": "Nancy Cooke",
-            "desc": "Work focused on better understanding the the relationship between humans who team with automated systems. More specifically, experiments are being conducted that further explore the interactions between a synthetic teammate and human teammates in the context of an unmanned air vehicle synthetic task environments. In this environment there are 3 roles within the team: Air Vehicle Operator, Mission Planner, and Payload Operator. Teamwork must occur between and among all three roles for a successful mission to be accomplished. In experiments focused on the synthetic teammate interaction, the Air Vehicle Operator is a cognitively plausible ACT-R based computational model serving as a full fledged teammate." 
+            "desc": "Work focused on better understanding the the relationship between humans who team with automated systems. More specifically, experiments are being conducted that further explore the interactions between a synthetic teammate and human teammates in the context of an unmanned air vehicle synthetic task environments. In this environment there are 3 roles within the team: Air Vehicle Operator, Mission Planner, and Payload Operator. Teamwork must occur between and among all three roles for a successful mission to be accomplished. In experiments focused on the synthetic teammate interaction, the Air Vehicle Operator is a cognitively plausible ACT-R based computational model serving as a full fledged teammate."
         },
         {
-            "title": "Code Blue Resuscitations & Teamwork", 
+            "title": "Code Blue Resuscitations & Teamwork",
             "collaborators": "Nancy Cooke, Ayan Sen",
-            "desc": "Investigations into better understanding the teamwork that occurs during code blue resuscitations. More specifically, this work has focused on the impact that multiple variables of team cognition have on teamwork within this context." 
+            "desc": "Investigations into better understanding the teamwork that occurs during code blue resuscitations. More specifically, this work has focused on the impact that multiple variables of team cognition have on teamwork within this context."
         },
         {
-            "title": "The Role of Team Cognition During Stem Cell Therapy and Palliative Care", 
+            "title": "The Role of Team Cognition During Stem Cell Therapy and Palliative Care",
             "collaborators": "Nancy Cooke, Ayan Sen",
-            "desc": "Palliative care is an extremely complicated process involving multiple medical practitioners and family members having to make critical decisions about end of life care. Unfortunately, far too often these decisions are disjointed and lead to lack of shared understanding among the providers and the family. This research seeks to better understand how joint cognition can be utilized to make more effective shared decisions." 
+            "desc": "Palliative care is an extremely complicated process involving multiple medical practitioners and family members having to make critical decisions about end of life care. Unfortunately, far too often these decisions are disjointed and lead to lack of shared understanding among the providers and the family. This research seeks to better understand how joint cognition can be utilized to make more effective shared decisions."
         },
         {
-            "title": "Theoretical & Methodological Methods to Studying Team Cognition During Sports", 
+            "title": "Theoretical & Methodological Methods to Studying Team Cognition During Sports",
             "collaborators": "Nancy Cooke, Rob Gray",
-            "desc": "Work focused on advancing the conceptual understanding and application of team cognition during team sports. Up to this point, team cognition has rarely been studied within the context of team sports, resulting in a lack of theoretical and methodological methods to accurately study the relationship of team cognition and sports. Within this overarching project, multiple studies have and are being conducted to identify the impact that team cognition has on team sports. More specifically, studies in collaboration with university level varsity teams are resulting in a better understanding of how team cognition develops and occurs during team sports. In addition, conceptual pieces and methods for studying team cognition within this context have been published and identified within this overall project." 
+            "desc": "Work focused on advancing the conceptual understanding and application of team cognition during team sports. Up to this point, team cognition has rarely been studied within the context of team sports, resulting in a lack of theoretical and methodological methods to accurately study the relationship of team cognition and sports. Within this overarching project, multiple studies have and are being conducted to identify the impact that team cognition has on team sports. More specifically, studies in collaboration with university level varsity teams are resulting in a better understanding of how team cognition develops and occurs during team sports. In addition, conceptual pieces and methods for studying team cognition within this context have been published and identified within this overall project."
         },
         {
-            "title": "Human Systems Engineering of Gas Ballooning", 
+            "title": "Human Systems Engineering of Gas Ballooning",
             "collaborators": "Nancy Cooke, Steven Shope",
-            "desc": "A study focused on understanding the real time cognition of two gas balloonists while they set a world record for duration and distance of a gas balloon. Multiple cognitively oriented measurements were taken, resulting in real time data from the pilots while they were flying. This data was then analyzed on the fly and recommendations were made to mission control." 
+            "desc": "A study focused on understanding the real time cognition of two gas balloonists while they set a world record for duration and distance of a gas balloon. Multiple cognitively oriented measurements were taken, resulting in real time data from the pilots while they were flying. This data was then analyzed on the fly and recommendations were made to mission control."
         }
     ],
     "pastResearch": [
         {
-            "title": "The Role of Team Cognition During Collaborative Information Seeking *Dissertation*", 
+            "title": "The Role of Team Cognition During Collaborative Information Seeking *Dissertation*",
             "collaborators": "Madhu Reddy, Susan Mohammed, Jim Jansen, Shawn Clark",
-            "desc": "Investigation on the role of team cognition during collaborative information seeking (CIS). The success of a team is dependent on the activity of CIS, as the team must find relevant information to accurately and successfully solve a problem. To this point, CIS has mainly been studied from an interactional perspective, with very little focus on team cognition. This work focuses on understanding the development of cognitive processes during CIS. More specifically, the cognitive construct, the team mental model, was examined. Teams conducted a CIS task and then cognitive interviews and individual/team concept maps were collected in both face-to-face and distributed conditions. In addition, evaluations of CIS tools were conducted with specific inquiry into understanding what features have the ability to help/hurt team cognition during CIS. Analysis indicated that the development of team cognition is readily apparent during CIS, and that it significantly impacts a teams’ CIS work in many ways." 
+            "desc": "Investigation on the role of team cognition during collaborative information seeking (CIS). The success of a team is dependent on the activity of CIS, as the team must find relevant information to accurately and successfully solve a problem. To this point, CIS has mainly been studied from an interactional perspective, with very little focus on team cognition. This work focuses on understanding the development of cognitive processes during CIS. More specifically, the cognitive construct, the team mental model, was examined. Teams conducted a CIS task and then cognitive interviews and individual/team concept maps were collected in both face-to-face and distributed conditions. In addition, evaluations of CIS tools were conducted with specific inquiry into understanding what features have the ability to help/hurt team cognition during CIS. Analysis indicated that the development of team cognition is readily apparent during CIS, and that it significantly impacts a teams’ CIS work in many ways."
         },
         {
-            "title": "Non-Traditional Clinical Users of the Electronic Medical Record (EMR)", 
+            "title": "Non-Traditional Clinical Users of the Electronic Medical Record (EMR)",
             "collaborators": "Madhu Reddy, Chris DeFlitch",
             "desc": "Work focused on how non-traditional clinical users (social workers, medical secretaries, physical therapists) interact with and use the EMR. Qualitative work was utilized to understand how these users collaborate via the EMR. In addition, potential design implications were developed to better equip the EMR to support these users."
         },
         {
-            "title": "Team Performance in Real & Virtual Worlds", 
+            "title": "Team Performance in Real & Virtual Worlds",
             "collaborators": "Mark Pfaff, Gerry Santoro, Michael McNeese",
-            "desc": "Experimental investigation on the effectiveness of distributed cognition in face-to-face, teleconferencing, and virtual communication mediums. Team performance was captured and analyzed. Results showed that team members perceived the face-to-face modality to better aid the team than the virtual world or the auditory teleconferencing mode, yet the data also showed an experience-based bias toward face-to-face interaction." 
+            "desc": "Experimental investigation on the effectiveness of distributed cognition in face-to-face, teleconferencing, and virtual communication mediums. Team performance was captured and analyzed. Results showed that team members perceived the face-to-face modality to better aid the team than the virtual world or the auditory teleconferencing mode, yet the data also showed an experience-based bias toward face-to-face interaction."
         },
         {
-            "title": "Enhanced Messaging for Emergency Response (EMERSE)", 
+            "title": "Enhanced Messaging for Emergency Response (EMERSE)",
             "collaborators": "John Yen, Lee Giles, Jim Jansen, Andrea Tapia, Prasenjit Mitra",
-            "desc": "Investigation on how text messaging can be better utilized within third world countries during emergencies. The specific emergency that this project focused on was the Haiti earthquake, in which we had access to real world text message through the Ushahidi platform." 
+            "desc": "Investigation on how text messaging can be better utilized within third world countries during emergencies. The specific emergency that this project focused on was the Haiti earthquake, in which we had access to real world text message through the Ushahidi platform."
         },
         {
-            "title": "Human Centered Fusion: The Characterization of Soft Sensors", 
-            "collaborators": "David Hall, James Llinas", 
-            "desc": "Work focused on the collaboration and synthesis of hard and soft data. Specifically, in this study humans were characterized as soft sensors that have the ability to observe data and be active sensors. This study successfully developed specific characterizations of soft sensors, a framework for modeling performance, and a literature review on human observational performance." 
+            "title": "Human Centered Fusion: The Characterization of Soft Sensors",
+            "collaborators": "David Hall, James Llinas",
+            "desc": "Work focused on the collaboration and synthesis of hard and soft data. Specifically, in this study humans were characterized as soft sensors that have the ability to observe data and be active sensors. This study successfully developed specific characterizations of soft sensors, a framework for modeling performance, and a literature review on human observational performance."
         },
         {
-            "title": "Hospital-to-Hospital Health Information Technology Partnerships: A New Model for IT Diffusion in Rural Hospitals", 
+            "title": "Hospital-to-Hospital Health Information Technology Partnerships: A New Model for IT Diffusion in Rural Hospitals",
             "collaborators": "Madhu Reddy, Sandeep Purao",
-            "desc": "Study of the benefits, critical success factors, and challenges related to the hospital-to-hospital partnership (HHP). In-depth qualitative work and a broad survey were both utilized to further understand and gauge hospitals interest in such a partnership." 
+            "desc": "Study of the benefits, critical success factors, and challenges related to the hospital-to-hospital partnership (HHP). In-depth qualitative work and a broad survey were both utilized to further understand and gauge hospitals interest in such a partnership."
         },
         {
-            "title": "Collaborative Information Behavior (CIB)", 
+            "title": "Collaborative Information Behavior (CIB)",
             "collaborators": "Madhu Reddy",
-            "desc": "Investigation into what collaborative information behavior is. Specifically, how does CIB differ from individual information behavior, what role do current information retrieval tools play, what are the design requirements for collaborative information retrieval (CIR). Work was done within the healthcare domain, which focused on patient care teams and IT teams." 
+            "desc": "Investigation into what collaborative information behavior is. Specifically, how does CIB differ from individual information behavior, what role do current information retrieval tools play, what are the design requirements for collaborative information retrieval (CIR). Work was done within the healthcare domain, which focused on patient care teams and IT teams."
         }
     ]
 }

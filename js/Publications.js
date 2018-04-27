@@ -80,14 +80,14 @@ var Publications = function (_React$Component) {
             });
             return _react2.default.createElement(
                 "div",
-                null,
+                { className: "container" },
                 _react2.default.createElement(
-                    "h2",
+                    "h3",
                     null,
                     "Selected Publications (most up to date list is in CV)"
                 ),
                 _react2.default.createElement(
-                    "h3",
+                    "h4",
                     null,
                     _react2.default.createElement(
                         "em",
@@ -110,37 +110,61 @@ var Publications = function (_React$Component) {
                     null,
                     "Dissertation (Approved by Committee)"
                 ),
-                dissertationList,
+                _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    dissertationList
+                ),
                 _react2.default.createElement(
                     "h1",
                     null,
                     "Journal Articles & Book Chapters:\u200B"
                 ),
-                articlesAndChaptersList,
+                _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    articlesAndChaptersList
+                ),
                 _react2.default.createElement(
                     "h1",
                     null,
                     "Refereed Conference Papers"
                 ),
-                refereedConferencePapersList,
+                _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    refereedConferencePapersList
+                ),
                 _react2.default.createElement(
                     "h1",
                     null,
                     "Workshop Papers (Peer Reviewed)"
                 ),
-                workshopPapersList,
+                _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    workshopPapersList
+                ),
                 _react2.default.createElement(
                     "h1",
                     null,
                     "Posters & Technical Reports"
                 ),
-                postersAndTechnicalReportsList,
+                _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    postersAndTechnicalReportsList
+                ),
                 _react2.default.createElement(
                     "h1",
                     null,
                     "Panels"
                 ),
-                panelsList
+                _react2.default.createElement(
+                    "div",
+                    { className: "row" },
+                    panelsList
+                )
             );
         }
     }]);

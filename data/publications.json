@@ -1,52 +1,47 @@
 {
     "dissertation":[
         {
-            "title": "The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making", 
+            "title": "The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making",
             "desc":"McNeese, N. (2014) The Role of Team Cognition in Collaborative Information Seeking During Team Decision-Making. The Pennsylvania State University. Doctoral Dissertation."
         }
     ],
     "articlesAndChapters":[
         {
-            //"title": "Teaming with a Synthetic Teammate: Insights into Human Autonomy Teaming", 
-            "desc": "McNeese, N., *Demir, M., Cooke, N., & Myers, C. (Accepted). Teaming with a Synthetic Teammate: Insights into Human Autonomy Teaming. Human Factors." 
+            //"title": "Teaming with a Synthetic Teammate: Insights into Human Autonomy Teaming",
+            "desc": "McNeese, N., *Demir, M., Cooke, N., & Myers, C. (Accepted). Teaming with a Synthetic Teammate: Insights into Human Autonomy Teaming. Human Factors."
         },
         {
-            "title": "", 
-            "desc": "*Buchanan, V., Lu, Y., McNeese, N., Steptoe, M., Maciejewski, R., & Cooke, N. The Role of Teamwork in the Analysis of Big Data- A Study of Visual Analytics and Box Office Prediction. (2017). Big Data. 5 (1), 53-66." 
+            "title": "",
+            "desc": "*Buchanan, V., Lu, Y., McNeese, N., Steptoe, M., Maciejewski, R., & Cooke, N. The Role of Teamwork in the Analysis of Big Data- A Study of Visual Analytics and Box Office Prediction. (2017). Big Data. 5 (1), 53-66."
         },
         {
-            "title": "", 
-            "desc": "*Demir, M., McNeese, N., & Cooke, N. (2017). Team Situational Awareness within the Context of Human-Autonomy Teaming. Cognitive Systems Research. Cognitive Systems Research. 46, 3-12." 
+            "title": "",
+            "desc": "*Demir, M., McNeese, N., & Cooke, N. (2017). Team Situational Awareness within the Context of Human-Autonomy Teaming. Cognitive Systems Research. Cognitive Systems Research. 46, 3-12."
         },
         {
-            "title": "", 
-            "desc": "McNeese, N., Cooke, N., Branaghan, R., Knobloch, A., & Taylor, A. (2016). Leveraging Expertise in Identification of the Emplacement of Improvised Explosive Devices for Mission Payload Operator Training. Applied Ergonomics. 60, 43-51." 
+            "title": "",
+            "desc": "McNeese, N., Cooke, N., Branaghan, R., Knobloch, A., & Taylor, A. (2016). Leveraging Expertise in Identification of the Emplacement of Improvised Explosive Devices for Mission Payload Operator Training. Applied Ergonomics. 60, 43-51."
         },
         {
-            "title": "", 
-            "desc": "McNeese, N., Khera, N., Wordingham, S., Arring, N., Nyquist, S., Gentry, A., Tomlinson, B., Cooke, N., & Sen, A. (2016). Applying the Science of Teams to Improve Critically Ill Cancer Care Delivery in Hematopoietic Stem Cell Transplant Patients. Journal of Oncology Practice. JOPR013672." 
+            "title": "",
+            "desc": "McNeese, N., Khera, N., Wordingham, S., Arring, N., Nyquist, S., Gentry, A., Tomlinson, B., Cooke, N., & Sen, A. (2016). Applying the Science of Teams to Improve Critically Ill Cancer Care Delivery in Hematopoietic Stem Cell Transplant Patients. Journal of Oncology Practice. JOPR013672."
         },
         {
-            "title": "", 
-            "desc": "McNeese, N. & Reddy, M. (2015) The Role of Team Cognition in Collaborative Information Seeking. Journal of the Association for Information Science and Technology. doi: 10.1002/asi.23614" 
+            "title": "",
+            "desc": "McNeese, N. & Reddy, M. (2015) The Role of Team Cognition in Collaborative Information Seeking. Journal of the Association for Information Science and Technology. doi: 10.1002/asi.23614"
         },
         {
-            "title": "", 
-            "desc": "McNeese. N., *Demir, M., & Reddy, M. (Forthcoming) \"Methodological Techniques and Approaches to Developing Empirical Insights of Cognition During Collaborative Information Seeking\", Chapter in Cognitive Systems Engineering: An Integrative Living Lab Framework. CRC Taylor & Francis." 
+            "title": "",
+            "desc": "McNeese. N., *Demir, M., & Reddy, M. (Forthcoming) \"Methodological Techniques and Approaches to Developing Empirical Insights of Cognition During Collaborative Information Seeking\", Chapter in Cognitive Systems Engineering: An Integrative Living Lab Framework. CRC Taylor & Francis."
         },
         {
-            "title": "", 
-            "desc": "McNeese. N., Cooke, N., *Fedele, M., & Gray, R. (2016) \"Perspectives on Team Cognition and Team Sports\", Chapter in Sport and Exercise Psychology Research. European Federation of Sport Psychology." 
+            "title": "",
+            "desc": "McNeese. N., Cooke, N., *Fedele, M., & Gray, R. (2016) \"Perspectives on Team Cognition and Team Sports\", Chapter in Sport and Exercise Psychology Research. European Federation of Sport Psychology."
         },
         {
-            "title": "", 
-            "desc": "Hall, D., McNeese, N., & Llinas J. (2010) \"H-Space: Humans as Observers\", Chapter 3 in Human-Centered Fusion, D. Hall and J. Jordan. pg. 59-84. Artech House." 
+            "title": "",
+            "desc": "Hall, D., McNeese, N., & Llinas J. (2010) \"H-Space: Humans as Observers\", Chapter 3 in Human-Centered Fusion, D. Hall and J. Jordan. pg. 59-84. Artech House."
         }
-        /*                
-        {
-            "title": "", 
-            "desc": "" 
-        },*/
     ],
     "refereedConferencePapers": [
         {
